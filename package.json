@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "dev": "vuepress dev",
+    "build": "vuepress build"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.3.4",
+    "@vuepress/plugin-register-components": "^2.0.0-beta.26",
+    "autoprefixer": "^10.3.7",
+    "postcss": "^8.3.9",
+    "tailwindcss": "^2.2.16",
+    "vuepress": "^2.0.0-beta.26",
+    "@headlessui/vue": "^1.4.1",
+    "@heroicons/vue": "^1.0.4"
+  },
+  "dependencies": {}
+}

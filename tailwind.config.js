@@ -1,13 +1,13 @@
 // See https://irian.to/blogs/setting-up-vuepress-with-tailwindcss/
 
 module.exports = {
-  // mode: "jit", // for some reason did not work!
+  mode: "jit", // for some reason did not work!
 
   corePlugins: { preflight: false },
   important: true, // Components in Markdown require this
 
   purge: {
-    content: [`./**/*.@(js|md|vue|html)`],
+    content: ["./.vuepress/**/*.@(js|md|vue|html)", "./.course/**/*.md"],
   },
 
   darkMode: false, // or 'media' or 'class'

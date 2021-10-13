@@ -152,7 +152,7 @@ const people = [
     twitterUrl: "#",
     linkedinUrl: "#",
     isDescQuote: true,
-    desc: "Laith, give me a quote about how this course is awesome.",
+    desc: "This is not just a course. It’s a MasterClass! It helped me gain skills that every modern day entrepreneur must be equipped with.",
   },
   {
     name: "Aya Sadiq, VH4",

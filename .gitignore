@@ -1,6 +1,7 @@
 node_modules
 .temp
 .cache
+.vuepress/dist
 
 # Local Netlify folder
 .netlify

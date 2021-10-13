@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-indigo-500 bg-opacity-10">
+  <div class="bg-indigo-50">
     <div class="px-4 py-16 mx-auto max-w-7xl sm:py-24 sm:px-6 lg:px-8">
       <div class="lg:grid lg:grid-cols-2 lg:gap-8">
         <!-- <h2 class="mx-auto max-w-md text-3xl font-extrabold text-center text-indigo-900 lg:max-w-xl lg:text-left">

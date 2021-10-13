@@ -1,5 +1,5 @@
 <template>
-  <div class="overflow-hidden relative py-16 sm:py-20 lg:py-24">
+  <div class="py-16 bg-white sm:py-20 lg:py-24">
     <div
       class="px-4 mx-auto max-w-md text-center  sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-4xl"
     >

@@ -38,6 +38,11 @@
   }
 }
 
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 // Docs https://v2.vuepress.vuejs.org/reference/plugin/back-to-top.html#styles
 .back-to-top {
   --back-to-top-color: #FBCD22;

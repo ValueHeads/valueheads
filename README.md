@@ -19,10 +19,12 @@ head:
 
 <CTA1 />
 
-<LandingFeature />
+<LandingFeaturesAlt />
 
 <LandingTeam />
 
-<LandingFeaturesAlt />
+<LandingFeature />
+
+<LandingCourseTOC />
 
 <CTA1 />

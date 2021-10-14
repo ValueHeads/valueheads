@@ -57,6 +57,7 @@
     text-decoration: none #{!important};
   }
 
+  button,
   blockquote,
   dl,
   dd,
@@ -76,6 +77,15 @@
     font-size: inherit;
     font-weight: inherit;
     // transition: none;
+  }
+
+  button {
+    background: none;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
   }
 
   // Lists are unstyled

@@ -122,7 +122,7 @@ const weeks = [
     ],
   },
   {
-    title: "Week 3 — Find Marketing Gaps Your Competitor's missed",
+    title: "Week 3 — Find Marketing Gaps Your Competitors missed",
     sections: [
       "ℹ️ Finding Competitors is a GOOD thing! We will carve our own niche.",
       "⚠️ Action: Analyze competition traffic estimates and sources (SimilarWeb)",

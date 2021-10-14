@@ -28,8 +28,8 @@ head:
 
 <LandingValueJourney />
 
-<CTA1 />
-
 <LandingFeatures />
+
+<CTA1 />
 
 <Footer />

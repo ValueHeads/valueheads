@@ -1,4 +1,5 @@
 ---
+footer: false
 sidebar: false
 pageClass: full-width-page-class
 
@@ -19,12 +20,16 @@ head:
 
 <CTA1 />
 
-<LandingFeaturesAlt />
+<LandingSuperpowers />
 
 <LandingTeam />
 
-<LandingFeature />
-
 <LandingCourseTOC />
 
+<LandingValueJourney />
+
 <CTA1 />
+
+<LandingFeatures />
+
+<Footer />

@@ -45,11 +45,25 @@
 }
 
 // make navbar scroll away
-// @screen md {
 .full-width-page-class .navbar {
   position: absolute;
 }
-// }
+
+.full-width-page-class footer.page-meta {
+  display: none;
+}
+
+.full-width-page-class .page {
+  @apply p-0;
+
+  .theme-default-content {
+    @apply p-0;
+  }
+  
+  a:hover {
+    text-decoration: none #{!important};
+  }
+}
 
 // see https://tailwindcss.com/docs/preflight
 .full-width-page-class .page {

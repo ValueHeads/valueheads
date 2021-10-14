@@ -15,6 +15,7 @@
         We need validation from 100 supporters, before we invest the next 4,000
         hours of work needed to bring you the FULL course.
       </p>
+
       <a
         href="#"
         class="inline-flex justify-center items-center px-5 py-3 mt-8 w-auto text-base font-medium text-white bg-indigo-500 rounded-md border border-transparent  hover:bg-indigo-800"

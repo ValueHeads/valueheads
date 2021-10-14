@@ -45,17 +45,14 @@
 }
 
 // make navbar scroll away
-@screen md {
-  .full-width-page-class .navbar {
-    position: absolute;
-  }
+// @screen md {
+.full-width-page-class .navbar {
+  position: absolute;
 }
+// }
 
 // see https://tailwindcss.com/docs/preflight
 .full-width-page-class .page {
-
-
-
   a:hover {
     text-decoration: none #{!important};
   }

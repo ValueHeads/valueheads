@@ -86,16 +86,16 @@
                 </ul>
               </div>
 
-              <div class="text-gray-300">
-                <span
-                  v-if="person.isDescQuote"
-                  class="text-2xl leading-none text-indigo-300"
+              <div v-if="person.desc" class="text-gray-300">
+                {{ person.desc }}
+              </div>
+
+              <div v-if="person.quote" class="text-gray-300">
+                <span class="text-2xl leading-none text-indigo-300"
                   >&ldquo;</span
                 >
-                {{ person.desc }}
-                <span
-                  v-if="person.isDescQuote"
-                  class="text-2xl leading-none text-indigo-300"
+                {{ person.quote }}
+                <span class="text-2xl leading-none text-indigo-300"
                   >&rdquo;</span
                 >
               </div>
@@ -115,8 +115,9 @@ const people = [
     imageUrl: "/images/amer.jpg",
     twitterUrl: "#",
     linkedinUrl: "#",
-    isDescQuote: true,
-    desc: "This course is my way of giving back. I'm a life-long bootstrapper entrepreneur. I've been doing this since I was in university more than 15 years ago.",
+    // desc: "Amer started startup mentoring back in 2016. An entrepreneur since age 14, he's a strong believer in open-sourcing information and code. Collaboration always leads to innovation!",
+    quote:
+      "This course is my way of giving back. The processes in this course are too powerful to stay in the realm of one-on-one mentorship. I just had to make it accessible and open-source. Welcome to ValueHeads!",
   },
   {
     name: "Veronica Cooper, VH2",
@@ -124,8 +125,8 @@ const people = [
     imageUrl: "/images/veronica.jpg",
     twitterUrl: "#",
     linkedinUrl: "#",
-    isDescQuote: true,
-    desc: "Once you see it, you can't unsee it! This course was transformational. It made moving from bedside nursing to entrepreneurship FUN, yes fun!",
+    quote:
+      "Once you see it, you can't unsee it! This course was transformational. It made moving from bedside nursing to entrepreneurship FUN, yes fun!",
   },
   {
     name: "Dima Kawar, VH1",
@@ -133,8 +134,8 @@ const people = [
     imageUrl: "/images/dima.jpg",
     twitterUrl: "#",
     linkedinUrl: "#",
-    isDescQuote: true,
-    desc: "It changed my life, literally. Why don't they teach us this stuff at university?!",
+    quote:
+      "It changed my life, literally. Why don't they teach us this stuff at university?!",
   },
   {
     name: "Seb Wichmann, VH5",
@@ -142,8 +143,16 @@ const people = [
     imageUrl: "/images/seb.png",
     twitterUrl: "#",
     linkedinUrl: "#",
-    isDescQuote: false,
     desc: "Seb's work is all about streamlining your learning experience. This course is so powerful because of his superiour knowledge!",
+  },
+  {
+    name: "Aya Sadiq, VH4",
+    role: "Instagram Influencer → Founder of Tawkeedat",
+    imageUrl: "/images/aya.jpg",
+    twitterUrl: "#",
+    linkedinUrl: "#",
+    quote:
+      "The famous saying goes From Prada to Nada. This brilliant course flipped that for me and made it “From Nada to Prada”! It helped me build Everything from Nothing",
   },
   {
     name: "Laith Kawar, VH3",
@@ -151,17 +160,8 @@ const people = [
     imageUrl: "/images/laith.jpg",
     twitterUrl: "#",
     linkedinUrl: "#",
-    isDescQuote: true,
-    desc: "This is not just a course. It’s a MasterClass! It helped me gain skills that every modern day entrepreneur must be equipped with.",
-  },
-  {
-    name: "Aya Sadiq, VH4",
-    role: "Instagram Influencer → Founder of Tawkeedat",
-    imageUrl:
-      "https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
-    twitterUrl: "#",
-    linkedinUrl: "#",
-    desc: "She'll give me an awesome quote!",
+    quote:
+      "This is not just a course. It’s a MasterClass! It helped me gain skills that every modern day entrepreneur must be equipped with.",
   },
 ];
 

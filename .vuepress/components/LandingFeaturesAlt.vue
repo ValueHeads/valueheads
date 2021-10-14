@@ -50,14 +50,14 @@
             own ideas and business. Each step, we'll be walking you through how
             to do it using different methods and apps.
           </p>
-          <div class="mt-6">
+          <!-- <div class="mt-6">
             <a
               href="#"
-              class="inline-flex px-4 py-2 text-base font-medium text-white bg-indigo-600 rounded-md border border-transparent shadow-sm  hover:bg-indigo-700"
+              class="inline-flex px-4 py-2 text-base font-medium text-white bg-indigo-600 rounded-md border border-transparent shadow-sm hover:bg-indigo-700"
             >
               Become a ValueHead
             </a>
-          </div>
+          </div> -->
         </div>
         <div class="px-4 mt-12 sm:mt-16 lg:mt-0">
           <div class="lg:relative lg:h-full">
@@ -99,14 +99,14 @@
             paying you, that usually convinces them to join your awesome
             business!
           </p>
-          <div class="mt-6">
+          <!-- <div class="mt-6">
             <a
               href="#"
-              class="inline-flex px-4 py-2 text-base font-medium text-white bg-indigo-600 rounded-md border border-transparent shadow-sm  hover:bg-indigo-700"
+              class="inline-flex px-4 py-2 text-base font-medium text-white bg-indigo-600 rounded-md border border-transparent shadow-sm hover:bg-indigo-700"
             >
               Become a ValueHead
             </a>
-          </div>
+          </div> -->
         </div>
         <div class="px-4 mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
           <div class="lg:h-full">
@@ -140,10 +140,12 @@
             That’s the ValueHead’s path! It’s the smart way.
             <br /><br />
             We are value creators. We want to get paid for our innovative hard
-            work! Doing it the smart way means it can grow even with less time
-            spent working.
-            <br /><br />
-            We keep automating tasks until we end up with THE MACHINE!
+            work!
+            <br /><br />The process does it them smart way. By building with
+            laser-focus on the "evergreen". Every hour of work you put in now,
+            saves you time for years to come! <br /><br />
+            We keep automating tasks until we end up with
+            <strong>THE MACHINE!</strong>
           </p>
           <div class="mt-6">
             <a

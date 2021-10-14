@@ -32,8 +32,8 @@
           >
             <div class="space-y-6 xl:space-y-8">
               <img
-                class="mx-auto w-40 h-40 rounded-full xl:w-56 xl:h-56"
-                :src="person.imageUrl"
+                class="mx-auto w-40 h-40 rounded-full lazyload xl:w-56 xl:h-56"
+                :data-src="person.imageUrl"
                 alt=""
               />
               <div class="space-y-2">

@@ -24,8 +24,8 @@
       </div>
       <div class="mx-auto mt-12">
         <img
-          class=""
-          src="/images/illustration-the-path-steps-of-course.png"
+          class="lazyload"
+          data-src="/images/illustration-the-path-steps-of-course.png"
           alt=""
         />
       </div>

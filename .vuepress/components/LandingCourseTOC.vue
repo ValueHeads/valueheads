@@ -23,8 +23,8 @@
       </div>
 
       <img
-        class="p-4 mx-auto mt-12 w-full max-w-md bg-yellow-50 rounded-sm border shadow-lg transform rotate-1 border-olive-400"
-        src="/images/illustration-low-risk-equation.png"
+        class="p-4 mx-auto mt-12 w-full max-w-md bg-yellow-50 rounded-sm border shadow-lg transform rotate-1 lazyload border-olive-400"
+        data-src="/images/illustration-low-risk-equation.png"
         alt=""
       />
 

@@ -4,7 +4,13 @@ module.exports = {
   lang: "en-US",
   title: "ValueHeads",
   description: "ValueHeads Free Value-Entrepreneurship Course and Community",
-  head: [["link", { rel: "icon", href: "/images/logo.png" }]],
+  head: [
+    ["link", { rel: "icon", href: "/images/logo.png" }],
+    // [
+    //   "script",
+    //   { src: "../node_modules/lazysizes/lazysizes.min.js", async: "" },
+    // ],
+  ],
 
   //   theme: path.resolve(__dirname, "./theme"),
   themeConfig: {

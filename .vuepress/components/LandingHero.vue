@@ -49,8 +49,8 @@
                 >
                   <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
                   <img
-                    class="w-full  lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                    src="/images/lucid-illustration-rocket.svg"
+                    class="w-full  lazyload lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                    data-src="/images/lucid-illustration-rocket.svg"
                     alt=""
                   />
                 </div>

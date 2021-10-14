@@ -62,8 +62,8 @@
         <div class="px-4 mt-12 sm:mt-16 lg:mt-0">
           <div class="lg:relative lg:h-full">
             <img
-              class="w-full shadow-lg lg:transform lg:rotate-1"
-              src="/images/illustration-spotting-marketing-gaps.png"
+              class="w-full shadow-lg lazyload lg:transform lg:rotate-1"
+              data-src="/images/illustration-spotting-marketing-gaps.png"
               alt="Inbox user interface"
             />
           </div>
@@ -111,8 +111,8 @@
         <div class="px-4 mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
           <div class="lg:h-full">
             <img
-              class="w-full shadow-xl lg:transform lg:-rotate-1"
-              src="/images/illustration-great-business-idea.png"
+              class="w-full shadow-xl lazyload lg:transform lg:-rotate-1"
+              data-src="/images/illustration-great-business-idea.png"
               alt="Customer profile user interface"
             />
           </div>
@@ -159,8 +159,8 @@
         <div class="px-4 mt-12 w-auto sm:mt-16 lg:mt-0">
           <div class="flex flex-col lg:h-full">
             <img
-              class="p-5 w-auto rounded-sm border-2 border-gray-400 shadow-xl  lg:transform lg:rotate-2"
-              src="/images/illustration-the-bootstrapped-business-machine.png"
+              class="p-5 w-auto rounded-sm border-2 border-gray-400 shadow-xl  lazyload lg:transform lg:rotate-2"
+              data-src="/images/illustration-the-bootstrapped-business-machine.png"
               alt="Inbox user interface"
             />
           </div>

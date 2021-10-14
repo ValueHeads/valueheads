@@ -21,8 +21,8 @@
               class="flex flex-grow flex-shrink-0 justify-center mt-4 ml-8  lg:flex-grow-0 lg:ml-4"
             >
               <img
-                class="h-40 filter grayscale"
-                src="/images/book-lean-startup.jpg"
+                class="h-40 filter grayscale lazyload"
+                data-src="/images/book-lean-startup.jpg"
                 alt="The Lean Startup by Eric Ries"
               />
             </div>
@@ -30,8 +30,8 @@
               class="flex flex-grow flex-shrink-0 justify-center mt-4 ml-8  lg:flex-grow-0 lg:ml-4"
             >
               <img
-                class="h-40 filter grayscale"
-                src="/images/book-four-steps-to-epiphany.jpg"
+                class="h-40 filter grayscale lazyload"
+                data-src="/images/book-four-steps-to-epiphany.jpg"
                 alt="The Four Steps to the Epiphany: Successful Strategies for Products that Win - Steve Blank"
               />
             </div>
@@ -39,8 +39,8 @@
               class="flex flex-grow flex-shrink-0 justify-center mt-4 ml-8  lg:flex-grow-0 lg:ml-4"
             >
               <img
-                class="h-40 filter grayscale"
-                src="/images/book-mom-test.jpg"
+                class="h-40 filter grayscale lazyload"
+                data-src="/images/book-mom-test.jpg"
                 alt="The Lean Startup by Eric Ries"
               />
             </div>
@@ -48,8 +48,8 @@
               class="flex flex-grow flex-shrink-0 justify-center mt-4 ml-8  lg:flex-grow-0 lg:ml-4"
             >
               <img
-                class="h-40 filter grayscale"
-                src="/images/book-4-hour-work-week.jpg"
+                class="h-40 filter grayscale lazyload"
+                data-src="/images/book-4-hour-work-week.jpg"
                 alt="The Lean Startup by Eric Ries"
               />
             </div>
@@ -57,8 +57,8 @@
               class="flex flex-grow flex-shrink-0 justify-center mt-4 ml-8  lg:flex-grow-0 lg:ml-4"
             >
               <img
-                class="h-40 filter grayscale"
-                src="/images/bookstack.png"
+                class="h-40 filter grayscale lazyload"
+                data-src="/images/bookstack.png"
                 alt="The Lean Startup by Eric Ries"
               />
             </div>

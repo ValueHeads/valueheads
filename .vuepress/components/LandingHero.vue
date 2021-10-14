@@ -3,7 +3,7 @@
     <div class="overflow-hidden relative">
       <main>
         <div
-          class="pt-10 bg-indigo-500  sm:pt-16 lg:pt-8 lg:pb-14 lg:overflow-hidden"
+          class="pt-28 bg-indigo-500  sm:pt-40 lg:pt-28 lg:pb-14 lg:overflow-hidden"
         >
           <div class="mx-auto max-w-7xl lg:px-8">
             <div class="lg:grid lg:grid-cols-2 lg:gap-8">
@@ -22,7 +22,7 @@
                     </span>
                   </h1>
                   <p
-                    class="mt-3 text-base text-gray-300  sm:mt-5 sm:text-xl lg:text-lg xl:text-xl"
+                    class="mt-12 text-base text-gray-300  sm:mt-5 sm:text-xl lg:text-lg xl:text-xl"
                   >
                     This is a
                     <strong>free and open-source entrepreneurship course</strong
@@ -33,7 +33,7 @@
                     >
                   </p>
 
-                  <div class="mt-5 sm:mt-8 md:max-w-xs">
+                  <div class="mt-12 sm:mt-8 md:max-w-xs">
                     <a
                       href="#"
                       class="flex justify-center items-center px-8 py-3 text-base font-bold text-indigo-800 bg-white rounded-md border border-transparent  hover:bg-yellow-500 hover:text-gray-900 md:py-4 md:text-lg md:px-10"

@@ -24,6 +24,8 @@ head:
 
 <LandingTeam />
 
+<LandingValue />
+
 <LandingCourseTOC />
 
 <LandingValueJourney />

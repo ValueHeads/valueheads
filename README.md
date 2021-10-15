@@ -1,7 +1,7 @@
 ---
 footer: false
 sidebar: false
-pageClass: full-width-page-class
+pageClass: full-width-page
 
 head:
   - - meta

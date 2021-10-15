@@ -7,12 +7,12 @@
         <h2
           class="text-base font-semibold tracking-wider text-indigo-600 uppercase"
         >
-          Must-learn skills and concepts
+          Entrepreneurship Course with just practical skills and concepts
         </h2>
         <p
           class="mt-2 text-3xl font-extrabold tracking-tight text-gray-900  sm:text-4xl"
         >
-          A process that gives you
+          A course that gives you
           <span class="text-indigo-400">SUPERPOWERS!</span>
         </p>
         <p class="mx-auto mt-5 max-w-prose text-xl text-gray-500">
@@ -137,13 +137,16 @@
             Be a Bootstrapper. Build THE MACHINE!
           </h2>
           <p class="mt-8 text-lg text-gray-500">
-            That’s the ValueHead’s path! It’s the smart way.
+            <strong>We are value creators.</strong> We want to get paid for our
+            innovative hard work! <br /><br />We bootstrap businesses! We use
+            the income we make to grow and execute the full plan.
+
             <br /><br />
-            We are value creators. We want to get paid for our innovative hard
-            work!
-            <br /><br />The process does it them smart way. By building with
-            laser-focus on the "evergreen". Every hour of work you put in now,
-            saves you time for years to come! <br /><br />
+            <strong>We have a strategy</strong>: We build minimally with a
+            laser-focus on giving "evergreen" value. This way every hour of work
+            put in now, saves time for years to come!
+
+            <br /><br />
             We keep automating tasks until we end up with
             <strong>THE MACHINE!</strong>
           </p>

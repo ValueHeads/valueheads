@@ -14,23 +14,31 @@
                   <h1
                     class="mt-4 text-4xl font-extrabold tracking-tight text-white  sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
                   >
-                    <span class="block text-yellow-500">
-                      We are open-sourcing Entrepreneurship!
-                    </span>
+                    This is not just a course, this is a
+                    <span class="underline">movement.</span>
+
                     <span class="block">
-                      Build a business and live your life the way you want.
+                      We are
+                      <span class="text-yellow-500"
+                        >open-sourcing Entrepreneurship!</span
+                      >
                     </span>
+
+                    <!-- <span class="block">
+                      Build a business and live your life the way you want.
+                    </span> -->
                   </h1>
                   <p
                     class="mt-12 text-base text-gray-300  sm:mt-5 sm:text-xl lg:text-lg xl:text-xl"
                   >
-                    This is a
-                    <strong>free and open-source entrepreneurship course</strong
-                    >. Your step-by-step manual to finding a great business idea
-                    that WILL make you money. We do it by
+                    Everyone needs to know how to create wealth by
                     <span class="font-bold text-yellow-500"
                       >Following the VALUE!</span
                     >
+                    ValueHeads is your community entrepreneurship course,
+                    <strong>free and open-source</strong>. It's your
+                    step-by-step manual to finding a great business idea that
+                    WILL make you money.
                   </p>
 
                   <div class="mt-12 sm:mt-8 md:max-w-xs">

@@ -8,13 +8,14 @@
     "@heroicons/vue": "^1.0.4",
     "@tailwindcss/forms": "^0.3.4",
     "@vuepress/plugin-register-components": "^2.0.0-beta.26",
+    "@zhuowenli/vue-feather-icons": "^5",
     "autoprefixer": "^10.3.7",
     "postcss": "^8.3.9",
     "tailwindcss": "^2.2.16",
-    "vuepress": "^2.0.0-beta.26",
-    "@zhuowenli/vue-feather-icons": "^5"
+    "vuepress": "^2.0.0-beta.26"
   },
   "dependencies": {
-    "lazysizes": "^5.3.2"
+    "lazysizes": "^5.3.2",
+    "runes": "^0.4.3"
   }
 }

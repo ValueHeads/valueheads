@@ -80,7 +80,7 @@ import { ChevronDownIcon } from "@heroicons/vue/outline";
 
 const weeks = [
   {
-    title: "Week 1 — Your Third Option & Value Entrepreneurship",
+    title: "Week 1 — Your Value Entrepreneurship Journey Starts Here!",
     sections: [
       "ℹ️ From “a Job” to My THIRD Option (for Wealth Creation)",
       "ℹ️ How to get the most out of the course?",
@@ -174,7 +174,7 @@ const weeks = [
   },
   {
     title:
-      "Week 5 — Talk to 3-5 potential customers to pick your BEST online business idea",
+      "Week 5 — Talk to 3-5 potential customers before you spend a dollar!",
     sections: [
       "ℹ️ What are customer development interviews? Why are they so important?",
       "ℹ️ How to find potential customers to talk to?",
@@ -222,7 +222,7 @@ const weeks = [
     ],
   },
   {
-    title: "Week 7 — Test your idea using a “smoke test” page & DIY software",
+    title: "Week 7 — Test your idea using just a landing page & DIY software",
     sections: [
       "ℹ️ What is a smoke test?",
       "ℹ️ How to create a great landing page (with ready templates).",
@@ -250,8 +250,7 @@ const weeks = [
     ],
   },
   {
-    title:
-      "Week 8 — Develop your Strategies: Growth, SEO, Social Media & Content Strategies",
+    title: "Week 8 — Develop your Strategies: Growth, Content and Social Media",
     sections: [
       "ℹ️ Sources of Traffic on the Internet",
       "ℹ️ What does a complete marketing strategy look like? ",

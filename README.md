@@ -26,7 +26,7 @@ head:
 
 <LandingValue />
 
-<LandingCourseTOC />
+<LandingLearningOutcomes />
 
 <LandingValueJourney />
 

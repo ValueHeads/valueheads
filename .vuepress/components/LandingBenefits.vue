@@ -47,7 +47,7 @@ const features = [
   {
     name: "Be free! Answer to no boss. ",
     description:
-      "Be independent from a boss, a loan or an investor. We have the answer: You CAN bootstrap your own online business.",
+      "Be independent of a boss, a loan, or an investor. We have the answer: You CAN bootstrap your own online business.",
     icon: SparklesIcon,
   },
   {

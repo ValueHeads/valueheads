@@ -5,7 +5,7 @@
     >
       <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
       <img
-        class="absolute bottom-0 left-full opacity-60 transform -translate-x-1/2 translate-y-1/4  lg:left-auto lg:right-full lg:translate-x-full lg:translate-y-1/4"
+        class="absolute bottom-0 left-full w-11/12 opacity-60 transform -translate-x-full translate-y-1/2  lg:w-3/12 lg:left-auto lg:right-full lg:translate-x-full lg:translate-y-1/4"
         src="/images/lucid-illustration-love.svg"
         width="729"
         height="854"
@@ -93,7 +93,7 @@ const valueStrategies = [
     question:
       "<span class='sr-only'>What makes a great</span> Instagram or Twitter Strategy?",
     description:
-      "<strong class='text-yellow'>Value-packed posts</strong> that gets them to like, comment and save.",
+      "<strong class='text-yellow'>Value-packed posts</strong> that get them to like, comment and save.",
     icon: TwitterIcon,
   },
   {

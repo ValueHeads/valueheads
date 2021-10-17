@@ -173,7 +173,7 @@ const weeks = [
       "🚀 Make sure your product launch goes smoothly by doing a technical checklist before announcing it.",
       "🛑 Know when to stop and pivot or try another idea.",
       "🧐 Diagnose any issues stopping users from buying your product and paying you. Fix them and keep trying.",
-      "📈 Learn fromrunes users, and keep improving.",
+      "📈 Learn from users, and keep improving.",
       "💯 ULTIMATE GOAL Achieved: You Own your Bootstrapped, Scalable Online Business! Keep growing and enjoy your new life!",
     ],
   },

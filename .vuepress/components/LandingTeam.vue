@@ -128,7 +128,7 @@ const people = [
     twitterUrl: "#",
     linkedinUrl: "#",
     quote:
-      "Once you see it, you can't unsee it! This course was transformational. It made moving from bedside nursing to entrepreneurship FUN, yes fun!",
+      "Once you see it, you can't unsee it! This course was transformational. It made the move from bedside nursing to entrepreneurship FUN, yes fun!",
   },
   {
     name: "Dima Kawar, VH1",
@@ -145,7 +145,7 @@ const people = [
     imageUrl: "/images/seb.png",
     twitterUrl: "#",
     linkedinUrl: "#",
-    desc: "Seb's work is all about streamlining your learning experience. This course is so powerful because of his superiour knowledge!",
+    desc: "Seb's work is all about streamlining your learning experience. This course is so powerful because of his superior knowledge!",
   },
   {
     name: "Aya Sadiq, VH4",

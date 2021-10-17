@@ -147,8 +147,8 @@
 
             <br /><br />
             <strong>We have a strategy</strong>: We build minimally with a
-            laser-focus on giving "evergreen" value. This way every hour of work
-            put in now, saves time for years to come!
+            laser-focus on giving "evergreen" value. This way, every hour of
+            work put in now saves time for years to come!
 
             <br /><br />
             We keep automating tasks until we end up with

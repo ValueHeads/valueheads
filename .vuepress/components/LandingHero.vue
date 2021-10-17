@@ -1,76 +1,68 @@
 <template>
-  <div class="min-h-screen">
-    <div class="overflow-hidden relative">
-      <main>
+  <div
+    class="pt-28 bg-indigo-500 sm:pt-40 lg:pt-28 lg:pb-24 lg:overflow-hidden"
+  >
+    <div class="mx-auto max-w-7xl lg:px-8">
+      <div class="lg:grid lg:grid-cols-12 lg:gap-8">
         <div
-          class="pt-28 bg-indigo-500  sm:pt-40 lg:pt-28 lg:pb-14 lg:overflow-hidden"
+          class="px-4 mx-auto max-w-md  lg:col-span-7 sm:max-w-3xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center"
         >
-          <div class="mx-auto max-w-7xl lg:px-8">
-            <div class="lg:grid lg:grid-cols-2 lg:gap-8">
-              <div
-                class="px-4 mx-auto max-w-md  sm:max-w-2xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center"
+          <div class="lg:py-10">
+            <h1
+              class="mt-4 text-4xl font-extrabold tracking-tight text-white  sm:mt-5 sm:text-6xl lg:mt-6"
+            >
+              <span class="font-light text-indigo-50 sm:text-5xl"
+                >Leave the 9-5 job!</span
               >
-                <div class="lg:py-24">
-                  <h1
-                    class="mt-4 text-4xl font-extrabold tracking-tight text-white  sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
-                  >
-                    This is not just a course, this is a
-                    <span class="underline">movement.</span>
 
-                    <span class="block">
-                      We are
-                      <span class="text-yellow-500"
-                        >open-sourcing Entrepreneurship!</span
-                      >
-                    </span>
+              <span class="block mt-6 uppercase">
+                Build your own business with our
+                <span class="text-yellow-500">FREE Step-by-step course!</span>
+              </span>
 
-                    <!-- <span class="block">
+              <!-- <span class="block">
                       Build a business and live your life the way you want.
                     </span> -->
-                  </h1>
-                  <p
-                    class="mt-12 text-base text-gray-300  sm:mt-5 sm:text-xl lg:text-lg xl:text-xl"
-                  >
-                    Everyone needs to know how to create wealth by
-                    <span class="font-bold text-yellow-500"
-                      >Following the VALUE!</span
-                    >
-                    ValueHeads is your community entrepreneurship course,
-                    <strong>free and open-source</strong>. It's your
-                    step-by-step manual to finding a great business idea that
-                    WILL make you money.
-                  </p>
+            </h1>
+            <p
+              class="mt-12 text-lg text-indigo-100  sm:mt-8 sm:text-xl lg:text-lg xl:text-xl"
+            >
+              Everyone needs to know how to create wealth by
+              <strong class="text-white">Following the VALUE!</strong
+              ><br class="hidden md:block" />
+              ValueHeads is your community entrepreneurship course,
+              <strong class="text-white">free and open-source</strong>.<br
+                class="hidden md:block"
+              />
+              It's your step-by-step manual to finding a great business idea
+              that <strong class="text-white">WILL make you money</strong>.
+            </p>
 
-                  <div class="mt-12 sm:mt-8 md:max-w-xs">
-                    <a
-                      href="#"
-                      class="flex justify-center items-center px-8 py-3 text-base font-bold text-indigo-800 bg-white rounded-md border border-transparent  hover:bg-yellow-500 hover:text-gray-900 md:py-4 md:text-lg md:px-10"
-                    >
-                      Become a ValueHead! 😎
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative">
-                <div
-                  class="px-4 mx-auto max-w-md  sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0"
-                >
-                  <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
-                  <img
-                    class="w-full h-auto  lazyload lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                    data-src="/images/lucid-illustration-rocket.svg"
-                    alt=""
-                    width="828"
-                    height="1021"
-                  />
-                </div>
-              </div>
+            <div class="mx-auto mt-12 lg:mx-0 sm:mt-8 md:max-w-xs">
+              <a
+                href="#"
+                class="flex justify-center items-center px-8 py-3 text-base font-bold bg-white rounded-md border border-transparent  text-olive-800 hover:bg-yellow-500 hover:text-olive-900 md:py-4 md:text-lg md:px-10"
+              >
+                Become a ValueHead! 😎
+              </a>
             </div>
           </div>
         </div>
-
-        <!-- More main page content here... -->
-      </main>
+        <div class="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative lg:col-span-5">
+          <div
+            class="px-4 mx-auto max-w-md  sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0"
+          >
+            <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
+            <img
+              class="w-full h-auto  lazyload lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+              data-src="/images/lucid-illustration-rocket.svg"
+              alt=""
+              width="828"
+              height="1021"
+            />
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>

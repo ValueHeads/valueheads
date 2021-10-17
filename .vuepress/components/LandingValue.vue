@@ -61,7 +61,7 @@
         class="py-52  lg:mt-10 lg:pb-0 lg:pt-10 lg:grid lg:grid-cols-12 lg:gap-x-8"
       >
         <div
-          class="text-xl font-medium text-center text-indigo-100 border-b-2 border-yellow-500  lg:text-left lg:col-start-6 lg:col-end-12"
+          class="text-xl font-medium text-center text-indigo-50 border-b-2 border-yellow-500  lg:text-left lg:col-start-6 lg:col-end-12"
         >
           <span class="text-3xl font-bold uppercase">It's always about</span>
           <span

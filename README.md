@@ -28,6 +28,8 @@ head:
 
 <LandingLearningOutcomes />
 
+<LandingJumboMsg />
+
 <LandingValueJourney />
 
 <LandingFeatures />

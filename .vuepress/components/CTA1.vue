@@ -3,7 +3,7 @@
     <div
       class="px-4 py-16 mx-auto max-w-4xl text-center sm:py-20 sm:px-6 lg:px-8"
     >
-      <h2 class="block text-4xl font-extrabold text-indigo-900 sm:text-5xl">
+      <h2 class="block text-4xl font-extrabold text-olive-900 sm:text-5xl">
         Make ValueHeads a reality!
       </h2>
 
@@ -18,7 +18,7 @@
 
       <a
         href="#"
-        class="inline-flex justify-center items-center px-5 py-3 mt-8 w-auto text-base font-medium text-white bg-indigo-500 rounded-md border border-transparent  hover:bg-indigo-800"
+        class="inline-flex justify-center items-center px-6 py-4 mt-8 text-lg font-bold text-white bg-indigo-500 rounded-md border border-transparent  lg:px-12 lg:py-5 hover:bg-indigo-800"
       >
         Be one of our first 100 supporters!
       </a>

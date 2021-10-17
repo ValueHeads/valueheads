@@ -22,7 +22,7 @@
             >
               <component
                 :is="feature.icon"
-                class="w-6 h-6 text-indigo-500"
+                class="w-6 h-6 text-olive-600"
                 aria-hidden="true"
               />
             </span>
@@ -43,14 +43,10 @@
 
 <script>
 import {
-  ChatAltIcon,
-  DocumentReportIcon,
-  HeartIcon,
-  InboxIcon,
-  PencilAltIcon,
-  ReplyIcon,
-  TrashIcon,
+  GlobeIcon,
   UsersIcon,
+  LightBulbIcon,
+  HeartIcon,
 } from "@heroicons/vue/outline";
 
 const features = [
@@ -58,25 +54,25 @@ const features = [
     name: "Open Source & Free - ALWAYS!",
     description:
       "An always up-to-date Entrepreneurship Course can be a challenge. That's why open-sourcing this course is the only way we can keep it current with the contributions of our ValueHeads learners and community. ValueHeads needs you!",
-    icon: TrashIcon,
+    icon: GlobeIcon,
   },
   {
     name: "No Reinventing the Wheel",
     description:
       "If there is already a great video, article or podcast, we are using it in the course. We are not going to try to recreate all the know-how around entrepreneurship. We’re going to leverage existing content by awesome creators from around the internet.",
-    icon: UsersIcon,
+    icon: LightBulbIcon,
   },
   {
     name: "ValueHeads is Non-for-profit",
     description:
       "We do not sell you anything! We find value in the community of entrepreneurs itself. We as a collective are VALUABLE AF! ",
-    icon: PencilAltIcon,
+    icon: HeartIcon,
   },
   {
     name: "Supportive Community",
     description:
       "A space we can discuss ideas and learn, with no judgement. Like-minded individuals collaborating. That’s how the best ideas are born!",
-    icon: DocumentReportIcon,
+    icon: UsersIcon,
   },
 ];
 

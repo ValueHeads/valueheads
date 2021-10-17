@@ -1,8 +1,6 @@
 <template>
   <div class="py-16 bg-white sm:py-20 lg:py-24">
-    <div
-      class="px-4 mx-auto max-w-md text-center  sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-4xl"
-    >
+    <div class="px-4 mx-auto max-w-md text-center sm:px-6 sm:max-w-3xl lg:px-8">
       <div>
         <h2
           class="text-base font-semibold tracking-wider text-indigo-600 uppercase"
@@ -25,7 +23,7 @@
       <div class="mx-auto mt-12">
         <img
           class="lazyload"
-          data-src="/images/illustration-the-path-steps-of-course.png"
+          data-src="/images/illustration-value-entrepreneurship-journey.png"
           alt=""
         />
       </div>

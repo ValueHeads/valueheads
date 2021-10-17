@@ -11,7 +11,7 @@
             Meet the First ValueHeads
           </h2>
           <p
-            class="text-3xl font-extrabold tracking-tight  text-yellow sm:text-4xl"
+            class="text-3xl font-extrabold tracking-tight  text-yellow sm:text-4xl lg:text-5xl"
           >
             Collaboration
             <span class="text-4xl text-white">=</span> AWESOMENESS!

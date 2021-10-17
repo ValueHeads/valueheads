@@ -3,7 +3,7 @@
     <div
       class="px-4 py-16 mx-auto max-w-4xl text-center sm:py-20 sm:px-6 lg:px-8"
     >
-      <h2 class="block text-4xl font-extrabold text-olive-900 sm:text-5xl">
+      <h2 class="block text-4xl font-black text-olive-900 sm:text-5xl">
         Make ValueHeads a reality!
       </h2>
 

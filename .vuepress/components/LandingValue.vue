@@ -30,14 +30,16 @@
             :key="valueStrategy.question"
             class="flex flex-row"
           >
-            <div
-              class="flex justify-center items-center w-12 h-12 text-gray-200 bg-indigo-300 rounded-md"
-            >
-              <component
-                :is="valueStrategy.icon"
-                class="w-6 h-6"
-                aria-hidden="true"
-              />
+            <div>
+              <div
+                class="flex justify-center items-center w-12 h-12 text-gray-200 bg-indigo-300 rounded-md"
+              >
+                <component
+                  :is="valueStrategy.icon"
+                  class="w-6 h-6"
+                  aria-hidden="true"
+                />
+              </div>
             </div>
             <div class="ml-5">
               <dt

@@ -11,8 +11,8 @@
 // See https://v2.vuepress.vuejs.org/reference/default-theme/styles.html#palette-file
 :root {
   // brand colors
-  --c-brand: #3eaf7c;
-  --c-brand-light: #4abf8a;
+  --c-brand: #3F2680;
+  --c-brand-light: #8264D1;
 
   // background colors
   --c-bg: #ffffff;
@@ -73,15 +73,11 @@ html, body {
   .theme-default-content {
     @apply p-0;
   }
-  
-  a:hover {
-    text-decoration: none #{!important};
-  }
 }
 
 // see https://tailwindcss.com/docs/preflight
 .full-width-page .page {
-  a:hover {
+  a:hover:not([target=_blank]) {
     text-decoration: none #{!important};
   }
 

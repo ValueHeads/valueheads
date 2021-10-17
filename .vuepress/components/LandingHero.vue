@@ -1,6 +1,6 @@
 <template>
   <div
-    class="pt-28 bg-indigo-500 sm:pt-40 lg:pt-28 lg:pb-24 lg:overflow-hidden"
+    class="pt-28 bg-indigo-500 sm:pt-40 lg:pt-32 lg:pb-24 lg:overflow-hidden"
   >
     <div class="mx-auto max-w-7xl lg:px-8">
       <div class="lg:grid lg:grid-cols-12 lg:gap-8">
@@ -46,7 +46,7 @@
             </div>
           </div>
         </div>
-        <div class="mt-12 -mb-16 sm:-mb-48 lg:m-0 lg:relative lg:col-span-5">
+        <div class="mt-12 -mb-16 sm:-mb-48 lg:relative lg:col-span-5">
           <div
             class="px-4 mx-auto max-w-md  sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0"
           >

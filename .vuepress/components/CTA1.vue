@@ -11,7 +11,7 @@
         Show us that you want this, with just $1/month on Patreon
       </p>
 
-      <p class="mt-5 text-lg leading-6 text-yellow-800 sm:text-xl">
+      <p class="mt-5 text-lg leading-6 text-olive-600 sm:text-xl">
         We need validation from 100 supporters, before we invest the next 4,000
         hours of work needed to bring you the FULL course.
       </p>
@@ -22,7 +22,7 @@
       >
         Be one of our first 100 supporters!
       </a>
-      <span class="block mt-3 text-sm italic text-yellow-700">
+      <span class="block mt-3 text-sm italic text-olive-400">
         Any money made will go to offset the expenses of developing this
         kick-ass course.
       </span>

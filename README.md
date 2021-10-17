@@ -9,7 +9,7 @@ head:
       content: bar
   - - link
     - rel: canonical
-      href: foobar
+      href: https://valueheads.org
 ---
 
 <LandingHero />

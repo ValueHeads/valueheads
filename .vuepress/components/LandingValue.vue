@@ -39,15 +39,16 @@
                 aria-hidden="true"
               />
             </div>
-
-            <dt
-              class="ml-5 text-xl font-bold leading-6 text-gray-100"
-              v-html="valueStrategy.question"
-            ></dt>
-            <dd
-              class="mt-1 text-base text-white"
-              v-html="valueStrategy.description"
-            ></dd>
+            <div class="ml-5">
+              <dt
+                class="text-xl font-bold leading-6 text-gray-100"
+                v-html="valueStrategy.question"
+              ></dt>
+              <dd
+                class="mt-1 text-base text-white"
+                v-html="valueStrategy.description"
+              ></dd>
+            </div>
           </div>
         </dl>
       </div>
@@ -56,13 +57,15 @@
         class="py-52  lg:mt-10 lg:pb-0 lg:pt-10 lg:grid lg:grid-cols-12 lg:gap-x-8"
       >
         <div
-          class="text-xl font-medium text-center text-indigo-50 border-b-2 border-yellow-500  lg:text-left lg:col-start-6 lg:col-end-12"
+          class="text-xl font-medium text-center text-indigo-50  lg:text-left lg:col-start-6 lg:col-end-13"
         >
-          <span class="text-3xl font-bold uppercase">It's always about</span>
-          <span
-            class="block text-8xl font-black  lg:inline-block lg:pl-10 text-yellow"
-            >VALUE</span
-          >
+          <h3 class="inline-block border-b-2 border-yellow-500">
+            <span class="text-3xl font-bold uppercase">It's always about</span>
+            <span
+              class="block text-8xl font-black  lg:inline-block lg:pl-8 text-yellow"
+              >VALUE</span
+            >
+          </h3>
 
           <!-- <span class="block lg:hidden">
             We follow it all the way to success!

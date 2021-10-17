@@ -7,9 +7,9 @@
       <img
         class="absolute bottom-0 left-full opacity-60 transform -translate-x-1/2 translate-y-1/4  lg:left-auto lg:right-full lg:translate-x-full lg:translate-y-1/4"
         src="/images/lucid-illustration-love.svg"
-        width="500"
-        height="500"
-        alt=""
+        width="729"
+        height="854"
+        alt="Lucid Illustration of Value and Love"
       />
 
       <div

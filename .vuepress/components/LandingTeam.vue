@@ -34,7 +34,9 @@
               <img
                 class="mx-auto w-40 h-40 rounded-full lazyload xl:w-56 xl:h-56"
                 :data-src="person.imageUrl"
-                alt=""
+                :alt="person.name + '. ' + person.role"
+                width="400"
+                height="400"
               />
               <div class="space-y-2">
                 <div class="space-y-1 text-lg font-medium leading-6">

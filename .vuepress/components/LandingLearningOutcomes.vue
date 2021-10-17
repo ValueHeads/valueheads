@@ -23,9 +23,10 @@
       </div>
 
       <img
-        class="p-4 mx-auto mt-12 w-full max-w-md bg-yellow-50 rounded-sm border shadow-lg transform rotate-1 lazyload border-olive-400"
+        class="p-4 mx-auto mt-12 w-full max-w-md h-auto bg-yellow-50 rounded-sm border shadow-lg transform rotate-1 lazyload border-olive-400"
         data-src="/images/illustration-low-risk-equation.png"
-        alt=""
+        alt="Entrepreneurship Course in Following the Value. This is the equation summary."
+        width="786" height="355"
       />
 
       <div class="mx-auto max-w-3xl divide-y-2 divide-gray-200">

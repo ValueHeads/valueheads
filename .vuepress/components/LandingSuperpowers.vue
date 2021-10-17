@@ -62,9 +62,11 @@
         <div class="px-4 mt-12 sm:mt-16 lg:mt-0">
           <div class="lg:relative lg:h-full">
             <img
-              class="w-full shadow-lg lazyload lg:transform lg:rotate-1"
+              class="w-full h-auto shadow-lg lazyload lg:transform lg:rotate-1"
               data-src="/images/illustration-spotting-marketing-gaps.png"
-              alt="Inbox user interface"
+              alt="Value Entrepreneurship. Illustration: How to spot marketing gaps."
+              width="1729"
+              height="1667"
             />
           </div>
         </div>
@@ -111,9 +113,11 @@
         <div class="px-4 mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
           <div class="lg:h-full">
             <img
-              class="w-full shadow-xl lazyload lg:transform lg:-rotate-1"
+              class="w-full h-auto shadow-xl lazyload lg:transform lg:-rotate-1"
               data-src="/images/illustration-great-business-idea.png"
-              alt="Customer profile user interface"
+              alt="What makes a great business idea? Value Entrepreneurship"
+              width="1833"
+              height="1918"
             />
           </div>
         </div>
@@ -162,9 +166,11 @@
         <div class="px-4 mt-12 w-auto sm:mt-16 lg:mt-0">
           <div class="flex flex-col lg:h-full">
             <img
-              class="p-5 w-auto rounded-sm border-2 border-gray-400 shadow-xl  lazyload lg:transform lg:rotate-2"
+              class="p-5 w-auto h-auto rounded-sm border-2 border-gray-400 shadow-xl  lazyload lg:transform lg:rotate-2"
               data-src="/images/illustration-the-bootstrapped-business-machine.png"
-              alt="Inbox user interface"
+              alt="The bootstrapped business machine you build by follow the value (Value Entrepreneurship)"
+              width="2143"
+              height="1699"
             />
           </div>
         </div>

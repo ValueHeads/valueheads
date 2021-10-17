@@ -57,9 +57,11 @@
                 >
                   <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
                   <img
-                    class="w-full  lazyload lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                    class="w-full h-auto  lazyload lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
                     data-src="/images/lucid-illustration-rocket.svg"
                     alt=""
+                    width="828"
+                    height="1021"
                   />
                 </div>
               </div>

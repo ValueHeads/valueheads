@@ -22,9 +22,11 @@
       </div>
       <div class="mx-auto mt-12">
         <img
-          class="lazyload"
+          class="mx-auto w-auto h-auto lazyload"
           data-src="/images/illustration-value-entrepreneurship-journey.png"
-          alt=""
+          alt="The Value Entrepreneurship Journey Infographic - ValueHeads."
+          width="594"
+          height="2480"
         />
       </div>
     </div>

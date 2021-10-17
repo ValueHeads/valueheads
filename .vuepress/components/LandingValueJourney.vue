@@ -20,7 +20,7 @@
           make money!
         </p>
       </div>
-      <div class="mx-auto mt-12">
+      <div class="mx-auto mt-12 lg:pl-48">
         <img
           class="mx-auto w-auto h-auto lazyload"
           data-src="/images/illustration-value-entrepreneurship-journey.png"

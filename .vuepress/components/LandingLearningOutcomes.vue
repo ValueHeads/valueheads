@@ -59,7 +59,7 @@
             <DisclosurePanel as="dd" class="pr-12 mt-5">
               <p class="text-base text-gray-700">
                 <ul>
-                  <li v-for="outcome in faq.outcomes" :key="outcome" class="flex flex-row items-center mt-5">
+                  <li v-for="outcome in faq.outcomes" :key="outcome" class="flex flex-row items-start mt-5">
                     <span class="inline-block w-11 text-2xl">{{ runes.substr(outcome, 0, 1) }}</span>
                     <span class="block w-full" v-html="runes.substr(outcome, 1)" />
                     

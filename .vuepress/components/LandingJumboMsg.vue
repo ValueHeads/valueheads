@@ -2,10 +2,12 @@
   <div class="flex items-center min-h-screen bg-indigo-500">
     <div class="px-4 mx-auto max-w-7xl lg:px-8">
       <h2
-        class="mt-4 text-4xl font-extrabold tracking-tight text-white  sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
+        class="mt-4 text-4xl font-extrabold tracking-tight text-center text-white  sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
       >
-        This is not just a course, this is a
-        <span class="underline">movement.</span>
+        This is not just a course,
+        <span class="sm:whitespace-nowrap"
+          >this is a <span class="underline">movement.</span></span
+        >
 
         <span class="block mt-5">
           We are

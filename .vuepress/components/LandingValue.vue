@@ -17,7 +17,7 @@
       >
         <div class="lg:col-span-2">
           <h2
-            class="pr-10 text-4xl font-extrabold tracking-tight text-white  sm:text-6xl"
+            class="pr-10 text-4xl font-extrabold tracking-tight text-white  sm:text-5xl"
           >
             What makes a great&mldr;
           </h2>
@@ -60,10 +60,10 @@
           class="text-xl font-medium text-center text-indigo-50  lg:text-left lg:col-start-6 lg:col-end-13"
         >
           <h3 class="inline-block border-b-2 border-yellow-500">
-            <span class="text-3xl font-bold uppercase">It's always about</span>
+            <span class="text-3xl font-bold">It's always about</span>
             <span
-              class="block text-8xl font-black  lg:inline-block lg:pl-8 text-yellow"
-              >VALUE</span
+              class="block text-8xl font-black uppercase  lg:inline-block lg:pl-8 text-yellow"
+              >value</span
             >
           </h3>
 

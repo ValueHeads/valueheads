@@ -70,6 +70,14 @@
           </Disclosure>
         </dl>
       </div>
+
+      <div class="pt-14 mx-auto max-w-3xl">
+        Want to see out full course plan? 
+        <br /> 
+        Check out the
+        <a href="https://mm.tt/2048938104?t=PptH4jTe3l" target="_blank">mega course mind map</a> and this 
+        <a href="https://docs.google.com/document/d/1LALvB5Hb8N1H1yO3gjj3S8ycFDT_PO0exiw3XpiFWnk/edit?usp=sharing" target="_blank">Google Doc</a> of the chapters and sections.
+        </div>
     </div>
   </div>
 </template>

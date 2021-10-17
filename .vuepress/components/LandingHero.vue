@@ -15,9 +15,9 @@
                 >Leave the 9-5 job!</span
               >
 
-              <span class="block mt-6 uppercase">
+              <span class="block mt-0">
                 Build your own business with our
-                <span class="text-yellow-500">FREE Step-by-step course!</span>
+                <span class="text-yellow-500">FREE step-by-step course!</span>
               </span>
 
               <!-- <span class="block">
@@ -27,15 +27,19 @@
             <p
               class="mt-12 text-lg text-indigo-100  sm:mt-8 sm:text-xl lg:text-lg xl:text-xl"
             >
-              Everyone needs to know how to create wealth by
-              <strong class="text-white">Following the VALUE!</strong
-              ><br class="hidden md:block" />
-              ValueHeads is your community entrepreneurship course,
-              <strong class="text-white">free and open-source</strong>.<br
-                class="hidden md:block"
-              />
+              You've never seen a
+              <strong class="text-white whitespace-nowrap"
+                >free entrepreneurship course</strong
+              >
+              like this!
+
+              <br class="block mt-5" />
+
               It's your step-by-step manual to finding a great business idea
-              that <strong class="text-white">WILL make you money</strong>.
+              that
+              <strong class="text-white whitespace-nowrap"
+                >WILL make you money</strong
+              >.
             </p>
 
             <div class="mx-auto mt-12 lg:mx-0 sm:mt-8 md:max-w-xs">

@@ -3,7 +3,7 @@
     <div class="px-4 py-16 mx-auto max-w-7xl sm:py-24 sm:px-6 lg:px-8">
       <div class="lg:grid lg:grid-cols-2 lg:gap-8">
         <h2
-          class="self-center mx-auto max-w-md text-3xl font-extrabold text-center  lg:max-w-xl lg:text-left text-olive-700"
+          class="self-center mx-auto max-w-md text-3xl font-extrabold text-center  lg:max-w-full lg:text-left text-olive-700"
         >
           Tried-and-true process. Built on the shoulders of
           <span class="text-indigo-400">Startup Thought-Leaders</span>.

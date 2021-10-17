@@ -2,8 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-// See https://v2.vuepress.vuejs.org/reference/default-theme/styles.html#palette-file
 
+// Top choices: Epilogue, Sora, Inter, Open Sans
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700;900&display=swap');
+
+
+
+// See https://v2.vuepress.vuejs.org/reference/default-theme/styles.html#palette-file
 :root {
   // brand colors
   --c-brand: #3eaf7c;
@@ -26,7 +31,7 @@
   --c-text-quote: #999999;
 
   // font vars
-  --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+  --font-family: 'Sora', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
     Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 

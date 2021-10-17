@@ -22,7 +22,7 @@
             >
               <component
                 :is="feature.icon"
-                class="w-6 h-6 text-olive-600"
+                class="w-6 h-6 text-olive-700"
                 aria-hidden="true"
               />
             </span>
@@ -47,7 +47,7 @@ import {
   UsersIcon,
   LightBulbIcon,
   HeartIcon,
-} from "@heroicons/vue/outline";
+} from "@heroicons/vue/solid";
 
 const features = [
   {
@@ -63,7 +63,7 @@ const features = [
     icon: LightBulbIcon,
   },
   {
-    name: "ValueHeads is Non-for-profit",
+    name: "ValueHeads is Not-for-profit",
     description:
       "We do not sell you anything! We find value in the community of entrepreneurs itself. We as a collective are VALUABLE AF! ",
     icon: HeartIcon,

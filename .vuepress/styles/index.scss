@@ -167,7 +167,7 @@ html, body {
   border-bottom: var(--c-bg-navbar);
 }
 
-.min-h-screen-ios {
+.full-width-page .min-h-screen-ios {
   min-height: 100vh;
   /* mobile viewport bug fix */
   min-height: -webkit-fill-available !important;

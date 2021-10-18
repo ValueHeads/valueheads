@@ -1,111 +1,163 @@
 <template>
-  <div class="px-4 py-24 bg-yellow-500 md:py-32 lg:py-32 sm:px-6 lg:px-8">
-    <div class="pb-16 mx-auto max-w-4xl text-center sm:pb-20">
-      <h2 class="block text-4xl font-black text-olive-900 sm:text-5xl">
-        We need your love!
+  <div class="px-4 py-32 bg-yellow-500 md:py-32 lg:py-40 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-3xl text-left">
+      <h2
+        class="
+          block
+          text-4xl
+          font-light
+          text-center text-indigo-500
+          uppercase
+          lg:text-[2.8rem]
+        "
+      >
+        All we need is <span class="underline">your love!</span>
       </h2>
 
-      <p class="block mt-4 text-2xl text-yellow-900 sm:text-3xl">
-        Get Week 1's draft and our full course plan, today.
+      <p
+        class="block mt-12 text-2xl font-black text-center text-yellow-900  lg:text-5xl"
+      >
+        We need 500 supporters&hellip;
+        <strong class="text-7xl text-indigo-500">477</strong> to go.
       </p>
 
-      <p class="mt-5 text-lg leading-6 text-olive-600 sm:text-xl">
-        Do you want this? We are looking for validation from 100 supporters,
-        before we invest the next 4,000 hours of work needed to bring you the
-        FULL FREE OPEN course.
+      <p class="mt-2 mb-12 text-xl text-center text-yellow-800 sm:text-2xl">
+        That's our signal to build the FULL course.
       </p>
-    </div>
 
-    <div class="mx-auto max-w-xl lg:max-w-6xl">
-      <h2 class="sr-only">A better way to send money.</h2>
-      <dl class="space-y-10 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-8">
-        <div v-for="feature in features" :key="feature.name">
-          <dt>
-            <div
-              class="flex justify-center items-center w-12 h-12 text-white bg-indigo-500 rounded-md"
-            >
-              <component
-                :is="feature.icon"
-                class="w-6 h-6"
+      <div class="mt-16 bg-yellow-300 rounded-xl">
+        <ol role="list" class="px-6 py-12 max-w-2xl md:p-12">
+          <li
+            v-for="(step, stepIdx) in steps"
+            :key="step.name"
+            :class="[stepIdx !== steps.length - 1 ? 'pb-10' : '', 'relative']"
+          >
+            <template v-if="step.status === 'complete'">
+              <div
+                v-if="stepIdx !== steps.length - 1"
+                class="absolute top-4 left-4 mt-0.5 -ml-px w-0.5 h-full bg-indigo-600"
                 aria-hidden="true"
               />
-            </div>
-            <p class="mt-5 text-lg font-medium leading-6 text-gray-900">
-              {{ feature.name }}
-            </p>
-          </dt>
-          <dd class="mt-2 text-base text-yellow-800">
-            {{ feature.description }}
-          </dd>
-        </div>
-      </dl>
-    </div>
+              <span class="flex relative items-start group">
+                <span class="flex items-center h-9">
+                  <span
+                    class="flex relative z-10 justify-center items-center w-8 h-8 bg-indigo-600 rounded-full  group-hover:bg-indigo-800"
+                  >
+                    <CheckIcon class="w-5 h-5 text-white" aria-hidden="true" />
+                  </span>
+                </span>
+                <span class="flex flex-col ml-4 min-w-0">
+                  <span class="text-sm font-semibold tracking-wide uppercase">{{
+                    step.name
+                  }}</span>
+                  <span class="text-base text-olive-500">{{
+                    step.description
+                  }}</span>
+                  <component :is="step.component" class="mt-5" />
+                </span>
+              </span>
+            </template>
+            <template
+              v-else-if="step.status === 'current'"
+              condition="step.status === 'current'"
+            >
+              <div
+                v-if="stepIdx !== steps.length - 1"
+                class="absolute top-4 left-4 mt-0.5 -ml-px w-0.5 h-full bg-gray-300"
+                aria-hidden="true"
+              />
+              <span class="flex relative items-start group" aria-current="step">
+                <span class="flex items-center h-9" aria-hidden="true">
+                  <span
+                    class="flex relative z-10 justify-center items-center w-8 h-8 bg-white rounded-full border-2 border-indigo-600"
+                  >
+                    <span class="w-2.5 h-2.5 bg-indigo-600 rounded-full" />
+                  </span>
+                </span>
+                <span class="flex flex-col ml-4 min-w-0">
+                  <span
+                    class="text-sm font-semibold tracking-wide text-indigo-600 uppercase"
+                    >{{ step.name }}</span
+                  >
+                  <span class="text-base text-olive-500">{{
+                    step.description
+                  }}</span>
+                  <component :is="step.component" class="mt-5" />
+                </span>
+              </span>
+            </template>
+            <template v-else>
+              <div
+                v-if="stepIdx !== steps.length - 1"
+                class="absolute top-4 left-4 mt-0.5 -ml-px w-0.5 h-full bg-gray-300"
+                aria-hidden="true"
+              />
+              <span class="flex relative items-start group">
+                <span class="flex items-center h-9" aria-hidden="true">
+                  <span
+                    class="flex relative z-10 justify-center items-center w-8 h-8 bg-white rounded-full border-2 border-gray-300  group-hover:border-gray-400"
+                  >
+                    <span
+                      class="w-2.5 h-2.5 bg-transparent rounded-full  group-hover:bg-gray-300"
+                    />
+                  </span>
+                </span>
+                <span class="flex flex-col ml-4 min-w-0">
+                  <span
+                    class="text-sm font-semibold tracking-wide uppercase  text-olive-500"
+                    >{{ step.name }}</span
+                  >
+                  <span class="text-base text-olive-500">{{
+                    step.description
+                  }}</span>
+                  <component :is="step.component" class="mt-5" />
+                </span>
+              </span>
+            </template>
+          </li>
+        </ol>
+      </div>
 
-    <div class="mx-auto max-w-4xl text-center">
-      <!-- <a
-        href="#"
-        class="inline-flex justify-center items-center px-6 py-4 mt-8 text-lg font-bold text-white bg-indigo-500 rounded-md border border-transparent lg:px-12 lg:py-5 hover:bg-indigo-800"
-      >
-        Be one of our first 100 supporters!
-      </a> -->
-      <form
-        action="#"
-        class="box-content mx-auto mt-12  sm:max-w-xl sm:w-full sm:grid sm:grid-cols-2 sm:gap-14"
-      >
-        <div class="min-w-0">
-          <label for="hero-email" class="sr-only">Email address</label>
-          <input
-            id="hero-email"
-            type="email"
-            class="box-content block px-5 py-3 w-full text-base placeholder-gray-500 text-gray-900 rounded-md border border-gray-300 shadow-sm  focus:border-indigo-500 focus:ring-indigo-500"
-            placeholder="Enter your email"
-          />
-        </div>
-        <div class="mt-4 sm:mt-0 sm:ml-3">
-          <button
-            type="submit"
-            class="block px-5 py-3 w-full text-base font-medium text-white bg-indigo-600 rounded-md border border-transparent shadow  hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:px-10"
-          >
-            Notify me
-          </button>
-        </div>
-      </form>
+      <p class="mt-16 text-lg leading-6 text-olive-600 sm:text-xl">
+        Help us bring ValueHeads to life. We are looking for validation from 500
+        supporters, before we invest the next 4,000 hours of work needed to
+        bring you this
+        <strong>full free open entrepreneurship course</strong>.
+      </p>
     </div>
   </div>
 </template>
 
 <script>
-import {
-  GlobeAltIcon,
-  LightningBoltIcon,
-  ScaleIcon,
-} from "@heroicons/vue/outline";
+import { CheckIcon } from "@heroicons/vue/solid";
+import CtaForm from "./CtaForm";
 
-const features = [
+const steps = [
   {
-    name: "Step 1: Take a screenshot",
-    description:
-      "Take a screenshot of the quote or section you liked the most. On this page.",
-    icon: GlobeAltIcon,
+    name: "Join ValueHeads",
+    description: "Get an instant email with our road map.",
+    status: "current", // complete
+    component: CtaForm,
   },
   {
-    name: "Step 2: Post on social media",
-    description:
-      "Post anywhere on social media with the hashtag #valueheads and mention www.valueheads.org to show your support.",
-    icon: ScaleIcon,
+    name: "Help us tell the world about ValueHeads",
+    description: "The bigger our community, the more powerful we all become!",
+    status: "upcoming",
   },
   {
-    name: "Step 3: Reply to my email",
-    description:
-      "Reply to my email with your post, and I'll send you Week 1's draft and the full course plan (packed with useful tips)",
-    icon: LightningBoltIcon,
+    name: "Update the counter",
+    description: "Reply to our email with the link to your post",
+    status: "upcoming",
   },
 ];
 
 export default {
+  components: {
+    CheckIcon,
+  },
   setup() {
     return {
-      features,
+      steps,
     };
   },
 };

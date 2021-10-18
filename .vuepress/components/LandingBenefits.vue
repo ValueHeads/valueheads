@@ -19,7 +19,7 @@
         <div v-for="feature in features" :key="feature.name">
           <dt>
             <div
-              class="flex justify-center items-center w-12 h-12 text-yellow-300 bg-indigo-500 rounded-md"
+              class="flex justify-center items-center w-12 h-12 text-yellow-100 bg-indigo-500 rounded-md"
             >
               <component
                 :is="feature.icon"

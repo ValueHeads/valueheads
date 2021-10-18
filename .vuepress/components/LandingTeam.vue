@@ -13,7 +13,7 @@
             class="text-3xl font-extrabold tracking-tight  text-yellow sm:text-4xl lg:text-5xl"
           >
             Collaboration
-            <span class="text-5xl text-white">=</span> AWESOMENESS!
+            <span class="text-4xl text-white lg:text-5xl">=</span> AWESOMENESS!
           </p>
           <p class="text-xl text-gray-300">
             Collaboration is how this course is being built. Mentors and mentees

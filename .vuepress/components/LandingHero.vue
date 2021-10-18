@@ -27,8 +27,8 @@
             <p
               class="mt-12 text-lg text-indigo-100  sm:mt-8 sm:text-xl lg:text-lg xl:text-xl"
             >
-              You've never seen a
-              <strong class="text-white">free entrepreneurship course</strong>
+              You've never seen
+              <strong class="text-white">an entrepreneurship course</strong>
               like this! It's your step-by-step manual to finding a great
               business idea that
               <strong class="text-white whitespace-nowrap"

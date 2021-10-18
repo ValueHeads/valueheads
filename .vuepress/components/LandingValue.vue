@@ -5,7 +5,7 @@
     >
       <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
       <img
-        class="absolute bottom-0 left-full w-11/12 opacity-60 transform -translate-x-full translate-y-1/2  lg:w-3/12 lg:left-auto lg:right-full lg:translate-x-full lg:translate-y-1/4"
+        class="absolute right-0 left-0 -bottom-52 mx-auto max-w-md opacity-60  lg:mx-0 lg:bottom-0 lg:right-auto lg:left-10 lg:w-3/12"
         src="/images/lucid-illustration-love.svg"
         width="729"
         height="854"

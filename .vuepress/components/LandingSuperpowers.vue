@@ -7,7 +7,7 @@
         <h2
           class="text-base font-semibold tracking-wider text-indigo-600 uppercase"
         >
-          Entrepreneurship Course with just practical skills and concepts
+          Entrepreneurship Course full of practical skills
         </h2>
         <p
           class="mt-2 text-3xl font-extrabold tracking-tight text-gray-900  sm:text-4xl"

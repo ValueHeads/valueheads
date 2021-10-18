@@ -70,8 +70,5 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [
-    require("@tailwindcss/forms"),
-    require("@rvxlab/tailwind-plugin-ios-full-height"),
-  ],
+  plugins: [require("@tailwindcss/forms")],
 };

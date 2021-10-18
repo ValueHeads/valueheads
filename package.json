@@ -6,6 +6,7 @@
   "devDependencies": {
     "@headlessui/vue": "^1.4.1",
     "@heroicons/vue": "^1.0.4",
+    "@rvxlab/tailwind-plugin-ios-full-height": "^1.0.0",
     "@tailwindcss/forms": "^0.3.4",
     "@vuepress/plugin-register-components": "^2.0.0-beta.26",
     "@zhuowenli/vue-feather-icons": "^5",

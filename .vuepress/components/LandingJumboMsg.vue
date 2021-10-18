@@ -1,5 +1,7 @@
 <template>
-  <div class="flex items-center min-h-screen bg-indigo-500">
+  <div
+    class="flex items-center min-h-screen bg-indigo-500  h-screen-ios min-h-screen-ios"
+  >
     <div class="px-4 mx-auto max-w-7xl lg:px-8">
       <h2
         class="mt-4 text-4xl font-extrabold tracking-tight text-center text-white  sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"

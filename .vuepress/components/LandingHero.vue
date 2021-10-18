@@ -1,6 +1,6 @@
 <template>
   <div
-    class="pt-28 bg-indigo-500 sm:pt-40 lg:pt-32 lg:pb-24 lg:overflow-hidden"
+    class="pt-28 bg-indigo-500  sm:pt-40 lg:p-0 lg:min-h-screen h-screen-ios min-h-screen-ios lg:flex lg:items-center"
   >
     <div class="mx-auto max-w-7xl lg:px-8">
       <div class="lg:grid lg:grid-cols-12 lg:gap-8">

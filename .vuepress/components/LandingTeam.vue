@@ -2,23 +2,23 @@
   <div class="bg-olive-800">
     <div class="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:py-24">
       <div class="space-y-12">
-        <div
-          class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none"
-        >
+        <div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-4xl">
           <h2
-            class="text-base font-semibold tracking-wider text-indigo-200 uppercase"
+            class="text-base font-semibold tracking-wider text-indigo-50 uppercase"
           >
-            Meet the First ValueHeads
+            With <span class="underline">your</span> help we can bring this
+            course to life
           </h2>
           <p
             class="text-3xl font-extrabold tracking-tight  text-yellow sm:text-4xl lg:text-5xl"
           >
             Collaboration
-            <span class="text-4xl text-white">=</span> AWESOMENESS!
+            <span class="text-5xl text-white">=</span> AWESOMENESS!
           </p>
           <p class="text-xl text-gray-300">
             Collaboration is how this course is being built. Mentors and mentees
-            evolving this method over years.
+            evolving this method over years. Join us and let's build the
+            greatest ENTREPRENEURSHIP course, together!
           </p>
         </div>
         <ul

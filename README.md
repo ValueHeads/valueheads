@@ -18,7 +18,7 @@ head:
 
 <LandingTrust />
 
-<CTA1 />
+<Cta01 />
 
 <LandingSuperpowers />
 

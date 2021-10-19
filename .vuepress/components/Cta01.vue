@@ -134,7 +134,7 @@ import CtaForm from "./CtaForm";
 
 const steps = [
   {
-    name: "Join ValueHeads",
+    name: "Support us. Start by joining ValueHeads",
     description: "Get an instant email with our road map.",
     status: "current", // complete
     component: CtaForm,

@@ -11,7 +11,7 @@
           class="mt-2 text-3xl font-extrabold tracking-tight text-gray-900  sm:text-4xl"
         >
           <span class="text-indigo-400">&ldquo;Following the VALUE&rdquo;</span>
-          is YOUR path to independence
+          is YOUR path to independence from the 9-5
         </p>
         <p class="mx-auto mt-5 max-w-prose text-xl text-gray-500">
           Value is what guides us ValueHeads. We keep trying to

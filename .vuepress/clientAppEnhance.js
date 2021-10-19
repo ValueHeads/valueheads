@@ -8,9 +8,25 @@ import lazySizes from "lazysizes";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 // import { faLightbulb } from "@fortawesome/free-solid-svg-icons";
-import { faGoogle } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGoogle,
+  faTwitter,
+  faLinkedin,
+  faRedditAlien,
+  faInstagram,
+  faTiktok,
+  faFacebook,
+} from "@fortawesome/free-brands-svg-icons";
 
-library.add(faGoogle);
+library.add(
+  faGoogle,
+  faTwitter,
+  faLinkedin,
+  faRedditAlien,
+  faInstagram,
+  faTiktok,
+  faFacebook
+);
 
 export default defineClientAppEnhance(({ app, router, siteData }) => {
   app.component("font-awesome-icon", FontAwesomeIcon);

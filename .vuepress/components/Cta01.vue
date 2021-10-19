@@ -1,6 +1,7 @@
 <template>
-  <div class="px-4 py-32 bg-yellow-500 md:py-32 lg:py-40 sm:px-6 lg:px-8">
-    <div class="mx-auto max-w-3xl text-left">
+  <div class="px-4 py-24 bg-yellow-500 md:py-32 sm:px-6 lg:px-8">
+    <confetti v-if="isCelebrating" />
+    <div class="mx-auto max-w-5xl text-left">
       <h2
         class="
           block
@@ -8,25 +9,40 @@
           font-light
           text-center text-indigo-500
           uppercase
-          lg:text-[2.8rem]
+          lg:text-[3rem]
         "
       >
-        All we need is <span class="underline">your love!</span>
+        All we need is <span class="">your love!</span>
       </h2>
 
       <p
         class="block mt-12 text-2xl font-black text-center text-yellow-900  lg:text-5xl"
       >
-        We need 500 supporters&hellip;
-        <strong class="text-7xl text-indigo-500">477</strong> to go.
+        <span class="whitespace-nowrap">
+          <strong class="text-4xl text-indigo-500 lg:text-7xl">
+            {{ 500 - supporterCount }}
+          </strong>
+          supporters left to go</span
+        >
       </p>
 
-      <p class="mt-2 mb-12 text-xl text-center text-yellow-800 sm:text-2xl">
-        That's our signal to build the FULL course.
+      <p
+        class="mx-auto mt-12 mb-12 max-w-2xl text-xl text-center text-yellow-800  sm:text-xl"
+      >
+        <strong>Our goal is 500 supporters.</strong> That's how we know you want
+        this before we put in the next 4,000 hours of work needed to bring you
+        the FULL <strong>free ValueHeads entrepreneurship course</strong>.
       </p>
 
-      <div class="mt-16 bg-yellow-300 rounded-xl">
-        <ol role="list" class="px-6 py-12 max-w-2xl md:p-12">
+      <confetti v-if="isCelebrating" />
+
+      <div
+        class="px-6 py-12 mx-auto mt-16 max-w-2xl bg-yellow-300 rounded-xl  md:p-12"
+      >
+        <h3 class="mb-6 text-2xl font-bold text-olive-700">
+          Help us get to 500 supporters 👇🏿
+        </h3>
+        <ol role="list">
           <li
             v-for="(step, stepIdx) in steps"
             :key="step.name"
@@ -38,7 +54,7 @@
                 class="absolute top-4 left-4 mt-0.5 -ml-px w-0.5 h-full bg-indigo-600"
                 aria-hidden="true"
               />
-              <span class="flex relative items-start group">
+              <span class="flex relative items-center group">
                 <span class="flex items-center h-9">
                   <span
                     class="flex relative z-10 justify-center items-center w-8 h-8 bg-indigo-600 rounded-full  group-hover:bg-indigo-800"
@@ -50,9 +66,9 @@
                   <span class="text-sm font-semibold tracking-wide uppercase"
                     >{{ step.stepNo }}. {{ step.name }}</span
                   >
-                  <span class="text-base text-olive-500">{{
+                  <!-- <span class="text-base text-olive-400">{{
                     step.description
-                  }}</span>
+                  }}</span> -->
                 </span>
               </span>
             </template>
@@ -62,7 +78,7 @@
             >
               <div
                 v-if="stepIdx !== steps.length - 1"
-                class="absolute top-4 left-4 mt-0.5 -ml-px w-0.5 h-full bg-gray-300"
+                class="absolute top-4 left-4 mt-0.5 -ml-px w-0.5 h-full  bg-olive-100"
                 aria-hidden="true"
               />
               <span class="flex relative items-start group" aria-current="step">
@@ -78,7 +94,7 @@
                     class="text-sm font-semibold tracking-wide text-indigo-600 uppercase"
                     >{{ step.stepNo }}. {{ step.name }}</span
                   >
-                  <span class="text-base text-olive-500">{{
+                  <span class="text-base text-olive-600">{{
                     step.description
                   }}</span>
                   <component
@@ -92,25 +108,25 @@
             <template v-else>
               <div
                 v-if="stepIdx !== steps.length - 1"
-                class="absolute top-4 left-4 mt-0.5 -ml-px w-0.5 h-full bg-gray-300"
+                class="absolute top-4 left-4 mt-0.5 -ml-px w-0.5 h-full  bg-olive-100"
                 aria-hidden="true"
               />
               <span class="flex relative items-start group">
                 <span class="flex items-center h-9" aria-hidden="true">
                   <span
-                    class="flex relative z-10 justify-center items-center w-8 h-8 bg-white rounded-full border-2 border-gray-300  group-hover:border-gray-400"
+                    class="flex relative z-10 justify-center items-center w-8 h-8 bg-white rounded-full border-2  border-olive-100 group-hover:border-olive-300"
                   >
                     <span
-                      class="w-2.5 h-2.5 bg-transparent rounded-full  group-hover:bg-gray-300"
+                      class="w-2.5 h-2.5 bg-transparent rounded-full  group-hover:bg-olive-100"
                     />
                   </span>
                 </span>
                 <span class="flex flex-col ml-4 min-w-0">
                   <span
-                    class="text-sm font-semibold tracking-wide uppercase  text-olive-500"
+                    class="text-sm font-semibold tracking-wide uppercase  text-olive-400"
                     >{{ step.stepNo }}. {{ step.name }}</span
                   >
-                  <span class="text-base text-olive-500">{{
+                  <span class="text-base text-olive-400">{{
                     step.description
                   }}</span>
                 </span>
@@ -118,14 +134,20 @@
             </template>
           </li>
         </ol>
+
+        <cta-thank-you
+          v-if="currStep > 3"
+          @celebrate="celebrate()"
+          class="flex flex-col justify-center items-center pt-12 mx-auto"
+        />
       </div>
 
-      <p class="mt-16 text-base leading-6 text-olive-500 sm:text-lg">
-        Help us bring ValueHeads to life. We are looking for validation from 500
-        supporters, before we invest the next 4,000 hours of work needed to
-        bring you this
-        <strong>full free open entrepreneurship course</strong>.
-      </p>
+      <div
+        class="mx-auto mt-8 text-sm text-center text-pink-600 uppercase"
+        v-if="currStep <= 3"
+      >
+        Hint: There is a surprise waiting for you after step 3 🤯
+      </div>
     </div>
   </div>
 </template>
@@ -133,23 +155,27 @@
 <script>
 import { CheckIcon } from "@heroicons/vue/solid";
 import CtaForm from "./CtaForm";
+import CtaShare from "./CtaShare";
+import CtaReply from "./CtaReply";
 
 const steps = [
   {
     name: "Support us. Start by joining ValueHeads",
-    description: "Get an instant email with our road map.",
+    description: "Get an instant email with our road map and access to Week 1.",
     stepNo: 1,
     component: CtaForm,
   },
   {
     name: "Help us tell the world about ValueHeads",
-    description: "The bigger our community, the more powerful we all become!",
+    description: "Post about us publicly anywhere on the internet.",
     stepNo: 2,
+    component: CtaShare,
   },
   {
-    name: "Update the counter",
-    description: "Reply to our email with the link to your post",
+    name: "Tell us, so we can update the counter! 🤗",
+    description: "Reply to the email with the link to your awesome post. ",
     stepNo: 3,
+    component: CtaReply,
   },
 ];
 
@@ -165,6 +191,8 @@ export default {
   data() {
     return {
       currStep: 1,
+      isCelebrating: false,
+      supporterCount: 1,
     };
   },
   methods: {
@@ -177,7 +205,13 @@ export default {
     },
     nextStep() {
       this.currStep++;
-      console.log("currStep is", this.currStep);
+      // if (this.currStep > 3) this.celebrate();
+    },
+    celebrate() {
+      this.isCelebrating = true;
+      setTimeout(() => {
+        this.isCelebrating = false;
+      }, 5000);
     },
   },
 };

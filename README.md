@@ -18,17 +18,20 @@ head:
 
 <LandingTrust />
 
-<Cta01 />
+<LandingJumboMsg />
+
 
 <LandingSuperpowers />
 
+<Cta01 />
+
 <LandingTeam />
 
-<LandingValue />
 
 <LandingLearningOutcomes />
 
-<LandingJumboMsg />
+<LandingValue />
+
 
 <LandingValueJourney />
 

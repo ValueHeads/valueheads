@@ -80,7 +80,7 @@
 </template>
 
 <script>
-import { LightBulbIcon, SearchCircleIcon } from "@heroicons/vue/outline";
+import { LightBulbIcon } from "@heroicons/vue/outline";
 import { TwitterIcon } from "@zhuowenli/vue-feather-icons";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 

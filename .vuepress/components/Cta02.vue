@@ -15,7 +15,7 @@
       </h2>
 
       <p
-        class="block mt-12 text-2xl font-black text-center text-yellow-900  lg:text-5xl"
+        class="block mt-12 text-2xl font-black text-center text-yellow-900 lg:text-5xl"
       >
         Ready to help make ValueHeads a reality?
       </p>
@@ -25,10 +25,10 @@
       </p>
 
       <div class="mx-auto mt-5 max-w-md sm:flex sm:justify-center md:mt-8">
-        <div class="rounded-md shadow">
+        <div>
           <a
             href="#"
-            class="flex justify-center items-center px-8 py-3 w-full text-base font-medium text-white bg-indigo-600 rounded-md border border-transparent  hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 hover:no-underline"
+            class="flex justify-center items-center px-8 py-3 w-full text-base font-medium text-white bg-indigo-600 rounded-md border border-transparent shadow hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 hover:no-underline"
           >
             Be one of the first 500 supporters
           </a>

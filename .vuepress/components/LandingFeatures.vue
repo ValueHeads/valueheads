@@ -65,7 +65,7 @@ const features = [
   {
     name: "ValueHeads is Not-for-profit",
     description:
-      "We do not sell you anything! We find value in the community of entrepreneurs itself. We as a collective are VALUABLE as F#$#! ",
+      "We do not sell you anything! We find value in the community of entrepreneurs itself. We as a collective are VALUABLE AS F#@%! ",
     icon: HeartIcon,
   },
   {

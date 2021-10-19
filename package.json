@@ -24,6 +24,7 @@
     "@fortawesome/vue-fontawesome": "^3.0.0-5",
     "email-validator": "^2.0.4",
     "lazysizes": "^5.3.2",
-    "runes": "^0.4.3"
+    "runes": "^0.4.3",
+    "vue-scrollto": "^2.20.0"
   }
 }

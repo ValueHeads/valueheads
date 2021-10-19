@@ -17,7 +17,7 @@
       <button
         :disabled="!isEmailValid"
         type="submit"
-        class="block px-5 py-3 w-full text-base font-medium text-white bg-indigo-500 rounded-md border border-transparent shadow  hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:px-10"
+        class="block px-5 py-3 w-full text-base font-medium text-white bg-indigo-500 rounded-md border border-transparent shadow  hover:bg-indigo-800 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:px-10"
       >
         Join ValueHeads
       </button>

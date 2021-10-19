@@ -15,9 +15,10 @@
       </h2>
 
       <p
-        class="block mt-12 text-2xl font-black text-center text-yellow-900 lg:text-5xl"
+        class="block mt-12 text-2xl font-black text-center text-yellow-900  lg:text-5xl"
       >
-        Ready to help make ValueHeads a reality?
+        Ready to make
+        <span class="whitespace-nowrap">ValueHeads a reality?</span>
       </p>
 
       <p class="mt-2 mb-12 text-xl text-center text-yellow-800 sm:text-2xl">
@@ -28,7 +29,8 @@
         <div>
           <a
             href="#"
-            class="flex justify-center items-center px-8 py-3 w-full text-base font-medium text-white bg-indigo-600 rounded-md border border-transparent shadow hover:bg-indigo-700 md:py-4 md:text-lg md:px-10 hover:no-underline"
+            v-scroll-to="'#cta'"
+            class="flex justify-center items-center px-8 py-3 w-full text-base font-medium text-white bg-indigo-600 rounded-md border border-transparent shadow  hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
           >
             Be one of the first 500 supporters
           </a>

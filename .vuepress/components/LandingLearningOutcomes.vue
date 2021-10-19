@@ -13,7 +13,7 @@
           class="mt-2 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl"
         >
           Follow the Value! Build your own business with
-          <span class="text-indigo-400">Step-by-step Guidance!</span>
+          <span class="text-indigo-400">Step-by-step Guidance</span>
         </p>
         <p class="mx-auto mt-5 max-w-prose text-xl text-gray-500">
           These are ACTIONABLE steps to starting any business, with or without

@@ -36,12 +36,12 @@
             </p>
 
             <div class="mx-auto mt-12 lg:mx-0 sm:mt-8 md:max-w-xs">
-              <a
-                href="#"
+              <button
+                v-scroll-to="'#cta'"
                 class="flex justify-center items-center px-8 py-3 text-base font-bold bg-white rounded-md border border-transparent  text-olive-800 hover:bg-yellow-500 hover:text-olive-900 md:py-4 md:text-lg md:px-10"
               >
                 Become a ValueHead! 😎
-              </a>
+              </button>
             </div>
           </div>
         </div>

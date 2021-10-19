@@ -156,7 +156,8 @@
           </p>
           <div class="mt-6">
             <a
-              href="#"
+              href="#cta"
+              v-scroll-to="'#cta'"
               class="inline-flex px-4 py-2 text-base font-medium text-white bg-indigo-600 rounded-md border border-transparent shadow-sm  hover:bg-indigo-700"
             >
               Become a ValueHead

@@ -1,5 +1,5 @@
 <template>
-  <div class="px-4 py-24 bg-yellow-500 md:py-32 sm:px-6 lg:px-8">
+  <div id="cta" class="px-4 py-24 bg-yellow-500 md:py-32 sm:px-6 lg:px-8">
     <confetti v-if="isCelebrating" />
     <div class="mx-auto max-w-5xl text-left">
       <h2
@@ -55,7 +55,7 @@
                 aria-hidden="true"
               />
               <span class="flex relative items-center group">
-                <span class="flex items-center h-9">
+                <span class="flex items-center h-5">
                   <span
                     class="flex relative z-10 justify-center items-center w-8 h-8 bg-indigo-600 rounded-full  group-hover:bg-indigo-800"
                   >
@@ -82,7 +82,7 @@
                 aria-hidden="true"
               />
               <span class="flex relative items-start group" aria-current="step">
-                <span class="flex items-center h-9" aria-hidden="true">
+                <span class="flex items-center h-8" aria-hidden="true">
                   <span
                     class="flex relative z-10 justify-center items-center w-8 h-8 bg-white rounded-full border-2 border-indigo-600"
                   >
@@ -94,7 +94,7 @@
                     class="text-sm font-semibold tracking-wide text-indigo-600 uppercase"
                     >{{ step.stepNo }}. {{ step.name }}</span
                   >
-                  <span class="text-base text-olive-600">{{
+                  <span class="mt-2 text-base text-olive-600">{{
                     step.description
                   }}</span>
                   <component
@@ -111,8 +111,8 @@
                 class="absolute top-4 left-4 mt-0.5 -ml-px w-0.5 h-full  bg-olive-100"
                 aria-hidden="true"
               />
-              <span class="flex relative items-start group">
-                <span class="flex items-center h-9" aria-hidden="true">
+              <span class="flex relative items-center group">
+                <span class="flex items-center h-5" aria-hidden="true">
                   <span
                     class="flex relative z-10 justify-center items-center w-8 h-8 bg-white rounded-full border-2  border-olive-100 group-hover:border-olive-300"
                   >
@@ -126,14 +126,16 @@
                     class="text-sm font-semibold tracking-wide uppercase  text-olive-400"
                     >{{ step.stepNo }}. {{ step.name }}</span
                   >
-                  <span class="text-base text-olive-400">{{
+                  <!-- <span class="text-base text-olive-400">{{
                     step.description
-                  }}</span>
+                  }}</span> -->
                 </span>
               </span>
             </template>
           </li>
         </ol>
+
+        <confetti v-if="isCelebrating" />
 
         <cta-thank-you
           v-if="currStep > 3"
@@ -160,8 +162,8 @@ import CtaReply from "./CtaReply";
 
 const steps = [
   {
-    name: "Support us. Start by joining ValueHeads",
-    description: "Get an instant email with our road map and access to Week 1.",
+    name: "Support us. Join ValueHeads",
+    description: "Get an instant email with our road map & access to Week 1.",
     stepNo: 1,
     component: CtaForm,
   },
@@ -172,8 +174,9 @@ const steps = [
     component: CtaShare,
   },
   {
-    name: "Tell us, so we can update the counter! 🤗",
-    description: "Reply to the email with the link to your awesome post. ",
+    name: "Email us to update the counter! 🤗",
+    description:
+      "Yay! Please reply to my email with the link to your awesome post. ",
     stepNo: 3,
     component: CtaReply,
   },

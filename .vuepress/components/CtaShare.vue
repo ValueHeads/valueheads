@@ -18,7 +18,7 @@
     <li>
       <base-share-link
         @click="$emit('done')"
-        class="flex justify-center items-center w-12 h-12 text-white bg-indigo-500 rounded-md  noopener hover:bg-yellow-600"
+        class="flex justify-center items-center w-12 h-12 text-white bg-indigo-500 rounded-md  noopener hover:bg-indigo-800"
         title="Check out ValueHeads.org, Follow-the-Value Entrepreneurship Course. Free!"
       >
         <share-icon size="1.5x"></share-icon>

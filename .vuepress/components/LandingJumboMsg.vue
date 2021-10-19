@@ -13,23 +13,15 @@
           We are
           <span class="text-yellow-500">open-sourcing Entrepreneurship!</span>
         </span>
-
-        <!-- <span class="block">
-                      Build a business and live your life the way you want.
-                    </span> -->
       </h2>
-      <!-- <p
-                    class="mt-12 text-base text-gray-300 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl"
-                  >xt-l
-                    ...
-                  </p> -->
 
       <div class="mx-auto mt-12 sm:mt-16 md:max-w-sm">
         <a
-          href="#"
-          class="flex justify-center items-center px-8 py-3 text-base font-bold text-indigo-800 bg-white rounded-md border border-transparent  hover:bg-yellow-500 hover:text-gray-900 md:py-4 md:text-lg md:px-10 hover:no-underline"
+          href="#cta"
+          v-scroll-to="'#cta'"
+          class="flex justify-center items-center px-8 py-3 text-base font-bold text-indigo-800 bg-white rounded-md border border-transparent  hover:bg-yellow-500 hover:text-gray-900 md:py-4 md:text-lg md:px-10"
         >
-          Make ValueHeads a Reality!
+          Live the life you want! 😌
         </a>
       </div>
     </div>

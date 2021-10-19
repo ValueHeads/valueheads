@@ -1,6 +1,7 @@
 // Docs https://v2.vuepress.vuejs.org/advanced/cookbook/usage-of-client-app-enhance.html
 import { defineClientAppEnhance } from "@vuepress/client";
 import lazySizes from "lazysizes";
+var VueScrollTo = require("vue-scrollto");
 
 // Font Awesome Library
 // See https://github.com/vuejs/vuepress/issues/2072
@@ -29,7 +30,11 @@ library.add(
 );
 
 export default defineClientAppEnhance(({ app, router, siteData }) => {
+  // Docs https://github.com/FortAwesome/vue-fontawesome
   app.component("font-awesome-icon", FontAwesomeIcon);
+
+  // Docs: https://github.com/rigor789/vue-scrollto
+  app.use(VueScrollTo);
 
   router.afterEach((to) => {
     // lazysizes docs: https://github.com/aFarkas/lazysizes

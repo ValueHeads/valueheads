@@ -37,4 +37,19 @@ module.exports = {
   },
 
   extraWatchFiles: ["../tailwind.config.js"],
+
+  // directives needs transformation https://github.com/vuejs/vue-next/issues/3298
+  bundlerConfig: {
+    vue: {
+      compilerOptions: {
+        directiveTransforms: {
+          // v-scroll-to -> scroll-to (remove v-)
+          "scroll-to": () => ({
+            props: [],
+            needRuntime: true, // <- remember this
+          }),
+        },
+      },
+    },
+  },
 };

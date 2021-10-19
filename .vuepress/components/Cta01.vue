@@ -118,7 +118,7 @@
         </ol>
       </div>
 
-      <p class="mt-16 text-lg leading-6 text-olive-600 sm:text-xl">
+      <p class="mt-16 text-base leading-6 text-olive-500 sm:text-lg">
         Help us bring ValueHeads to life. We are looking for validation from 500
         supporters, before we invest the next 4,000 hours of work needed to
         bring you this

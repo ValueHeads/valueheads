@@ -34,6 +34,6 @@ head:
 
 <LandingFeatures />
 
-<CTA1 />
+<Cta01 />
 
 <Footer />

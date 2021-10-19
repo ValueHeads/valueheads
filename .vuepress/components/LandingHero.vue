@@ -29,11 +29,10 @@
             >
               You've never seen
               <strong class="text-white">an entrepreneurship course</strong>
-              like this! It's your step-by-step manual to finding a great
-              business idea that
+              like this! It's your manual to finding a great business idea that
               <strong class="text-white whitespace-nowrap"
                 >WILL make you money</strong
-              >.
+              >. We do it by following the value.
             </p>
 
             <div class="mx-auto mt-12 lg:mx-0 sm:mt-8 md:max-w-xs">

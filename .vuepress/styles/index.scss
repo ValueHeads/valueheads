@@ -49,6 +49,19 @@ html, body {
   max-width: 100%;
 }
 
+.btn:disabled,
+.btn[disabled],
+a[disabled],
+button[disabled] {
+  pointer-events: none !important;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+input {
+  @apply box-border placeholder-gray-500 text-gray-900 rounded-md border border-indigo-300 shadow-sm  focus:border-indigo-500 focus:ring-indigo-300 focus:ring-2 focus:ring-offset-2 focus:outline-none #{!important};
+}
+
 // Docs https://v2.vuepress.vuejs.org/reference/plugin/back-to-top.html#styles
 .back-to-top {
   --back-to-top-color: #FBCD22;

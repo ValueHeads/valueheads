@@ -32,7 +32,7 @@
             :key="step.name"
             :class="[stepIdx !== steps.length - 1 ? 'pb-10' : '', 'relative']"
           >
-            <template v-if="step.status === 'complete'">
+            <template v-if="stepStatus(step.stepNo) === 'complete'">
               <div
                 v-if="stepIdx !== steps.length - 1"
                 class="absolute top-4 left-4 mt-0.5 -ml-px w-0.5 h-full bg-indigo-600"
@@ -47,18 +47,17 @@
                   </span>
                 </span>
                 <span class="flex flex-col ml-4 min-w-0">
-                  <span class="text-sm font-semibold tracking-wide uppercase">{{
-                    step.name
-                  }}</span>
+                  <span class="text-sm font-semibold tracking-wide uppercase"
+                    >{{ step.stepNo }}. {{ step.name }}</span
+                  >
                   <span class="text-base text-olive-500">{{
                     step.description
                   }}</span>
-                  <component :is="step.component" class="mt-5" />
                 </span>
               </span>
             </template>
             <template
-              v-else-if="step.status === 'current'"
+              v-else-if="stepStatus(step.stepNo) === 'current'"
               condition="step.status === 'current'"
             >
               <div
@@ -77,12 +76,16 @@
                 <span class="flex flex-col ml-4 min-w-0">
                   <span
                     class="text-sm font-semibold tracking-wide text-indigo-600 uppercase"
-                    >{{ step.name }}</span
+                    >{{ step.stepNo }}. {{ step.name }}</span
                   >
                   <span class="text-base text-olive-500">{{
                     step.description
                   }}</span>
-                  <component :is="step.component" class="mt-5" />
+                  <component
+                    :is="step.component"
+                    @done="nextStep()"
+                    class="mt-5"
+                  />
                 </span>
               </span>
             </template>
@@ -105,12 +108,11 @@
                 <span class="flex flex-col ml-4 min-w-0">
                   <span
                     class="text-sm font-semibold tracking-wide uppercase  text-olive-500"
-                    >{{ step.name }}</span
+                    >{{ step.stepNo }}. {{ step.name }}</span
                   >
                   <span class="text-base text-olive-500">{{
                     step.description
                   }}</span>
-                  <component :is="step.component" class="mt-5" />
                 </span>
               </span>
             </template>
@@ -136,18 +138,18 @@ const steps = [
   {
     name: "Support us. Start by joining ValueHeads",
     description: "Get an instant email with our road map.",
-    status: "current", // complete
+    stepNo: 1,
     component: CtaForm,
   },
   {
     name: "Help us tell the world about ValueHeads",
     description: "The bigger our community, the more powerful we all become!",
-    status: "upcoming",
+    stepNo: 2,
   },
   {
     name: "Update the counter",
     description: "Reply to our email with the link to your post",
-    status: "upcoming",
+    stepNo: 3,
   },
 ];
 
@@ -159,6 +161,24 @@ export default {
     return {
       steps,
     };
+  },
+  data() {
+    return {
+      currStep: 1,
+    };
+  },
+  methods: {
+    stepStatus(stepNumber) {
+      return this.currStep == stepNumber
+        ? "current"
+        : this.currStep < stepNumber
+        ? "upcoming"
+        : "complete";
+    },
+    nextStep() {
+      this.currStep++;
+      console.log("currStep is", this.currStep);
+    },
   },
 };
 </script>

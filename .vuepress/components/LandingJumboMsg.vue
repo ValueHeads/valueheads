@@ -2,7 +2,7 @@
   <div class="py-40 bg-indigo-500 md:py-52">
     <div class="px-4 mx-auto max-w-7xl lg:px-8">
       <h2
-        class="mt-4 text-4xl font-extrabold tracking-tight text-center text-white  sm:mt-5 sm:text-6xl lg:mt-6 xl:text-6xl"
+        class="mt-4 text-4xl font-bold tracking-tight text-center text-white  sm:mt-5 sm:text-5xl lg:mt-6"
       >
         This is not just a course,
         <span class="sm:whitespace-nowrap"

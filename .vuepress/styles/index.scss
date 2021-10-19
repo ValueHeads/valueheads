@@ -12,6 +12,9 @@
 @tailwind components;
 @tailwind utilities;
 
+// import fontawesome styles
+@import '~@fortawesome/fontawesome-svg-core/styles.css';
+
 // Top choices: Epilogue, Sora, Inter, Montserrat, Poppins, Open Sans, Muli, Barlow, 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;800&display=swap');
 

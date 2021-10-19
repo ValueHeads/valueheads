@@ -36,6 +36,7 @@
               >
                 <component
                   :is="valueStrategy.icon"
+                  :icon="valueStrategy.faIcon"
                   class="w-6 h-6"
                   aria-hidden="true"
                 />
@@ -81,6 +82,7 @@
 <script>
 import { LightBulbIcon, SearchCircleIcon } from "@heroicons/vue/outline";
 import { TwitterIcon } from "@zhuowenli/vue-feather-icons";
+import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 
 const valueStrategies = [
   {
@@ -101,7 +103,8 @@ const valueStrategies = [
       "<span class='sr-only'>What makes a great</span> Google Search Strategy?",
     description:
       "<strong class='text-yellow'>Value-filled articles</strong> can keep you on Google’s first page for years to come.",
-    icon: SearchCircleIcon,
+    icon: FontAwesomeIcon,
+    faIcon: ["fab", "google"],
   },
 ];
 

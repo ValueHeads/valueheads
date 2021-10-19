@@ -17,6 +17,11 @@
     "vuepress": "^2.0.0-beta.26"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.36",
+    "@fortawesome/free-brands-svg-icons": "^5.15.4",
+    "@fortawesome/free-regular-svg-icons": "^5.15.4",
+    "@fortawesome/free-solid-svg-icons": "^5.15.4",
+    "@fortawesome/vue-fontawesome": "^3.0.0-5",
     "email-validator": "^2.0.4",
     "lazysizes": "^5.3.2",
     "runes": "^0.4.3"

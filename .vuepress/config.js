@@ -1,4 +1,9 @@
 const { path } = require("@vuepress/utils");
+const BundleAnalyzerPlugin =
+  require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
+
+// DISABLE for PROD. Use webpack-bundle-analyzer
+const isAnalyze = false;
 
 module.exports = {
   lang: "en-US",
@@ -40,6 +45,14 @@ module.exports = {
 
   // directives needs transformation https://github.com/vuejs/vue-next/issues/3298
   bundlerConfig: {
+    chainWebpack(config) {
+      // see https://github.com/mrbbot/vue-cli-plugin-webpack-bundle-analyzer
+      if (isAnalyze)
+        config
+          .plugin("webpack-bundle-analyzer")
+          .use(BundleAnalyzerPlugin)
+          .init((Plugin) => new Plugin({ analyzerMode: "static" }));
+    },
     vue: {
       compilerOptions: {
         directiveTransforms: {

@@ -18,8 +18,13 @@
 // Top choices: Epilogue, Sora, Inter, Montserrat, Poppins, Open Sans, Muli, Barlow,
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;800&display=swap");
 
-// See https://v2.vuepress.vuejs.org/reference/default-theme/styles.html#palette-file
-:root {
+/* These styles will be purged */
+@layer components {
+  @import "~pattern.css/pattern";
+}
+
+// See https://v2.vuepress.vuejs.org/reference/default-theme/styles.html#palette-file:
+root {
   // font vars
   --font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
@@ -83,7 +88,7 @@ input {
 
   .navbar {
     border-bottom: var(--c-bg-navbar);
-    @apply max-w-7xl mx-auto md:px-6 lg:px-8;
+    @apply max-w-7xl mx-auto md:px-6 lg:px-8 bg-transparent;
 
     // make navbar scroll away
     position: absolute;

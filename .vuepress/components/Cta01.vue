@@ -1,5 +1,17 @@
 <template>
-  <div id="cta" class="px-4 py-24 bg-yellow-500 md:py-32 sm:px-6 lg:px-8">
+  <div
+    id="cta"
+    class="
+      px-4
+      py-24
+      text-[#FAC814]
+      bg-yellow-500
+      md:py-32
+      sm:px-6
+      lg:px-8
+      pattern-zigzag-xl
+    "
+  >
     <confetti v-if="isCelebrating" />
     <div class="mx-auto max-w-5xl text-left">
       <h2

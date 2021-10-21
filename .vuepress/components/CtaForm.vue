@@ -32,7 +32,7 @@ var validator = require("email-validator");
 export default {
   data() {
     return {
-      email: "test@test.com",
+      email: "not-ready@yet.com",
     };
   },
   computed: {

@@ -12,16 +12,15 @@
 @tailwind components;
 @tailwind utilities;
 
-/* These styles will be purged */
-@layer components {
-  @import "~pattern.css/pattern";
-}
-
 // import fontawesome styles
 @import "~@fortawesome/fontawesome-svg-core/styles.css";
 
 // Top choices: Epilogue, Sora, Inter, Montserrat, Poppins, Open Sans, Muli, Barlow,
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;800&display=swap");
+
+// See https://bansal.io/pattern-css
+// TODO, get it to purge under @layer https://tailwindcss.com/docs/optimizing-for-production#purging-specific-layers
+@import "~pattern.css/pattern";
 
 // See https://v2.vuepress.vuejs.org/reference/default-theme/styles.html#palette-file:
 :root {

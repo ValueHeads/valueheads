@@ -115,15 +115,3 @@ input {
     transform: scale(1.1);
   }
 }
-
-// Docs https://github.com/quelchx/vue-writer
-.full-width-page .is-typed {
-  font-family: inherit;
-  span.typed {
-    color: inherit;
-  }
-  span.cursor {
-    @apply bg-indigo-100;
-    animation: 1.5s blink step-end infinite;
-  }
-}

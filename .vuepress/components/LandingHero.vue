@@ -1,6 +1,8 @@
 <template>
-  <div class="pt-28 bg-indigo-500 sm:pt-40 lg:py-32">
-    <div class="mx-auto max-w-7xl lg:px-8">
+  <div
+    class="relative pt-28 bg-gradient-to-b from-indigo-500 to-indigo-900  sm:pt-40 lg:py-32"
+  >
+    <div class="relative z-20 mx-auto max-w-7xl lg:px-8">
       <div class="lg:grid lg:grid-cols-12 lg:gap-8">
         <div
           class="px-4 mx-auto max-w-xl  lg:col-span-7 sm:max-w-3xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center"
@@ -61,6 +63,7 @@
         </div>
       </div>
     </div>
+    <stars class="overflow-hidden absolute top-0 z-10 w-full h-full"></stars>
   </div>
 </template>
 

@@ -1,5 +1,5 @@
 .full-width-page .page {
-  @import 'preflight';
+  @import "preflight";
 
   @apply p-0;
 
@@ -13,26 +13,27 @@
 @tailwind utilities;
 
 // import fontawesome styles
-@import '~@fortawesome/fontawesome-svg-core/styles.css';
+@import "~@fortawesome/fontawesome-svg-core/styles.css";
 
-// Top choices: Epilogue, Sora, Inter, Montserrat, Poppins, Open Sans, Muli, Barlow, 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;800&display=swap');
+// Top choices: Epilogue, Sora, Inter, Montserrat, Poppins, Open Sans, Muli, Barlow,
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;800&display=swap");
 
 // See https://v2.vuepress.vuejs.org/reference/default-theme/styles.html#palette-file
 :root {
   // font vars
-  --font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
 
   // brand colors
-  --c-brand: #3F2680;
-  --c-brand-light: #8264D1;
+  --c-brand: #3f2680;
+  --c-brand-light: #8264d1;
 
   // background colors
   --c-bg: #ffffff;
   --c-bg-light: #f3f4f5;
   --c-bg-lighter: #eeeeee;
-  --c-bg-navbar: #3F2680;
+  --c-bg-navbar: #3f2680;
   --c-bg-sidebar: var(--c-bg);
   --c-bg-arrow: #cccccc;
 
@@ -45,7 +46,8 @@
   --c-text-quote: #999999;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
   max-width: 100%;
 }
@@ -63,8 +65,8 @@ input {
 
 // Docs https://v2.vuepress.vuejs.org/reference/plugin/back-to-top.html#styles
 .back-to-top {
-  --back-to-top-color: #FBCD22;
-  --back-to-top-color-hover: #E1B204;
+  --back-to-top-color: #fbcd22;
+  --back-to-top-color-hover: #e1b204;
 }
 
 // Full Width Page Class
@@ -82,12 +84,12 @@ input {
   .navbar {
     border-bottom: var(--c-bg-navbar);
     @apply max-w-7xl mx-auto md:px-6 lg:px-8;
-  
+
     // make navbar scroll away
     position: absolute;
 
     .site-name {
-      @apply text-white
+      @apply text-white;
     }
   }
 
@@ -95,7 +97,21 @@ input {
     display: none;
   }
 
-  .toggle-dark-button, .toggle-sidebar-button {
-    @apply text-white
+  .toggle-dark-button,
+  .toggle-sidebar-button {
+    @apply text-white;
+  }
+}
+
+// animations
+.heartbeatSlow {
+  animation-name: heartbeatSlow;
+  animation-iteration-count: infinite;
+  animation-duration: 2.5s;
+}
+@keyframes heartbeatSlow {
+  35%,
+  65% {
+    transform: scale(1.1);
   }
 }

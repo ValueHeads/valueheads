@@ -12,7 +12,8 @@
           lg:text-[3rem]
         "
       >
-        All we need is <span class="">your love!</span>
+        All we need is your
+        <span class="inline-block cssanimation heartbeatSlow">love!</span>
       </h2>
 
       <p

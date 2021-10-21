@@ -12,19 +12,19 @@
 @tailwind components;
 @tailwind utilities;
 
+/* These styles will be purged */
+@layer components {
+  @import "~pattern.css/pattern";
+}
+
 // import fontawesome styles
 @import "~@fortawesome/fontawesome-svg-core/styles.css";
 
 // Top choices: Epilogue, Sora, Inter, Montserrat, Poppins, Open Sans, Muli, Barlow,
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;800&display=swap");
 
-/* These styles will be purged */
-@layer components {
-  @import "~pattern.css/pattern";
-}
-
 // See https://v2.vuepress.vuejs.org/reference/default-theme/styles.html#palette-file:
-root {
+:root {
   // font vars
   --font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",

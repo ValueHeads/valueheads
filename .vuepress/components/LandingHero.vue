@@ -1,6 +1,6 @@
 <template>
   <div
-    class="overflow-y-hidden relative pt-28 bg-gradient-to-b from-indigo-500 to-indigo-900  sm:pt-40 lg:py-32"
+    class="overflow-hidden relative pt-28 bg-gradient-to-b from-indigo-500 to-indigo-900  sm:pt-40 lg:py-32"
   >
     <div class="relative z-20 mx-auto max-w-7xl lg:px-8">
       <div class="lg:grid lg:grid-cols-12 lg:gap-8">

@@ -11,9 +11,20 @@
             <h1
               class="mt-4 text-4xl font-extrabold tracking-tight text-white  sm:mt-5 sm:text-6xl lg:mt-6"
             >
-              <span class="font-light text-indigo-50 sm:text-5xl"
+              <VueWriter
+                :array="[
+                  'Leave the 9-5 job!',
+                  'Live the life you want!',
+                  'It takes 5-10 hours a week to…',
+                ]"
+                :eraseSpeed="35"
+                :typeSpeed="75"
+                :delay="3500"
+                class="font-light text-indigo-50 sm:text-5xl"
+              />
+              <!-- <span class="font-light text-indigo-50 sm:text-5xl"
                 >Leave the 9-5 job!</span
-              >
+              > -->
 
               <span class="block mt-0">
                 Build your own business with our
@@ -71,8 +82,12 @@
 import { MenuIcon, XIcon } from "@heroicons/vue/outline";
 import { ChevronRightIcon } from "@heroicons/vue/solid";
 
+// Docs https://github.com/quelchx/vue-writer
+import VueWriter from "vue-writer";
+
 export default {
   components: {
+    VueWriter,
     ChevronRightIcon,
     MenuIcon,
     XIcon,

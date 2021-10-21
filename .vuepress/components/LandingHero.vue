@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative pt-28 bg-gradient-to-b from-indigo-500 to-indigo-900  sm:pt-40 lg:py-32"
+    class="overflow-y-hidden relative pt-28 bg-gradient-to-b from-indigo-500 to-indigo-900  sm:pt-40 lg:py-32"
   >
     <div class="relative z-20 mx-auto max-w-7xl lg:px-8">
       <div class="lg:grid lg:grid-cols-12 lg:gap-8">
@@ -8,24 +8,21 @@
           class="px-4 mx-auto max-w-xl  lg:col-span-7 sm:max-w-3xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center"
         >
           <div class="lg:py-10">
+            <VueWriter
+              :array="[
+                'Leave the 9-5 job!',
+                'Live the life you want!',
+                'Put in 5-10 hours a week to…',
+              ]"
+              :eraseSpeed="35"
+              :typeSpeed="75"
+              :delay="4000"
+              class="mx-auto -mb-4 max-w-xl text-2xl font-light placeholder-opacity-95 text-white whitespace-nowrap  lg:mx-0 sm:text-5xl"
+            />
+
             <h1
               class="mt-4 text-4xl font-extrabold tracking-tight text-white  sm:mt-5 sm:text-6xl lg:mt-6"
             >
-              <VueWriter
-                :array="[
-                  'Leave the 9-5 job!',
-                  'Live the life you want!',
-                  'It takes 5-10 hours a week to…',
-                ]"
-                :eraseSpeed="35"
-                :typeSpeed="75"
-                :delay="3500"
-                class="font-light text-indigo-50 sm:text-5xl"
-              />
-              <!-- <span class="font-light text-indigo-50 sm:text-5xl"
-                >Leave the 9-5 job!</span
-              > -->
-
               <span class="block mt-0">
                 Build your own business with our
                 <span class="text-yellow-500"

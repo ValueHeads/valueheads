@@ -75,7 +75,7 @@
                     <CheckIcon class="w-5 h-5 text-white" aria-hidden="true" />
                   </span>
                 </span>
-                <span class="flex flex-col ml-4 min-w-0">
+                <span class="flex flex-col ml-4 min-w-0 text-yellow-700">
                   <span class="text-sm font-semibold tracking-wide uppercase"
                     >{{ step.stepNo }}. {{ step.name }}</span
                   >
@@ -153,7 +153,7 @@
         <cta-thank-you
           v-if="currStep > 3"
           @celebrate="celebrate()"
-          class="flex flex-col justify-center items-center pt-12 mx-auto"
+          class="flex flex-col justify-center items-center pt-12 mx-auto text-center"
         />
       </div>
 
@@ -208,7 +208,7 @@ export default {
     return {
       currStep: 1,
       isCelebrating: false,
-      supporterCount: 1,
+      supporterCount: 12,
     };
   },
   methods: {

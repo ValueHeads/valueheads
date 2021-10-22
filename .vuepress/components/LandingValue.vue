@@ -1,5 +1,5 @@
 <template>
-  <div class="overflow-hidden bg-indigo-700">
+  <div class="overflow-hidden text-[#482B91] bg-indigo-500 pattern-grid-xl">
     <div
       class="relative px-4 py-12 mx-auto max-w-7xl  lg:pt-16 lg:pb-24 sm:px-6 lg:px-8"
     >
@@ -13,7 +13,15 @@
       />
 
       <div
-        class="relative p-8 bg-white bg-opacity-5 rounded-xl  lg:p-16 lg:grid lg:grid-cols-5 lg:gap-x-8"
+        class="
+          relative
+          p-8
+          bg-[#5634AD] bg-opacity-50
+          rounded-xl
+          lg:p-16
+          lg:grid lg:grid-cols-5
+          lg:gap-x-8
+        "
       >
         <div class="lg:col-span-2">
           <h2

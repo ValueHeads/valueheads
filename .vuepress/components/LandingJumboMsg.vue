@@ -1,5 +1,7 @@
 <template>
-  <div class="py-40 text-[#482B91] bg-indigo-500 md:py-52 pattern-grid-xl">
+  <div
+    class="py-40 text-[#4E2F9D] bg-indigo-500 md:py-52 pattern-grid-xl bg-fixed"
+  >
     <div class="px-4 mx-auto max-w-7xl lg:px-8">
       <h2
         class="mt-4 text-4xl font-bold tracking-tight text-center text-white  sm:mt-5 sm:text-5xl lg:mt-6"

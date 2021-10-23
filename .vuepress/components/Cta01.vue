@@ -10,6 +10,7 @@
       sm:px-6
       lg:px-8
       pattern-zigzag-xl
+      bg-fixed
     "
   >
     <confetti v-if="isCelebrating" />

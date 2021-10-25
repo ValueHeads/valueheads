@@ -60,6 +60,7 @@
             <div
               class="flex flex-grow flex-shrink-0 justify-center mt-4 ml-8  lg:flex-grow-0 lg:ml-4"
             >
+              <!-- TODO, find a different community centric book -->
               <img
                 class="w-auto h-36 filter grayscale lazyload"
                 data-src="/images/book-tribes.jpg"

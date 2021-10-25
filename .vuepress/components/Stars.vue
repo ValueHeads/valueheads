@@ -19,9 +19,9 @@
 
   @return unquote($value);
 }
-$shadows-small: multiple-box-shadow(300);
+$shadows-small: multiple-box-shadow(400);
 $shadows-medium: multiple-box-shadow(75);
-$shadows-big: multiple-box-shadow(25);
+$shadows-big: multiple-box-shadow(40);
 
 #stars {
   width: 1px;
@@ -46,6 +46,7 @@ $shadows-big: multiple-box-shadow(25);
   background: transparent;
   box-shadow: $shadows-medium;
   animation: animStar 100s linear infinite;
+  filter: blur(0.5px);
 
   &:after {
     content: " ";
@@ -63,6 +64,7 @@ $shadows-big: multiple-box-shadow(25);
   background: transparent;
   box-shadow: $shadows-big;
   animation: animStar 150s linear infinite;
+  filter: blur(1px);
 
   &:after {
     content: " ";

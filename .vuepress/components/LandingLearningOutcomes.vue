@@ -72,7 +72,7 @@
       </div>
 
       <div class="pt-14 mx-auto max-w-3xl">
-        Want to see out full course plan? 
+        Want to see our full course plan? 
         <br /> 
         Check out the
         <a href="https://mm.tt/2048938104?t=PptH4jTe3l" target="_blank" rel="noopener">mega course mind map</a> and this 

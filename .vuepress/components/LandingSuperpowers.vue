@@ -37,7 +37,7 @@
             Superpower #1
           </p>
           <h2 class="mt-3 text-3xl font-extrabold tracking-tight text-gray-900">
-            Become a ninja at spotting “Marketing gaps”.
+            Become a ninja at spotting “marketing gaps”.
           </h2>
           <p class="mt-8 text-lg text-gray-500">
             Every market has a gap, if you know where to look. That’s how you
@@ -47,8 +47,7 @@
 
             This course includes a step-by-step checklist to guide you through
             market research and help you spot marketing opportunities for your
-            own ideas and business. Each step, we'll be walking you through how
-            to do it using different methods and apps.
+            own ideas and business.
           </p>
           <!-- <div class="mt-6">
             <a

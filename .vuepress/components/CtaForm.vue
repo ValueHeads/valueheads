@@ -44,6 +44,9 @@ export default {
     submitForm() {
       // this.input = e.target.value;
       this.$emit("done");
+      alert(
+        "Update 25 Oct: Sorry everybody. This is not ready yet. Please check again next Monday! "
+      );
     },
   },
 };

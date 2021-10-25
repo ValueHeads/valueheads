@@ -24,6 +24,14 @@ module.exports = {
       },
     ],
 
+    // Docs: https://v2.vuepress.vuejs.org/reference/plugin/google-analytics.html
+    [
+      "@vuepress/plugin-google-analytics",
+      {
+        id: "G-BJE62W7VBG",
+      },
+    ],
+
     // Docs https://v1.vuepress.vuejs.org/plugin/official/plugin-medium-zoom.html#usage
     [
       "@vuepress/medium-zoom",

@@ -8,8 +8,6 @@ const ac = new ActiveCampaign(
 );
 
 exports.handler = async function contactAdd(event, context, callback) {
-  console.log("---> IP is", event.headers["x-nf-client-connection-ip"]);
-
   //   Only allow POST
   if (event.httpMethod !== "POST")
     doCallback(callback, "Method Not Allowed", 405);
@@ -26,7 +24,6 @@ exports.handler = async function contactAdd(event, context, callback) {
     tags: "prelaunch",
     "p[1]": 1,
     "status[1]": 1,
-    "instantresponders[1]": 1,
     ipv4: event.headers["x-nf-client-connection-ip"],
   });
   await contact_add.then(

@@ -10,7 +10,6 @@
       sm:px-6
       lg:px-8
       pattern-zigzag-xl
-      bg-fixed
     "
   >
     <confetti v-if="isCelebrating" />
@@ -177,7 +176,8 @@ import CtaReply from "./CtaReply";
 const steps = [
   {
     name: "Support us. Join ValueHeads",
-    description: "Get an instant email with our road map & access to Week 1.",
+    description:
+      "Get an instant email with our road map and get updates as we develop the course.",
     stepNo: 1,
     component: CtaForm,
   },

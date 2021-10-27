@@ -1,12 +1,15 @@
-const ActiveCampaign = require("activecampaign");
-const ac = new ActiveCampaign(
-  "https://tweepi.api-us1.com",
-  "dde08b38983c8944cd7791b5eb7593730536f1b5b8150be29e6fb5088a12dc3661a45fe5"
-);
-
 require("dotenv").config();
 
+// this is ActiveCampaign API v1, NOT v3.
+const ActiveCampaign = require("activecampaign");
+const ac = new ActiveCampaign(
+  process.env.ACTIVECAMPAIGN_URL,
+  process.env.ACTIVECAMPAIGN_KEY
+);
+
 exports.handler = async function contactAdd(event, context, callback) {
+  console.log("---> IP is", event.headers["x-nf-client-connection-ip"]);
+
   //   Only allow POST
   if (event.httpMethod !== "POST")
     doCallback(callback, "Method Not Allowed", 405);
@@ -17,18 +20,24 @@ exports.handler = async function contactAdd(event, context, callback) {
   if (!email) doCallback(callback, "No email entered!", 405);
 
   // POST the ActiveCampaign request
-  // Docs https://developers.activecampaign.com/reference#create-a-contact-new
-  var contact_add = ac.api("contact/add", { email: email });
+  // Docs https://www.activecampaign.com/api/example.php?call=contact_add
+  var contact_add = ac.api("contact/add", {
+    email: email,
+    tags: "prelaunch",
+    "p[1]": 1,
+    "status[1]": 1,
+    "instantresponders[1]": 1,
+    ipv4: event.headers["x-nf-client-connection-ip"],
+  });
   await contact_add.then(
     function (result) {
       // successful request
-      if (result.success === 1) {
-        console.log("Success" + result.result_message);
-        doCallback(callback, result.result_message);
-      } else {
-        console.error("Failed" + result.result_message);
-        doCallback(callback, result.result_message, 406);
+      if (result.success !== 1) {
+        console.error("Failed", result);
       }
+
+      console.log("Success", result);
+      doCallback(callback, result.result_message);
     },
     function (result) {
       // request error

@@ -34,7 +34,7 @@ var validator = require("email-validator");
 export default {
   data() {
     return {
-      email: "",
+      email: "amerk86@gmail.com",
       isSubmitting: false,
     };
   },
@@ -63,7 +63,8 @@ export default {
         })
         .catch((error) => {
           alert(
-            "Oops, something went wrong! Please email me at amer@valueheads.org."
+            "Oops, something went wrong! Please email me at amer@valueheads.org. \n\n" +
+              error
           );
         })
         .finally(() => {

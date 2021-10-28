@@ -62,28 +62,33 @@
             :class="[stepIdx !== steps.length - 1 ? 'pb-10' : '', 'relative']"
           >
             <template v-if="stepStatus(step.stepNo) === 'complete'">
-              <div
-                v-if="stepIdx !== steps.length - 1"
-                class="absolute top-4 left-4 mt-0.5 -ml-px w-0.5 h-full bg-indigo-600"
-                aria-hidden="true"
-              />
-              <span class="flex relative items-center group">
-                <span class="flex items-center h-5">
-                  <span
-                    class="flex relative z-10 justify-center items-center w-8 h-8 bg-indigo-600 rounded-full  group-hover:bg-indigo-800"
-                  >
-                    <CheckIcon class="w-5 h-5 text-white" aria-hidden="true" />
+              <a href="#" @click.prevent="currStep = step.stepNo">
+                <div
+                  v-if="stepIdx !== steps.length - 1"
+                  class="absolute top-4 left-4 mt-0.5 -ml-px w-0.5 h-full bg-indigo-600"
+                  aria-hidden="true"
+                />
+                <span class="flex relative items-center group">
+                  <span class="flex items-center h-5">
+                    <span
+                      class="flex relative z-10 justify-center items-center w-8 h-8 bg-indigo-600 rounded-full  group-hover:bg-indigo-800"
+                    >
+                      <CheckIcon
+                        class="w-5 h-5 text-white"
+                        aria-hidden="true"
+                      />
+                    </span>
                   </span>
-                </span>
-                <span class="flex flex-col ml-4 min-w-0 text-yellow-700">
-                  <span class="text-sm font-semibold tracking-wide uppercase"
-                    >{{ step.stepNo }}. {{ step.name }}</span
-                  >
-                  <!-- <span class="text-base text-olive-400">{{
+                  <span class="flex flex-col ml-4 min-w-0 text-yellow-700">
+                    <span class="text-sm font-semibold tracking-wide uppercase"
+                      >{{ step.stepNo }}. {{ step.name }}</span
+                    >
+                    <!-- <span class="text-base text-olive-400">{{
                     step.description
                   }}</span> -->
+                  </span>
                 </span>
-              </span>
+              </a>
             </template>
             <template
               v-else-if="stepStatus(step.stepNo) === 'current'"

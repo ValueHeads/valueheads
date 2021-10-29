@@ -193,7 +193,7 @@ const steps = [
     component: CtaShare,
   },
   {
-    name: "Email us to update the counter! 🤗",
+    name: "Email us back to update the counter! 🤗",
     description:
       "Yay! Please reply to my email with the link to your awesome post. ",
     stepNo: 3,

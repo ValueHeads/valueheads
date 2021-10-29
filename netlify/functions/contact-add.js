@@ -1,7 +1,11 @@
 require("dotenv").config();
 
-const MailerLite = require("mailerlite-api-v2-node").default;
-const mailerLite = MailerLite(process.env.MAILERLITE_KEY);
+// this is ActiveCampaign API v1, NOT v3.
+const ActiveCampaign = require("activecampaign");
+const ac = new ActiveCampaign(
+  process.env.ACTIVECAMPAIGN_URL,
+  process.env.ACTIVECAMPAIGN_KEY
+);
 
 exports.handler = async function contactAdd(event, context, callback) {
   //   Only allow POST
@@ -13,35 +17,42 @@ exports.handler = async function contactAdd(event, context, callback) {
   let { email } = params;
   if (!email) doCallback(callback, "No email entered!", 405);
 
-  // Docs
-  // https://developers.mailerlite.com/reference/create-a-subscriber
-  // https://developers.mailerlite.com/reference/add-single-subscriber
-  // and https://github.com/zygos/mailerlite-api-v2-node
-  var response = await mailerLite
-    .addSubscriberToGroup(process.env.MAILERLITE_GROUP_ID_PRELAUNCH, {
-      email: email,
-      type: "active",
-      signup_ip: event.headers["x-nf-client-connection-ip"],
-      // autoresponders: true,
-      // resubscribe: true,
-      // fields: { company: "ValueHeads.org" },
-    })
-    .then(
-      function (result) {
-        // successful request
-        console.log("Success", result);
-        doCallback(callback, result.result_message);
-      },
-      function ({ response }) {
-        // request error
-        console.log("Error Caught", response.data);
-        var msg = response.data.error ? response.data.error.message : null;
-        doCallback(callback, msg, false);
-      }
-    );
+  // POST the ActiveCampaign request
+  // Docs https://www.activecampaign.com/api/example.php?call=contact_add
+  var contact_add = ac.api("contact/add", {
+    email: email,
+    tags: "prelaunch",
+    "p[1]": 1,
+    "status[1]": 1,
+    "instantresponders[1]": 1,
+    ipv4: event.headers["x-nf-client-connection-ip"],
+  });
+  await contact_add.then(
+    function (result) {
+      // successful request
+
+      // check if failed, log it
+      if (result.success !== 1) console.error("Failed", result);
+
+      // treat duplicate as success
+      let isSuccess = result.result_message.includes(
+        "does not allow duplicates"
+      )
+        ? true
+        : false;
+
+      // do the callback
+      doCallback(callback, result.result_message, isSuccess || result.success);
+    },
+    function (result) {
+      // request error
+      console.log("Error Caught", result);
+      doCallback(callback, result.result_message, 406);
+    }
+  );
 };
 
-// simple function to simplift callbacks
+// simple function to simplify callbacks
 function doCallback(callback, msg, isSuccess = true, statusCode = 200) {
   callback(null, {
     statusCode: statusCode,

@@ -41,7 +41,7 @@ var validator = require("email-validator");
 export default {
   data() {
     return {
-      email: "amerk86@gmail.com",
+      email: "",
       isSubmitting: false,
     };
   },

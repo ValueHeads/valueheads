@@ -20,13 +20,13 @@
           make money!
         </p>
       </div>
-      <div class="mx-auto mt-12 lg:pl-48">
+      <div class="mx-auto mt-12 max-w-xl">
         <img
           class="mx-auto w-auto h-auto lazyload"
-          data-src="/images/illustration-value-entrepreneurship-journey.png"
+          data-src="/images/illustration-value-entrepreneurship-journey.gif"
           alt="The Value Entrepreneurship Journey Infographic - ValueHeads."
-          width="594"
-          height="2480"
+          width="1314"
+          height="5502"
         />
       </div>
     </div>

@@ -164,9 +164,9 @@
           </div>
         </div>
         <div class="px-4 mt-12 w-auto sm:mt-16 lg:mt-0">
-          <div class="flex flex-col lg:h-full">
+          <div class="lg:h-full">
             <img
-              class="p-5 w-auto h-auto rounded-sm border-2 border-gray-400 shadow-xl  lazyload lg:transform lg:rotate-2"
+              class="p-5 w-full h-auto rounded-sm border-2 border-gray-400 shadow-xl  lazyload lg:transform lg:rotate-1"
               data-src="/images/illustration-the-bootstrapped-business-machine.png"
               alt="The bootstrapped business machine you build by follow the value (Value Entrepreneurship)"
               width="2143"

@@ -12,6 +12,7 @@
     "@zhuowenli/vue-feather-icons": "^5",
     "autoprefixer": "^10.3.7",
     "dotenv": "^10.0.0",
+    "mailerlite-api-v2-node": "^1.2.0",
     "postcss": "^8.3.9",
     "tailwindcss": "^2.2.16",
     "vue-cli-plugin-webpack-bundle-analyzer": "^4.0.0",
@@ -27,7 +28,6 @@
     "email-validator": "^2.0.4",
     "lazysizes": "^5.3.2",
     "pattern.css": "^1.0.0",
-    "qs": "^6.10.1",
     "runes": "^0.4.3",
     "vue-scrollto": "^2.20.0"
   }

@@ -92,7 +92,8 @@ function getAddMeta(meta) {
 
 const defaultOptions = {
   siteTitle: (_, $site) => $site.title,
-  title: ($page) => $page.title,
+  title: ($page) =>
+    $page.frontmatter.ogTitle || $page.frontmatter.title || $page.title,
   description: ($page) => $page.frontmatter.description,
   author: ($page) => $page.frontmatter.author,
   tags: ($page) => $page.frontmatter.tags,

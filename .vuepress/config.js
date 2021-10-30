@@ -14,9 +14,17 @@ module.exports = {
   //   theme: path.resolve(__dirname, "./theme"),
   themeConfig: {
     logo: "/images/v.svg",
+    domain: "https://valueheads.org",
   },
 
   plugins: [
+    [
+      path.resolve(__dirname, "./lib/vuepress-seo-plugin-v2.js"),
+      {
+        /* options */
+      },
+    ],
+
     [
       "@vuepress/register-components",
       {

@@ -1,5 +1,5 @@
 <template>
-  <div class="py-16 bg-gray-50 sm:py-20 lg:py-24">
+  <div id="entrepreneurship-course" class="py-16 bg-gray-50 sm:py-20 lg:py-24">
     <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
       <div
         class="px-4 mx-auto max-w-md text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-4xl"

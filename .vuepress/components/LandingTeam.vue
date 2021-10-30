@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-olive-800">
+  <div id="team" class="bg-olive-800">
     <div class="px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:py-24">
       <div class="space-y-12">
         <div class="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-4xl">

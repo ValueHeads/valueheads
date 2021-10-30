@@ -1,19 +1,23 @@
 <template>
   <footer class="bg-olive-900">
     <div
-      class="overflow-hidden px-4 pt-12 pb-4 mx-auto max-w-7xl sm:px-6 lg:px-8"
+      class="overflow-hidden px-4 pt-12 pb-4 mx-auto max-w-3xl sm:px-6 lg:px-8"
     >
       <nav
         class="flex flex-wrap justify-center -mx-5 -my-2"
         aria-label="Footer"
       >
         <div v-for="item in navigation.main" :key="item.name" class="px-5 py-2">
-          <a :href="item.href" class="text-base text-gray-300 hover:text-white">
+          <a
+            :href="item.href"
+            v-scroll-to="item.href"
+            class="text-base text-gray-300 hover:text-white"
+          >
             {{ item.name }}
           </a>
         </div>
       </nav>
-      <div class="flex justify-center mt-8 space-x-6">
+      <!-- <div class="flex justify-center mt-8 space-x-6">
         <a
           v-for="item in navigation.social"
           :key="item.name"
@@ -23,8 +27,8 @@
           <span class="sr-only">{{ item.name }}</span>
           <component :is="item.icon" class="w-6 h-6" aria-hidden="true" />
         </a>
-      </div>
-      <p class="mt-8 text-base text-center text-gray-100">
+      </div> -->
+      <p class="mt-8 text-sm text-center text-gray-100">
         ValueHeads.org &mdash; Free and open-source for all ❤️
       </p>
     </div>
@@ -36,12 +40,15 @@ import { defineComponent, h } from "vue";
 
 const navigation = {
   main: [
-    { name: "About", href: "#" },
-    { name: "Blog", href: "#" },
-    { name: "Jobs", href: "#" },
-    { name: "Press", href: "#" },
-    { name: "Accessibility", href: "#" },
-    { name: "Partners", href: "#" },
+    { name: "Get Superpowers", href: "#entrepreneurship-superpowers" },
+    { name: "Support Us", href: "#cta" },
+    { name: "Team", href: "#team" },
+    {
+      name: "Ultimate Entrepreneurship Course",
+      href: "#entrepreneurship-course",
+    },
+    { name: "Value Entrepreneurship", href: "#value-entrepreneurship" },
+    { name: "About ValueHeads", href: "#about" },
   ],
   social: [
     {

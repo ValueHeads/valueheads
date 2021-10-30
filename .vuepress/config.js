@@ -15,6 +15,7 @@ module.exports = {
   themeConfig: {
     logo: "/images/v.svg",
     domain: "https://valueheads.org",
+    darkMode: false,
   },
 
   plugins: [

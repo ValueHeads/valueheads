@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-olive-800">
+  <div id="about" class="bg-olive-800">
     <div
       class="px-4 py-16 mx-auto max-w-4xl  sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8"
     >

@@ -20,7 +20,7 @@ head:
     - name: twitter:image
       content: https://valueheads.org/images/valueheads-screenshot.jpg
 
-   - - meta
+  - - meta
     - name: og:type
       content: website
   - - meta

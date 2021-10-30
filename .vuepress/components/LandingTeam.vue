@@ -142,7 +142,7 @@ const people = [
   {
     name: "Seb Wichmann, VH5",
     role: "Top-tier Learning & Development Consultant",
-    imageUrl: "/images/seb.png",
+    imageUrl: "/images/seb.jpg",
     twitterUrl: "#",
     linkedinUrl: "#",
     desc: "Seb's work is all about streamlining your learning experience. This course is so powerful because of his superior knowledge!",

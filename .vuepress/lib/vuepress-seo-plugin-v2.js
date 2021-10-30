@@ -1,3 +1,6 @@
+// Source https://github.com/lorisleiva/vuepress-plugin-seo
+// TODO: Fork and send a Pull request to upgrade to Vuepress v2
+
 module.exports = (options = {}, context) => {
   options = Object.assign(defaultOptions, options);
 

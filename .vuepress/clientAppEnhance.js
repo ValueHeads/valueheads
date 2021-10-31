@@ -29,8 +29,6 @@ library.add(
   faFacebook
 );
 
-import VueSvgInlinePlugin from "vue-svg-inline-plugin";
-
 export default defineClientAppEnhance(({ app, router, siteData }) => {
   if (!__VUEPRESS_SSR__)
     window.gtag = window.gtag
@@ -38,9 +36,6 @@ export default defineClientAppEnhance(({ app, router, siteData }) => {
       : () => {
           console.debug("gtag not loaded!");
         };
-
-  // Docs https://github.com/oliverfindl/vue-svg-inline-plugin
-  app.use(VueSvgInlinePlugin);
 
   // Docs https://github.com/FortAwesome/vue-fontawesome
   app.component("font-awesome-icon", FontAwesomeIcon);

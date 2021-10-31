@@ -66,9 +66,9 @@
           >
             <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
             <img
-              v-svg-inline
+              svg-inline
               class="w-full h-auto  lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-              src="@/public/images/lucid-illustration-rocket.svg"
+              src="../public/images/lucid-illustration-rocket.svg"
               width="828"
               height="1021"
               alt="Rocket to success"

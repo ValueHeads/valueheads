@@ -112,6 +112,17 @@ module.exports = {
           .plugin("webpack-bundle-analyzer")
           .use(BundleAnalyzerPlugin)
           .init((Plugin) => new Plugin({ analyzerMode: "static" }));
+
+      // Docs https://github.com/oliverfindl/vue-svg-inline-loader
+      config.module
+        .rule("vue")
+        .use("vue-svg-inline-loader")
+        .loader("vue-svg-inline-loader")
+        .options({
+          svgo: {
+            plugins: [{ removeViewBox: false, removeStyleElement: true }],
+          },
+        });
     },
     vue: {
       compilerOptions: {
@@ -121,6 +132,10 @@ module.exports = {
             props: [],
             needRuntime: true, // <- remember this
           }),
+          // "svg-inline": () => ({
+          //   props: [],
+          //   needRuntime: false, // <- remember this
+          // }),
         },
       },
     },

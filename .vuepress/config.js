@@ -9,7 +9,13 @@ module.exports = {
   lang: "en-US",
   title: "ValueHeads",
   description: "ValueHeads Free Value-Entrepreneurship Course and Community",
-  head: [["link", { rel: "icon", href: "/images/logo.png" }]],
+  head: [
+    ["link", { rel: "icon", href: "/images/logo.png" }],
+    ["link", { rel: "preconnect", href: "//www.googletagmanager.com" }],
+    ["link", { rel: "preconnect", href: "//fonts.gstatic.com" }],
+    ["link", { rel: "preconnect", href: "//fonts.googleapis.com" }],
+    ["link", { rel: "preconnect", href: "//www.google-analytics.com	" }],
+  ],
 
   //   theme: path.resolve(__dirname, "./theme"),
   themeConfig: {

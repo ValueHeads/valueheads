@@ -66,7 +66,7 @@
           >
             <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
             <inline-svg
-              class="w-full h-auto  lazyload lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+              class="w-full h-auto  lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
               src="/images/lucid-illustration-rocket.svg"
               width="828"
               height="1021"

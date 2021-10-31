@@ -5,8 +5,8 @@
     >
       <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
       <img
-        class="absolute right-0 left-0 -bottom-52 mx-auto max-w-md opacity-60  lg:mx-0 lg:bottom-0 lg:right-auto lg:left-10 lg:w-3/12"
-        src="/images/lucid-illustration-love.svg"
+        class="absolute right-0 left-0 -bottom-52 mx-auto max-w-md opacity-60  lazyload lg:mx-0 lg:bottom-0 lg:right-auto lg:left-10 lg:w-3/12"
+        data-src="/images/lucid-illustration-love.svg"
         width="729"
         height="854"
         alt="Lucid Illustration of Value and Love"
@@ -18,9 +18,7 @@
           p-8
           bg-[#5634AD] bg-opacity-50
           rounded-xl
-          lg:p-16
-          lg:grid lg:grid-cols-5
-          lg:gap-x-8
+          lg:p-16 lg:grid lg:grid-cols-5 lg:gap-x-8
         "
       >
         <div class="lg:col-span-2">

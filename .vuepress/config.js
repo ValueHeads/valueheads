@@ -112,14 +112,6 @@ module.exports = {
           .plugin("webpack-bundle-analyzer")
           .use(BundleAnalyzerPlugin)
           .init((Plugin) => new Plugin({ analyzerMode: "static" }));
-
-      config.module
-        .rule("vue")
-        .use("vue-svg-inline-loader")
-        .loader("vue-svg-inline-loader")
-        .options({
-          /* ... */
-        });
     },
     vue: {
       compilerOptions: {

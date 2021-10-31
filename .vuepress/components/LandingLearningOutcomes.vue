@@ -37,7 +37,7 @@
             :key="faq.title"
             class="pt-6"
             v-slot="{ open }"
-            @click="expandedTopic(faq.title)"
+            @click.once="expandedTopic(faq.title)"
           >
             <dt class="text-lg">
               <DisclosureButton

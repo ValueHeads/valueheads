@@ -18,6 +18,7 @@
                 :eraseSpeed="35"
                 :typeSpeed="75"
                 :delay="4000"
+                :start="6000"
                 class="mx-auto -mb-4 max-w-xl text-2xl font-light placeholder-opacity-95 text-white whitespace-nowrap  lg:mx-0 sm:text-5xl"
               />
             </client-only>

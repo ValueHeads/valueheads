@@ -30,11 +30,12 @@ library.add(
 );
 
 export default defineClientAppEnhance(({ app, router, siteData }) => {
-  window.gtag = window.gtag
-    ? window.gtag
-    : () => {
-        console.debug("gtag not loaded!");
-      };
+  if (!__VUEPRESS_SSR__)
+    window.gtag = window.gtag
+      ? window.gtag
+      : () => {
+          console.debug("gtag not loaded!");
+        };
 
   // Docs https://github.com/FortAwesome/vue-fontawesome
   app.component("font-awesome-icon", FontAwesomeIcon);

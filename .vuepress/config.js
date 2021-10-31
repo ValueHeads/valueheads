@@ -11,10 +11,17 @@ module.exports = {
   description: "ValueHeads Free Value-Entrepreneurship Course and Community",
   head: [
     ["link", { rel: "icon", href: "/images/logo.png" }],
-    ["link", { rel: "preconnect", href: "//www.googletagmanager.com" }],
-    ["link", { rel: "preconnect", href: "//fonts.gstatic.com" }],
-    ["link", { rel: "preconnect", href: "//fonts.googleapis.com" }],
-    ["link", { rel: "preconnect", href: "//www.google-analytics.com	" }],
+    ["link", { rel: "preconnect", href: "https://www.googletagmanager.com" }],
+    ["link", { rel: "preconnect", href: "https://fonts.gstatic.com" }],
+    ["link", { rel: "preconnect", href: "https://fonts.googleapis.com" }],
+    ["link", { rel: "preconnect", href: "https://www.google-analytics.com" }],
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;800&display=swap",
+      },
+    ],
   ],
 
   //   theme: path.resolve(__dirname, "./theme"),

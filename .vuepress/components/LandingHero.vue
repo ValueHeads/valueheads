@@ -8,7 +8,7 @@
           class="px-4 mx-auto max-w-xl  lg:col-span-7 sm:max-w-3xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center"
         >
           <div class="lg:py-10">
-            <client-only>
+            <!-- <client-only>
               <VueWriter
                 :array="[
                   'Leave the 9-5 job!',
@@ -19,9 +19,9 @@
                 :typeSpeed="75"
                 :delay="4000"
                 :start="6000"
-                class="mx-auto -mb-4 max-w-xl text-2xl font-light placeholder-opacity-95 text-white whitespace-nowrap  lg:mx-0 sm:text-5xl"
+                class="mx-auto -mb-4 max-w-xl text-2xl font-light placeholder-opacity-95 text-white whitespace-nowrap lg:mx-0 sm:text-5xl"
               />
-            </client-only>
+            </client-only> -->
 
             <h1
               class="mt-4 text-4xl font-extrabold tracking-tight text-white  sm:mt-5 sm:text-6xl lg:mt-6"

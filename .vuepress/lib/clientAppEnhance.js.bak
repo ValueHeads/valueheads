@@ -1,0 +1,17 @@
+// UNUSED, just testing this
+
+// Docs https://v2.vuepress.vuejs.org/advanced/cookbook/usage-of-client-app-enhance.html
+import { defineClientAppEnhance } from "@vuepress/client";
+
+// Docs: https://v2.vuepress.vuejs.org/reference/client-api.html#usepagedata
+import { usePageData } from "@vuepress/client";
+
+// Docs: https://v2.vuepress.vuejs.org/reference/plugin-api.html#extendspagedata
+export default defineClientAppEnhance(({ app, router, siteData }) => {
+  router.afterEach((to) => {
+    const page = usePageData();
+    page.value.frontmatter.head[0][1].href = "https://nonono.no";
+    console.log(page.value.frontmatter.head);
+    console.log(page.value.git);
+  });
+});

@@ -1,42 +1,42 @@
-// Source https://github.com/lorisleiva/vuepress-plugin-seo
-// TODO: Fork and send a Pull request to upgrade to Vuepress v2
+// Upgraded to VuePress v2 by @amerkay https://github.com/amerkay/
+
+// TODO: https://www.adamdehaven.com/blog/how-to-add-metadata-canonical-urls-and-structured-data-to-your-vuepress-site/
+// Discussion: https://github.com/lorisleiva/vuepress-plugin-seo/issues/6
+
+/**
+ * Frontmatter looks like
+    ogType: website # default is 'article'
+    ogTitle: OG/TWITTER TITLE HERE
+    title: PAGE TITLE HERE
+    description: A description of your page here.
+    date: 2021-10-30T04:20:42.00Z 
+    image: /images/og_image_homepage.jpg
+ */
+
+const { path } = require("@vuepress/utils");
 
 module.exports = (options = {}, context) => {
+  console.log(options);
   options = Object.assign(defaultOptions, options);
 
   return {
-    name: "vuepress-seo-plugin-v2",
-    multiple: false,
+    name: "vuepress-seo-plugin",
+
+    // clientAppEnhanceFiles: path.resolve(__dirname, "./clientAppEnhance.js"),
 
     extendsPageData: ($page) => {
-      const $site = { ...context.siteData, ...context.options };
+      // if ($page.path == "/") {
+      //   console.log("===> context", context.pluginApi.plugins);
+      //   console.log("\n\n===> $page", $page);
+      // }
 
-      // In Vuepress core, permalinks are built after enhancers.
-      const pageClone = Object.assign(
-        Object.create(Object.getPrototypeOf($page)),
-        $page
-      );
-      //   pageClone.buildPermalink();
-
-      let meta = $page.frontmatter.head || [];
-      let addMeta = getAddMeta(meta);
-      let optionArgs = [$page, $site, pageClone.path];
+      let $site = { ...context.siteData, ...context.options };
+      let head = $page.frontmatter.head || [];
+      let addMeta = getAddMeta(head);
+      let optionArgs = [$page, $site, $page.path];
 
       // add cannonical
-      if (
-        meta.findIndex((item) => {
-          return item[1].rel == "canonical";
-        }) == -1
-      )
-        meta.push([
-          "link",
-          {
-            rel: "canonical",
-            href: ($site.themeConfig.domain || "") + pageClone.path,
-          },
-        ]);
-
-      // if ($page.path == "/") console.log("--> $page", $page);
+      addCanonical(head, $page, $site);
 
       let metaContext = {
         $page,
@@ -56,22 +56,20 @@ module.exports = (options = {}, context) => {
 
       options.defaultMeta(addMeta, metaContext);
       options.customMeta(addMeta, metaContext);
-      $page.frontmatter.head = meta;
-
-      // if ($page.path == "/") console.log("meta", meta);
+      $page.frontmatter.head = head;
     },
   };
 };
 
-function getAddMeta(meta) {
+function getAddMeta(head) {
   return (name, content, attribute = null) => {
-    // if exists, don't add
+    // check if meta tag already exists
     const isExists =
-      meta.findIndex((item) =>
+      head.findIndex((item) =>
         // if any of hid, name or property fields are same as 'name'
         [item[1].hid, item[1].name, item[1].property].includes(name)
       ) != -1;
-
+    // skip if it does
     if (isExists) return;
 
     if (!content) return;
@@ -79,8 +77,10 @@ function getAddMeta(meta) {
       attribute = ["article:", "og:"].some((type) => name.startsWith(type))
         ? "property"
         : "name";
-    meta.push([
-      "meta",
+
+    // push it to 'head' array
+    head.push([
+      "head",
       {
         hid: name,
         [attribute]: name,
@@ -88,6 +88,25 @@ function getAddMeta(meta) {
       },
     ]);
   };
+}
+
+// add cannonical tag
+function addCanonical(head, $page, $site) {
+  // check if canonical tag exists already
+  let isExists =
+    head.findIndex((item) => {
+      return item[1].rel == "canonical";
+    }) != -1;
+
+  // if it does not, auto generate it
+  if (!isExists)
+    head.push([
+      "link",
+      {
+        rel: "canonical",
+        href: ($site.themeConfig.domain || "") + $page.path,
+      },
+    ]);
 }
 
 const defaultOptions = {

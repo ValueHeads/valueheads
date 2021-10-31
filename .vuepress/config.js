@@ -16,6 +16,9 @@ module.exports = {
     logo: "/images/v.svg",
     domain: "https://valueheads.org",
     darkMode: false,
+    themePlugins: {
+      mediumZoom: false,
+    },
   },
 
   plugins: [
@@ -55,7 +58,7 @@ module.exports = {
   ],
 
   alias: {
-    "@": path.resolve(__dirname, ".vuepress"),
+    "@": path.resolve(__dirname, "."),
   },
 
   extraWatchFiles: ["../tailwind.config.js"],

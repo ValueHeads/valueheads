@@ -6,8 +6,15 @@ module.exports = {
   corePlugins: { preflight: false },
   important: true, // Components in Markdown require this
 
+  // Use more specific paths in your purge config.
+  // See https://tailwindcss.com/docs/just-in-time-mode#watch-mode-and-one-off-builds
   purge: {
-    content: ["./.vuepress/**/*.@(js|md|vue|html)", "./.course/**/*.md"],
+    content: [
+      "./.vuepress/components/**/*.vue",
+      "./.vuepress/lib/**/*.js",
+      "./.vuepress/styles/**/*.*css",
+      "./course/**/*.md",
+    ],
   },
 
   darkMode: false, // or 'media' or 'class'

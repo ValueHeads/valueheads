@@ -4,7 +4,7 @@
       Thank you! You are awesome!
     </p>
     <a
-      @click.prevent="$emit('celebrate')"
+      @click.prevent="celebrate()"
       href="#"
       class="flex justify-center items-center px-6 py-2 w-full text-base font-medium text-white bg-indigo-600 rounded-md border border-transparent shadow  hover:bg-indigo-700 md:py-3 md:text-lg md:px-8 md:max-w-xs"
     >
@@ -12,3 +12,14 @@
     </a>
   </div>
 </template>
+
+<script>
+export default {
+  methods: {
+    celebrate() {
+      $emit("celebrate");
+      window.gtag("event", "prelaunch_cta_celebrate");
+    },
+  },
+};
+</script>

@@ -57,14 +57,22 @@ export default {
           email: this.email,
         })
         .then((response) => {
-          console.log(response);
           if (response.data.success === true) {
             this.$emit("done");
+
+            window.gtag("event", "prelaunch_cta_step1_success", {
+              email: this.email,
+            });
           } else {
             alert(
               "Oops, something went wrong! Please email me at amer@valueheads.org. " +
                 response.data.msg
             );
+
+            window.gtag("event", "prelaunch_cta_step1_error", {
+              email: this.email,
+              msg: response.data.msg,
+            });
           }
         })
         .catch((error) => {
@@ -72,6 +80,10 @@ export default {
             "Oops, something went wrong! Please email me at amer@valueheads.org. \n\n" +
               error
           );
+          window.gtag("event", "prelaunch_cta_step1_error", {
+            email: this.email,
+            msg: error,
+          });
         })
         .finally(() => {
           this.isSubmitting = false;

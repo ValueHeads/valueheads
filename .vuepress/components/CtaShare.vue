@@ -1,9 +1,9 @@
 <template>
   <div>
     <ul class="grid grid-cols-4 gap-4 lg:grid-cols-8">
-      <li v-for="site in sites" :key="site.question">
+      <li v-for="site in sites" :key="site.id">
         <a
-          @click="$emit('done')"
+          @click="clickedShare(site.id)"
           :href="site.link"
           target="_blank"
           class="flex justify-center items-center w-12 h-12 text-white bg-indigo-500 rounded-md  noopener hover:bg-yellow-600"
@@ -18,7 +18,7 @@
       </li>
       <li>
         <base-share-link
-          @click="$emit('done')"
+          @click="clickedShare('native_share_button')"
           class="flex justify-center items-center w-12 h-12 text-white bg-indigo-500 rounded-md  noopener hover:bg-indigo-800"
           title="Check out ValueHeads.org, Follow-the-Value Entrepreneurship Course. Free!"
         >
@@ -28,7 +28,7 @@
     </ul>
 
     <button
-      @click.prevent="$emit('done')"
+      @click.prevent="clickedShare('skipped')"
       class="inline-block mt-5 text-base font-medium text-indigo-700  hover:underline hover:text-indigo-500"
     >
       I posted already! 😎
@@ -93,5 +93,11 @@ export default {
     };
   },
   components: { ShareIcon },
+  methods: {
+    clickedShare(clickedId) {
+      this.$emit("done");
+      window.gtag("event", "prelaunch_cta_step3", { clickedId });
+    },
+  },
 };
 </script>

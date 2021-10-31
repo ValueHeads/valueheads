@@ -29,8 +29,6 @@ library.add(
   faFacebook
 );
 
-import InlineSvg from "vue-inline-svg";
-
 export default defineClientAppEnhance(({ app, router, siteData }) => {
   if (!__VUEPRESS_SSR__)
     window.gtag = window.gtag
@@ -41,9 +39,6 @@ export default defineClientAppEnhance(({ app, router, siteData }) => {
 
   // Docs https://github.com/FortAwesome/vue-fontawesome
   app.component("font-awesome-icon", FontAwesomeIcon);
-
-  // Docs https://github.com/shrpne/vue-inline-svg
-  app.component("inline-svg", InlineSvg);
 
   // Docs: https://github.com/rigor789/vue-scrollto
   app.use(VueScrollTo);

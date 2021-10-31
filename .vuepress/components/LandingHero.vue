@@ -65,13 +65,14 @@
             class="px-4 mx-auto max-w-md  sm:max-w-2xl sm:px-6 lg:max-w-none lg:px-0"
           >
             <!-- Illustration taken from Lucid Illustrations: https://lucid.pixsellz.io/ -->
-            <inline-svg
+            <img
+              svg-inline
               class="w-full h-auto  lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-              src="/images/lucid-illustration-rocket.svg"
+              :src="require('@/public/images/lucid-illustration-rocket.svg')"
               width="828"
               height="1021"
-              aria-label="Rocket to success"
-            ></inline-svg>
+              alt="Rocket to success"
+            />
           </div>
         </div>
       </div>
@@ -83,6 +84,7 @@
 <script>
 import { MenuIcon, XIcon } from "@heroicons/vue/outline";
 import { ChevronRightIcon } from "@heroicons/vue/solid";
+// import rocketSVGSrc from "vue-loader!";
 
 export default {
   components: {

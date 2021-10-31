@@ -37,6 +37,7 @@
             :key="faq.title"
             class="pt-6"
             v-slot="{ open }"
+            @click="expandedTopic(faq.title)"
           >
             <dt class="text-lg">
               <DisclosureButton
@@ -200,6 +201,11 @@ export default {
       weeks,
       runes,
     };
+  },
+  methods: {
+    expandedTopic(title) {
+      window.gtag("event", "prelaunch_toc_expand_accordion", { title });
+    },
   },
 };
 </script>

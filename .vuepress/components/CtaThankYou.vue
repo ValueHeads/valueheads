@@ -17,7 +17,7 @@
 export default {
   methods: {
     celebrate() {
-      $emit("celebrate");
+      this.$emit("celebrate");
       window.gtag("event", "prelaunch_cta_celebrate");
     },
   },

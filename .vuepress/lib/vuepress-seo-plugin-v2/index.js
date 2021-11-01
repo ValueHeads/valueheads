@@ -16,7 +16,6 @@
 const { path } = require("@vuepress/utils");
 
 module.exports = (options = {}, context) => {
-  console.log(options);
   options = Object.assign(defaultOptions, options);
 
   return {

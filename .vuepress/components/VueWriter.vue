@@ -2,7 +2,7 @@
   <div class="is-typed">
     <slot />
     <span class="typed">{{ typeValue }}</span>
-    <span class="transform-gpu cursor" :class="{ typing: typeStatus }">{{
+    <span class="cursor" :class="{ typing: typeStatus }">{{
       caret == "cursor" ? "|" : "_"
     }}</span>
   </div>

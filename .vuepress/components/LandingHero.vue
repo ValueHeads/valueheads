@@ -49,7 +49,7 @@
             </p>
 
             <div
-              class="mx-auto mt-12 w-max lg:mx-0 sm:mt-8 md:max-w-sm md:w-auto"
+              class="mx-auto mt-12 w-max lg:mx-0 sm:mt-8 md:max-w-md md:w-auto"
             >
               <button
                 v-scroll-to="'#cta'"

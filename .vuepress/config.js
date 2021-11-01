@@ -66,9 +66,18 @@ module.exports = {
 
   plugins: [
     [
-      path.resolve(__dirname, "./lib/vuepress-seo-plugin-v2.js"),
+      path.resolve(__dirname, "./lib/vuepress-seo-plugin-v2/index.js"),
       {
         /* options */
+      },
+    ],
+
+    // Docs: https://v2.vuepress.vuejs.org/reference/plugin/google-analytics.html
+    // Modified locally
+    [
+      path.resolve(__dirname, "./lib/plugin-google-analytics/index.js"),
+      {
+        id: "G-BJE62W7VBG",
       },
     ],
 
@@ -76,14 +85,6 @@ module.exports = {
       "@vuepress/register-components",
       {
         componentsDir: path.resolve(__dirname, "./components"),
-      },
-    ],
-
-    // Docs: https://v2.vuepress.vuejs.org/reference/plugin/google-analytics.html
-    [
-      "@vuepress/plugin-google-analytics",
-      {
-        id: "G-BJE62W7VBG",
       },
     ],
 

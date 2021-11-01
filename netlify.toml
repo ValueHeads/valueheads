@@ -21,4 +21,5 @@
   ## more info on configuring this file: https://www.netlify.com/docs/netlify-toml-reference/
 
 [[plugins]]
+  # Docs https://github.com/Tom-Bonnike/netlify-plugin-inline-critical-css
   package = "netlify-plugin-inline-critical-css"

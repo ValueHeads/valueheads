@@ -16,7 +16,7 @@ export default defineClientAppEnhance(({ app, router, siteData }) => {
   const gtagScript = document.createElement("script");
   gtagScript.src = `https://www.googletagmanager.com/gtag/js?id=${id}`;
   gtagScript.async = true;
-  gtagScript.defer = true;
+  gtagScript.defer = true; // added defer
 
   setTimeout(() => {
     document.head.appendChild(gtagScript);
@@ -31,5 +31,5 @@ export default defineClientAppEnhance(({ app, router, siteData }) => {
 
     gtag("js", new Date());
     gtag("config", id);
-  }, 4000);
+  }, 4000); // added 4s delay
 });

@@ -14,8 +14,7 @@
     "lazysizes": "^5.3.2",
     "pattern.css": "^1.0.0",
     "runes": "^0.4.3",
-    "vue-scrollto": "^2.20.0",
-    "vue-svg-inline-plugin": "^2.2.0"
+    "vue-scrollto": "^2.20.0"
   },
   "devDependencies": {
     "@headlessui/vue": "^1.4.1",

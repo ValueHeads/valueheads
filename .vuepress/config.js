@@ -1,10 +1,12 @@
 const { path } = require("@vuepress/utils");
 
-const BundleAnalyzerPlugin =
-  require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
+// const HtmlWebpackPlugin = require("html-webpack-plugin");
+// const Critters = require("critters-webpack-plugin");
 
 // DISABLE for PROD. Use webpack-bundle-analyzer
 const isAnalyze = false;
+const BundleAnalyzerPlugin =
+  require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
 
 module.exports = {
   lang: "en-US",
@@ -115,6 +117,7 @@ module.exports = {
     //       new HtmlWebpackPlugin(),
     //       new Critters({
     //         // optional configuration (see https://www.npmjs.com/package/critters-webpack-plugin)
+    //         inlineThreshold: 100000,
     //       }),
     //     ],
     //   };

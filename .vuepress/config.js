@@ -108,7 +108,9 @@ module.exports = {
 
   // directives needs transformation https://github.com/vuejs/vue-next/issues/3298
   bundlerConfig: {
-    configureWebpack(config) {
+    configureWebpack(config, isServer, isBuild) {
+      if (!isBuild) return {};
+
       return {
         plugins: [
           // https://github.com/jantimon/html-webpack-plugin

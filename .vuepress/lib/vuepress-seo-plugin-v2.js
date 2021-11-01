@@ -80,7 +80,7 @@ function getAddMeta(head) {
 
     // push it to 'head' array
     head.push([
-      "head",
+      "meta",
       {
         hid: name,
         [attribute]: name,

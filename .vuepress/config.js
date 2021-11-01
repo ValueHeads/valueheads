@@ -1,6 +1,4 @@
 const { path } = require("@vuepress/utils");
-const Critters = require("critters-webpack-plugin");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const BundleAnalyzerPlugin =
   require("webpack-bundle-analyzer").BundleAnalyzerPlugin;
@@ -80,12 +78,12 @@ module.exports = {
     ],
 
     // Docs: https://v2.vuepress.vuejs.org/reference/plugin/google-analytics.html
-    // [
-    //   "@vuepress/plugin-google-analytics",
-    //   {
-    //     id: "G-BJE62W7VBG",
-    //   },
-    // ],
+    [
+      "@vuepress/plugin-google-analytics",
+      {
+        id: "G-BJE62W7VBG",
+      },
+    ],
 
     // Docs https://v1.vuepress.vuejs.org/plugin/official/plugin-medium-zoom.html#usage
     [
@@ -108,19 +106,19 @@ module.exports = {
 
   // directives needs transformation https://github.com/vuejs/vue-next/issues/3298
   bundlerConfig: {
-    configureWebpack(config, isServer, isBuild) {
-      if (!isBuild) return {};
+    // configureWebpack(config, isServer, isBuild) {
+    //   if (!isBuild) return {};
 
-      return {
-        plugins: [
-          // https://github.com/jantimon/html-webpack-plugin
-          new HtmlWebpackPlugin(),
-          new Critters({
-            // optional configuration (see https://www.npmjs.com/package/critters-webpack-plugin)
-          }),
-        ],
-      };
-    },
+    //   return {
+    //     plugins: [
+    //       // https://github.com/jantimon/html-webpack-plugin
+    //       new HtmlWebpackPlugin(),
+    //       new Critters({
+    //         // optional configuration (see https://www.npmjs.com/package/critters-webpack-plugin)
+    //       }),
+    //     ],
+    //   };
+    // },
 
     chainWebpack(config) {
       // see https://github.com/mrbbot/vue-cli-plugin-webpack-bundle-analyzer

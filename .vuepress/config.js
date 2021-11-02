@@ -1,8 +1,5 @@
 const { path } = require("@vuepress/utils");
 
-// const HtmlWebpackPlugin = require("html-webpack-plugin");
-// const Critters = require("critters-webpack-plugin");
-
 // DISABLE for PROD. Use webpack-bundle-analyzer
 const isAnalyze = false;
 const BundleAnalyzerPlugin =
@@ -40,6 +37,14 @@ module.exports = {
         rel: "preconnect",
         href: "https://www.google-analytics.com",
         crossorigin: "",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "preload",
+        as: "image",
+        href: "/images/valueheads-logo.svg",
       },
     ],
     // see https://stackoverflow.com/a/60477207
@@ -133,21 +138,6 @@ module.exports = {
 
   // directives needs transformation https://github.com/vuejs/vue-next/issues/3298
   bundlerConfig: {
-    // configureWebpack(config, isServer, isBuild) {
-    //   if (!isBuild) return {};
-
-    //   return {
-    //     plugins: [
-    //       // https://github.com/jantimon/html-webpack-plugin
-    //       new HtmlWebpackPlugin(),
-    //       new Critters({
-    //         // optional configuration (see https://www.npmjs.com/package/critters-webpack-plugin)
-    //         inlineThreshold: 100000,
-    //       }),
-    //     ],
-    //   };
-    // },
-
     chainWebpack(config) {
       // see https://github.com/mrbbot/vue-cli-plugin-webpack-bundle-analyzer
       if (isAnalyze)
@@ -157,16 +147,19 @@ module.exports = {
           .init((Plugin) => new Plugin({ analyzerMode: "static" }));
 
       config.module
-        .rule("svg")
-        .test(/\.svg/)
-        .use("svg-url-loader")
-        .loader("svg-url-loader")
+        .rule("vue")
+        .use("vue-svg-inline-loader")
+        .loader("vue-svg-inline-loader")
         .options({
-          // Images larger than 10 KB won’t be inlined
-          limit: 10 * 1024,
-          // Remove quotes around the encoded URL –
-          // they’re rarely useful
-          noquotes: true,
+          // inline: { strict: false },
+          svgo: {
+            plugins: [
+              {
+                removeViewBox: false,
+                removeStyleElement: true,
+              },
+            ],
+          },
         });
     },
     vue: {

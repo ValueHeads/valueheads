@@ -3,6 +3,7 @@
     <template #page-bottom>
       <!-- <div class="my-footer">This is my custom page footer</div> -->
     </template>
+
     <template #page>
       <Content v-if="frontmatter.home" />
       <Transition v-else name="fade-slide-y" mode="out-in">
@@ -26,6 +27,7 @@
 // https://github.com/vuepress/vuepress-next/blob/a42e431a898240c67471a198fbde33c8805c2850/packages/%40vuepress/theme-default/src/client/layouts/Layout.vue
 import Layout from "@vuepress/theme-default/lib/client/layouts/Layout.vue";
 import Page from "@vuepress/theme-default/lib/client/components/Page.vue";
+
 import { usePageData, usePageFrontmatter } from "@vuepress/client";
 
 export default {
@@ -38,9 +40,6 @@ export default {
   components: {
     Layout,
     Page,
-  },
-  mounted() {
-    console.log("test", this.$refs);
   },
 };
 </script>

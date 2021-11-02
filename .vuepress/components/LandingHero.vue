@@ -55,7 +55,7 @@
             >
               <button
                 v-scroll-to="'#cta'"
-                class="flex justify-center items-center px-8 py-3 text-base font-bold bg-white rounded-md border border-transparent  text-olive-800 hover:bg-yellow-500 hover:text-olive-900 md:py-4 md:text-lg md:px-10"
+                class="flex justify-center items-center px-8 py-3 w-full text-base font-bold bg-white rounded-md border border-transparent  text-olive-800 hover:bg-yellow-500 hover:text-olive-900 md:py-4 md:text-lg md:px-10"
               >
                 Make ValueHeads a reality! 😎
               </button>

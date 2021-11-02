@@ -8,7 +8,7 @@
           class="px-4 mx-auto max-w-xl  lg:col-span-7 sm:max-w-3xl sm:px-6 sm:text-center lg:px-0 lg:text-left lg:flex lg:items-center"
         >
           <div class="lg:py-10">
-            <div class="block h-10">
+            <div class="block h-9 sm:h-14">
               <client-only>
                 <VueWriter
                   :array="[
@@ -26,7 +26,7 @@
             </div>
 
             <h1
-              class="mt-4 text-4xl font-extrabold tracking-tight text-white  sm:mt-5 sm:text-6xl lg:mt-6"
+              class="text-4xl font-extrabold tracking-tight text-white  sm:text-6xl"
             >
               <span class="block mt-0">
                 Build your own business with our

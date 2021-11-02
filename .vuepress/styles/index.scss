@@ -1,4 +1,4 @@
-.full-width-page .page {
+.full-width-page {
   @import "preflight";
 
   @apply p-0;
@@ -93,19 +93,46 @@ input {
     // make navbar scroll away
     position: absolute;
 
+    @apply flex justify-center sm:block;
+    // & > span > a {
+    //   @apply flex items-center;
+    // }
+
+    .logo {
+      @apply w-auto inline-block;
+    }
     .site-name {
       @apply text-white;
+
+      &.can-hide {
+        @apply inline;
+      }
+    }
+
+    .navbar-links a,
+    .navbar-links button {
+      @apply text-gray-100 hover:text-yellow-500;
     }
   }
 
-  footer.page-meta {
+  .sidebar {
     display: none;
   }
-
-  .toggle-dark-button,
-  .toggle-sidebar-button {
-    @apply text-white;
+  .navbar {
+    @apply pl-4 md:pl-6 lg:pl-8;
+    .toggle-sidebar-button {
+      display: none;
+    }
   }
+
+  // footer.page-meta {
+  //   display: none;
+  // }
+
+  // .toggle-dark-button,
+  // .toggle-sidebar-button {
+  //   @apply text-white;
+  // }
 }
 
 // animations

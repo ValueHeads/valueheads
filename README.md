@@ -1,6 +1,7 @@
 ---
-footer: false
-sidebar: false
+# footer: false
+# sidebar: false
+home: true
 pageClass: full-width-page
 
 ogType: website # default is 'article'

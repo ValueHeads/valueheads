@@ -54,14 +54,38 @@ module.exports = {
     ],
   ],
 
-  //   theme: path.resolve(__dirname, "./theme"),
+  theme: path.resolve(__dirname, "./theme"),
   themeConfig: {
-    logo: "/images/v.svg",
+    logo: "/images/valueheads-logo.svg",
     domain: "https://valueheads.org",
     darkMode: false,
     themePlugins: {
       mediumZoom: false,
     },
+    navbar: [
+      // NavbarItem
+      // {
+      //   text: "Get Superpowers",
+      //   link: "/#entrepreneurship-superpowers",
+      // },
+      // {
+      //   text: "Ultimate Entrepreneurship Course",
+      //   link: "/#entrepreneurship-course",
+      // },
+      // {
+      //   text: "About",
+      //   link: "/#about",
+      // },
+      {
+        text: "Help us get to 500 supporters",
+        link: "/#cta",
+      },
+      // NavbarGroup
+      // {
+      //   text: "Group",
+      //   children: ["/group/foo.md", "/group/bar.md"],
+      // },
+    ],
   },
 
   plugins: [
@@ -132,15 +156,17 @@ module.exports = {
           .use(BundleAnalyzerPlugin)
           .init((Plugin) => new Plugin({ analyzerMode: "static" }));
 
-      // Docs https://github.com/oliverfindl/vue-svg-inline-loader
       config.module
-        .rule("vue")
-        .use("vue-svg-inline-loader")
-        .loader("vue-svg-inline-loader")
+        .rule("svg")
+        .test(/\.svg/)
+        .use("svg-url-loader")
+        .loader("svg-url-loader")
         .options({
-          svgo: {
-            plugins: [{ removeViewBox: false, removeStyleElement: true }],
-          },
+          // Images larger than 10 KB won’t be inlined
+          limit: 10 * 1024,
+          // Remove quotes around the encoded URL –
+          // they’re rarely useful
+          noquotes: true,
         });
     },
     vue: {

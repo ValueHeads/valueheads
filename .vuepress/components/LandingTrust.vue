@@ -76,6 +76,8 @@
                 class="h-36 filter grayscale lazyload"
                 data-src="/images/bookstack.png"
                 alt="An illustration of a stack of books"
+                width="217"
+                height="366"
               />
             </div>
           </div>

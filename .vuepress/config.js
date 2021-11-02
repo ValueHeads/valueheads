@@ -48,15 +48,15 @@ module.exports = {
       },
     ],
     // see https://stackoverflow.com/a/60477207
-    [
-      "link",
-      {
-        rel: "preload",
-        as: "style",
-        href: "https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;800&display=swap",
-        onload: "this.onload=null;this.rel='stylesheet'",
-      },
-    ],
+    // [
+    //   "link",
+    //   {
+    //     rel: "preload",
+    //     as: "style",
+    //     href: "https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700;800&display=swap",
+    //     onload: "this.onload=null;this.rel='stylesheet'",
+    //   },
+    // ],
   ],
 
   theme: path.resolve(__dirname, "./theme"),

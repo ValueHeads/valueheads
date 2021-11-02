@@ -8,7 +8,7 @@ const BundleAnalyzerPlugin =
 module.exports = {
   lang: "en-US",
   title: "ValueHeads",
-  description: "ValueHeads Free Value-Entrepreneurship Course and Community",
+  description: "ValueHeads Free Value-Entrepreneurship Course",
   head: [
     // FAVICON https://realfavicongenerator.net/
     [
@@ -40,9 +40,10 @@ module.exports = {
     ["link", { rel: "manifest", href: "/site.webmanifest" }],
     [
       "link",
-      { rel: "mask-icon", href: "safari-pinned-tab.svg", color: "#5bbad5" },
+      { rel: "mask-icon", href: "safari-pinned-tab.svg", color: "#3f2680" },
     ],
     ["link", { rel: "shortcut icon", href: "favicon.ico" }],
+    ["meta", { rel: "apple-mobile-web-app-title", content: "ValueHeads" }],
     ["meta", { rel: "msapplication-TileColor", content: "#3f2680" }],
     ["meta", { rel: "msapplication-config", content: "/browserconfig.xml" }],
     ["meta", { rel: "theme-color", content: "#3f2680" }],

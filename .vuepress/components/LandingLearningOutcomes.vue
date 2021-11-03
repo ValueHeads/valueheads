@@ -120,8 +120,8 @@ const weeks = [
   {
     title: "Week 4 — Pick your BEST Business Idea",
     outcomes: [
-      "🤓 Innovate like Einstein himself by using techniques on business levels: Value, Business Models & Technology.",
-      "🤔 Select the business idea the fits YOU -- that’s what we call the 'Founder/Market-Fit'.",
+      "🤓 Innovate like Einstein on every level: Value, Business Models & Technology.",
+      "🤔 Select the business idea that fits YOU -- that’s what we call the 'Founder/Market-Fit'.",
       "💵 Size up the opportunity, is it worth it? You don’t want to end up chasing an idea that will never make you money!",
       "🔑 Hold the key to unlocking the door of opportunity by knowing that you have a cheap entry point into the market. (that is where most entrepreneurs get stuck) ",
       "😎 Pick your GRAND business idea that nobody thought you would find, based on clear criteria, sound strategies and best-practice data insights.",

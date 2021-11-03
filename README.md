@@ -18,11 +18,11 @@ image: /images/og_image_homepage.jpg
 
 <LandingTrust />
 
-<LandingJumboMsg />
+<Cta01 />
 
 <LandingSuperpowers />
 
-<Cta01 />
+<LandingJumboMsg />
 
 <LandingTeam />
 

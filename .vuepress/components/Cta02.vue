@@ -42,7 +42,7 @@
             v-scroll-to="'#cta'"
             class="flex justify-center items-center px-8 py-3 w-full text-lg font-bold leading-snug text-center text-white bg-indigo-600 rounded-md border border-transparent shadow  hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
           >
-            Be one of the first 500 supporters!
+            Be one of our first 500 supporters!
           </a>
         </div>
       </div>

@@ -78,7 +78,17 @@
         Check out the
         <a href="https://mm.tt/2048938104?t=PptH4jTe3l" target="_blank" rel="noopener">mega course mind map</a> and this 
         <a href="https://docs.google.com/document/d/1LALvB5Hb8N1H1yO3gjj3S8ycFDT_PO0exiw3XpiFWnk/edit?usp=sharing" target="_blank" rel="noopener">Google Doc</a> of the chapters and sections.
-        </div>
+      </div>
+
+      <div class="mx-auto mt-12 sm:mt-16 md:max-w-sm">
+        <a
+          href="#cta"
+          v-scroll-to="'#cta'"
+          class="flex justify-center items-center px-8 py-3 text-base font-bold text-white rounded-md border border-transparent bg-indigo hover:bg-yellow-500 hover:text-gray-900 md:py-4 md:text-lg md:px-10"
+        >
+          Make it happen - support us 👍
+        </a>
+      </div>
     </div>
   </div>
 </template>

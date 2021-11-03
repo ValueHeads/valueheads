@@ -29,6 +29,15 @@
           height="5502"
         />
       </div>
+      <div class="mx-auto mt-12 sm:mt-16 md:max-w-md">
+        <a
+          href="#cta"
+          v-scroll-to="'#cta'"
+          class="flex justify-center items-center px-8 py-3 text-base font-bold text-white rounded-md border border-transparent  bg-indigo hover:bg-yellow-500 hover:text-gray-900 md:py-4 md:text-lg md:px-10"
+        >
+          Support ValueHeads 👍
+        </a>
+      </div>
     </div>
   </div>
 </template>

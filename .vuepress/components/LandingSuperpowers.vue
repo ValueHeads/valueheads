@@ -52,14 +52,15 @@
             market research and help you spot marketing opportunities for your
             own ideas and business.
           </p>
-          <!-- <div class="mt-6">
+          <div class="mt-6">
             <a
-              href="#"
-              class="inline-flex px-4 py-2 text-base font-medium text-white bg-indigo-600 rounded-md border border-transparent shadow-sm hover:bg-indigo-700"
+              href="#cta"
+              v-scroll-to="'#cta'"
+              class="inline-flex px-4 py-2 text-base font-medium text-white bg-indigo-600 rounded-md border border-transparent shadow-sm  hover:bg-indigo-700"
             >
-              Become a ValueHead
+              Make ValueHeads a Reality
             </a>
-          </div> -->
+          </div>
         </div>
         <div class="px-4 mt-12 sm:mt-16 lg:mt-0">
           <div class="lg:relative lg:h-full">
@@ -103,14 +104,15 @@
             paying you, that usually convinces them to join your awesome
             business!
           </p>
-          <!-- <div class="mt-6">
+          <div class="mt-6">
             <a
-              href="#"
-              class="inline-flex px-4 py-2 text-base font-medium text-white bg-indigo-600 rounded-md border border-transparent shadow-sm hover:bg-indigo-700"
+              href="#cta"
+              v-scroll-to="'#cta'"
+              class="inline-flex px-4 py-2 text-base font-medium text-white bg-indigo-600 rounded-md border border-transparent shadow-sm  hover:bg-indigo-700"
             >
-              Become a ValueHead
+              Help us get to 500 supporters
             </a>
-          </div> -->
+          </div>
         </div>
         <div class="px-4 mt-12 sm:mt-16 lg:mt-0 lg:col-start-1">
           <div class="lg:h-full">

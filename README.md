@@ -22,9 +22,9 @@ image: /images/og_image_homepage.jpg
 
 <LandingSuperpowers />
 
-<LandingJumboMsg />
-
 <LandingTeam />
+
+<LandingJumboMsg />
 
 <LandingLearningOutcomes />
 

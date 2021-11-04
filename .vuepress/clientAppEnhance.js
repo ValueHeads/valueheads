@@ -8,7 +8,7 @@ var VueScrollTo = require("vue-scrollto");
 // Docs https://github.com/FortAwesome/vue-fontawesome
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-// import { faLightbulb } from "@fortawesome/free-solid-svg-icons";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 import {
   faGoogle,
   faTwitter,
@@ -17,6 +17,7 @@ import {
   faInstagram,
   faTiktok,
   faFacebook,
+  faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 
 library.add(
@@ -26,7 +27,9 @@ library.add(
   faRedditAlien,
   faInstagram,
   faTiktok,
-  faFacebook
+  faFacebook,
+  faGlobe,
+  faGithub
 );
 
 export default defineClientAppEnhance(({ app, router, siteData }) => {

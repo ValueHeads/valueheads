@@ -32,7 +32,7 @@
       </p>
 
       <p class="mt-2 mb-12 text-xl text-center text-yellow-800 sm:text-2xl">
-        Help us get to 500 supporters, and let's build this course.
+        Help us get to 500 supporters, and let's create this course.
       </p>
 
       <div class="mx-auto mt-5 max-w-md sm:flex sm:justify-center md:mt-8">

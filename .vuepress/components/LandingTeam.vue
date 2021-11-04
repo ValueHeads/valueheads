@@ -6,8 +6,7 @@
           <h2
             class="text-base font-semibold tracking-wider text-indigo-50 uppercase"
           >
-            With <span class="underline">your</span> help we can bring this
-            course to life
+            Meet the team &ndash; the first <span class="">ValueHeads</span>
           </h2>
           <p
             class="text-3xl font-extrabold tracking-tight  text-yellow sm:text-4xl lg:text-5xl"

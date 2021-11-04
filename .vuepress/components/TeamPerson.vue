@@ -24,9 +24,9 @@
           >
             <a
               :href="person[site.name + 'Url']"
-              class="text-gray-400 hover:text-gray-300"
+              class="inline-block text-white opacity-50 hover:opacity-70"
               target="_blank"
-              rel="noopener nofollow"
+              rel="noopener"
             >
               <span class="sr-only">{{ site.name }}</span>
               <FontAwesomeIcon :icon="site.faIcon" class="w-5 h-5" />

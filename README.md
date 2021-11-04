@@ -24,11 +24,11 @@ image: /images/og_image_homepage.jpg
 
 <LandingTeam />
 
-<LandingJumboMsg />
-
 <LandingLearningOutcomes />
 
-<LandingValue />
+<!-- <LandingValue /> -->
+
+<LandingJumboMsg />
 
 <LandingValueJourney />
 

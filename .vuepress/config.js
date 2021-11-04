@@ -121,10 +121,10 @@ module.exports = {
       //   text: "About",
       //   link: "/#about",
       // },
-      {
-        text: "Help us get to 500 supporters",
-        link: "/#cta",
-      },
+      // {
+      //   text: "Help us get to 500 supporters",
+      //   link: "/#cta",
+      // },
       // NavbarGroup
       // {
       //   text: "Group",

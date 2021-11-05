@@ -1,6 +1,13 @@
 <template>
   <div
-    class="py-40 text-[#4E2F9D] bg-indigo-500 md:py-52 pattern-grid-xl bg-fixed"
+    class="
+      py-40
+      text-[#462796]
+      bg-indigo-500
+      md:py-52
+      pattern-zigzag-xl
+      bg-fixed
+    "
   >
     <div class="px-4 mx-auto max-w-7xl lg:px-8">
       <h2

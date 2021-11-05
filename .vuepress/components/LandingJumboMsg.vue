@@ -1,14 +1,5 @@
 <template>
-  <div
-    class="
-      py-40
-      text-[#462796]
-      bg-indigo-500
-      md:py-52
-      pattern-zigzag-xl
-      bg-fixed
-    "
-  >
+  <div class="py-40 text-[#462796] bg-indigo-500 md:py-52 pattern-zigzag-xl">
     <div class="px-4 mx-auto max-w-7xl lg:px-8">
       <h2
         class="mt-4 text-4xl font-bold tracking-tight text-center text-white  sm:mt-5 sm:text-5xl lg:mt-6"

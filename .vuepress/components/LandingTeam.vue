@@ -137,7 +137,7 @@ const people = [
     websiteUrl: "https://9amim.com",
     linkedinUrl: "https://www.linkedin.com/in/laith-kawar/",
     fromTo:
-      "Graphic Designer on a mission to blend typography with outstanding visuals with his recently launched logo designer.",
+      "From freelance Graphic Designer to his recently launched Arabic logo designer app, 9amim.com.",
     quote:
       "This is not just a course. It’s a MasterClass! It helped me gain skills that every modern day entrepreneur must be equipped with.",
   },
@@ -148,7 +148,7 @@ const people = [
     websiteUrl: "https://sebwichmann.com/",
     linkedinUrl: "https://www.linkedin.com/in/sebwichmann/",
     fromTo:
-      "We meet on Upwork, and now he's a ValueHead member working on his next big idea.",
+      "Our newest ValueHeads member working on his next big bootstrapped, scalable idea.",
     desc: "Seb's work is all about streamlining your learning experience. This course is so powerful because of his superior knowledge!",
   },
 ];

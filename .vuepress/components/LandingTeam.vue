@@ -65,7 +65,9 @@
           </div>
         </div>
 
-        <TeamCarousel :people="people.slice(1)" />
+        <client-only>
+          <TeamCarousel :people="people.slice(1)" />
+        </client-only>
 
         <!-- <ul
           role="list"

@@ -22,14 +22,15 @@
         </div>
 
         <div
-          class="px-6 py-16 text-left text-white bg-indigo-600 rounded-lg border-4 border-indigo-400  md:px-12 md:py-16 sm:flex sm:space-x-10 lg:space-x-28 lg:px-20"
+          class="px-6 py-16 text-left text-white bg-indigo-600 rounded-lg border-4 border-indigo-400  md:px-12 md:py-16 lg:grid lg:grid-cols-2 xl:grid-cols-3 lg:gap-x-20 lg:px-20"
         >
-          <ul class="mb-16 sm:mb-0">
-            <TeamPerson :person="people[0]" class="text-center" />
-          </ul>
+          <TeamPerson
+            :person="people[0]"
+            class="mb-16 w-full text-center lg:mb-0"
+          />
 
-          <div>
-            <p class="mb-4 text-2xl font-black leading-relaxed">
+          <div class="xl:col-span-2">
+            <p class="mb-4 text-lg font-black leading-relaxed md:text-2xl">
               <span class="text-yellow">Hey! 👋</span><br />
               I'm Amer. Founder of ValueHeads.
             </p>
@@ -64,9 +65,11 @@
           </div>
         </div>
 
-        <ul
+        <TeamCarousel :people="people.slice(1)" />
+
+        <!-- <ul
           role="list"
-          class="space-y-4  sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8"
+          class="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8"
         >
           <TeamPerson
             v-for="person in people.slice(1)"
@@ -74,7 +77,7 @@
             :person="person"
             class="px-6 py-10 text-center rounded-lg xl:px-10 bg-olive-700"
           />
-        </ul>
+        </ul> -->
       </div>
     </div>
   </div>
@@ -95,47 +98,57 @@ const people = [
   },
   {
     name: "Veronica Cooper",
-    role: "Nurse → Founder of StellarNurse",
+    role: "Founder & CEO, StellarNurse.com",
     imageUrl: "/images/veronica.jpg",
     websiteUrl: "https://stellarnurse.com",
     instagramUrl: "https://www.instagram.com/stellarnurse/",
     linkedinUrl: "https://www.linkedin.com/in/vlcoop/",
+    fromTo:
+      "Nurse to Entrepreneur with 500+ nurses on the waiting list for her upcoming product launch in Jan 2022.",
     quote:
-      "Once you see it, you can't unsee it! This course was transformational. It made my move from bedside nursing to entrepreneurship seemless!",
+      "Once you see it, you can't unsee it! This course was transformational. It made my transition from bedside nursing to entrepreneurship seem effortless!",
   },
   {
     name: "Dima Kawar",
-    role: "Social Media Manager → Founder of AlCoupon",
+    role: "Founder & CEO, AlCoupon.com",
     imageUrl: "/images/dima.jpg",
     websiteUrl: "https://alcoupon.com/",
+    fromTo:
+      "From Social Media Manager to Founder of the largest coupon distribution network in the Middle East.",
     quote:
       "It changed my life, literally. Why don't they teach us this stuff at university?!",
   },
   {
-    name: "Seb Wichmann",
-    role: "Top-tier Learning & Development Consultant",
-    imageUrl: "/images/seb.jpg",
-    websiteUrl: "https://sebwichmann.com/",
-    linkedinUrl: "https://www.linkedin.com/in/sebwichmann/",
-    desc: "Seb's work is all about streamlining your learning experience. This course is so powerful because of his superior knowledge!",
-  },
-  {
     name: "Aya Sadiq",
-    role: "Instagram Influencer → Founder of Tawkeedat",
+    role: "Founder & CEO, Tawkeedat.com",
     imageUrl: "/images/aya.jpg",
     instagramUrl: "https://www.instagram.com/arabicaffirmations/",
     websiteUrl: "https://tawkeedat.com",
+    fromTo:
+      "From Instagram Influencer to over 3000 users on her waiting list for her upcoming app launch in December 2021,",
     quote:
       "The famous saying goes From Prada to Nada. This brilliant course flipped that for me and made it “From Nada to Prada”! It helped me build Everything from Nothing",
   },
   {
     name: "Laith Kawar",
-    role: "Graphic Design → Founder of 9amim",
+    role: "Founder & CEO, 9amim.com",
     imageUrl: "/images/laith.jpg",
     websiteUrl: "https://9amim.com",
     linkedinUrl: "https://www.linkedin.com/in/laith-kawar/",
+    fromTo:
+      "Graphic Designer on a mission to blend typography with outstanding visuals with his recently launched logo designer.",
     quote:
       "This is not just a course. It’s a MasterClass! It helped me gain skills that every modern day entrepreneur must be equipped with.",
+  },
+  {
+    name: "Seb Wichmann",
+    role: "Top-tier Learning Consultant",
+    imageUrl: "/images/seb.jpg",
+    websiteUrl: "https://sebwichmann.com/",
+    linkedinUrl: "https://www.linkedin.com/in/sebwichmann/",
+    fromTo:
+      "We meet on Upwork, and now he's a ValueHead member working on his next big idea.",
+    desc: "Seb's work is all about streamlining your learning experience. This course is so powerful because of his superior knowledge!",
   },
 ];
 

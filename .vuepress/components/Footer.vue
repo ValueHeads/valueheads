@@ -29,7 +29,7 @@
         </a>
       </div> -->
       <p class="mt-8 text-sm text-center text-gray-100">
-        ValueHeads.org &mdash; Free and open-source for all ❤️
+        ValueHeads.org Not-for-profit &mdash; Free and open-source for all ❤️
       </p>
     </div>
   </footer>

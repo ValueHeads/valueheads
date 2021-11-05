@@ -62,6 +62,10 @@ button.carousel__prev {
   @apply bg-white rounded-full w-8 h-8 text-center flex p-0 text-indigo text-2xl hover:bg-yellow-300;
 }
 
+button.carousel__pagination-button--active {
+  @apply bg-yellow-500;
+}
+
 .carousel__slide > .carousel__item {
   transform: scale(1);
   opacity: 0.5;

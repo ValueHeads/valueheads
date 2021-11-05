@@ -22,7 +22,7 @@
         </div>
 
         <div
-          class="px-6 py-16 text-left text-white bg-indigo-600 rounded-lg border-4 border-indigo-400  md:px-12 md:py-16 lg:grid lg:grid-cols-2 xl:grid-cols-3 lg:gap-x-20 lg:px-20"
+          class="px-6 py-16 text-left text-white rounded-lg border-2 border-yellow-300  md:px-12 md:py-16 lg:grid lg:grid-cols-2 xl:grid-cols-3 lg:gap-x-20 lg:px-20"
         >
           <TeamPerson
             :person="people[0]"
@@ -48,10 +48,10 @@
               I've been
               <strong>coaching "Value Entrepreneurship"</strong> and developing
               this course with 5 amazing mentees for the past few years, and the
-              outcomes have been incredible.
+              outcomes have been incredible!
               <strong class="text-yellow"
-                >All have made money or have a tested idea that will soon make
-                them money</strong
+                >All have made money or have a <u>tested idea</u> that will soon
+                make them money</strong
               >.
             </p>
             <p class="mb-4">
@@ -61,7 +61,6 @@
               that can help thousands of aspiring entrepreneurs rather than just
               the few I can personally mentor.
             </p>
-            <p>Hello and welcome to ValueHeads! ❤️</p>
           </div>
         </div>
 

@@ -20,7 +20,22 @@
           make money!
         </p>
       </div>
-      <div class="mx-auto mt-12 max-w-xl">
+      <div
+        class="overflow-y-hidden relative mx-auto mt-12 max-w-xl"
+        :class="[!isShowFull ? 'max-h-[36rem]' : '']"
+        @click="isShowFull = true"
+      >
+        <div
+          class="flex absolute bottom-0 justify-center items-end w-full h-44 bg-gradient-to-t from-white via-white to-transparent"
+          v-if="!isShowFull"
+        >
+          <button
+            @click="isShowFull = true"
+            class="inline-flex px-4 py-2 text-base font-medium bg-gray-100 rounded-md border border-indigo-300 shadow-sm  text-olive-800 hover:bg-white"
+          >
+            See full infographic
+          </button>
+        </div>
         <img
           class="mx-auto w-auto h-auto lazyload"
           data-src="/images/illustration-value-entrepreneurship-journey.gif"
@@ -28,16 +43,26 @@
           width="1314"
           height="5502"
         />
-      </div>
-      <div class="mx-auto mt-12 sm:mt-16 md:max-w-md">
-        <a
-          href="#cta"
-          v-scroll-to="'#cta'"
-          class="flex justify-center items-center px-8 py-3 text-base font-bold text-white rounded-md border border-transparent  bg-indigo hover:bg-yellow-500 hover:text-gray-900 md:py-4 md:text-lg md:px-10"
-        >
-          Support ValueHeads 👍
-        </a>
+        <div class="mx-auto mt-12 sm:mt-16 md:max-w-md">
+          <a
+            href="#cta"
+            v-scroll-to="'#cta'"
+            class="flex justify-center items-center px-8 py-3 text-base font-bold text-white rounded-md border border-transparent  bg-indigo hover:bg-yellow-500 hover:text-gray-900 md:py-4 md:text-lg md:px-10"
+          >
+            Support ValueHeads 👍
+          </a>
+        </div>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      isShowFull: false,
+    };
+  },
+};
+</script>

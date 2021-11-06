@@ -23,7 +23,7 @@
           :key="item.name"
           :href="item.href"
           target="_blank"
-          class="text-gray-200 hover:text-white noopener"
+          class="text-gray-200 hover:text-yellow noopener"
         >
           <span class="sr-only">{{ item.name }}</span>
           <FontAwesomeIcon

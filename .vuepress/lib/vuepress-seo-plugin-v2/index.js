@@ -91,6 +91,8 @@ function getAddMeta(head) {
 
 // add cannonical tag
 function addCanonical(head, $page, $site) {
+  let canonical = $page.frontmatter.canonical;
+
   // check if canonical tag exists already
   let isExists =
     head.findIndex((item) => {
@@ -98,14 +100,28 @@ function addCanonical(head, $page, $site) {
     }) != -1;
 
   // if it does not, auto generate it
-  if (!isExists)
+  if (!isExists) {
+    let domain = $site.themeConfig.domain || "";
+
     head.push([
       "link",
       {
         rel: "canonical",
-        href: ($site.themeConfig.domain || "") + $page.path,
+        href: canonical
+          ? buildAbsUrl(canonical, domain)
+          : buildAbsUrl($page.path, domain),
       },
     ]);
+  }
+}
+
+function buildAbsUrl(path, domain) {
+  if (path.startsWith("http")) return path;
+  else if (path.startsWith("/")) {
+    return domain + path;
+  } else {
+    return domain + "/" + path;
+  }
 }
 
 const defaultOptions = {

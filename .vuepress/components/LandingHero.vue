@@ -28,33 +28,24 @@
             <h1
               class="text-4xl font-extrabold tracking-tight text-white  sm:text-6xl"
             >
+              <!-- Variation A -->
               <span
-                v-if="$route.query.v == 'a'"
+                v-if="$route.path.startsWith('/va')"
                 class="block mt-0 leading-[1.1]"
               >
                 Step-by-step course on
                 <span class="text-yellow-500">
-                  how to become a successful entrepreneur </span
-                >.
-
-                <!-- <br />
-                <span class="block mt-2 font-bold sm:text-3xl">
-                  This is your
-                  <span class="text-yellow-500"
-                    >forever FREE step-by-step course!</span
-                  >
-                </span> -->
+                  how to become a successful entrepreneur
+                </span>
               </span>
+
+              <!-- Default -->
               <span v-else class="block mt-0">
                 Build your own business with our
                 <span class="text-yellow-500"
                   >forever FREE step-by-step course!</span
                 >
               </span>
-
-              <!-- <span class="block">
-                      Build a business and live your life the way you want.
-                    </span> -->
             </h1>
             <p
               class="mt-12 text-lg text-indigo-100  sm:mt-10 sm:text-xl lg:text-lg xl:text-xl"
@@ -109,6 +100,9 @@ export default {
     ChevronRightIcon,
     MenuIcon,
     XIcon,
+  },
+  mounted() {
+    console.log("$route.path", this.$route.path);
   },
 };
 </script>

@@ -29,7 +29,14 @@
       </h2>
 
       <p
-        class="block mt-12 text-2xl font-black text-center text-yellow-900  lg:text-5xl"
+        class="
+          block
+          mt-12
+          text-2xl
+          font-black
+          text-center text-yellow-900
+          lg:text-5xl
+        "
       >
         <span class="whitespace-nowrap">
           <strong class="text-4xl text-indigo-500 lg:text-7xl">
@@ -40,7 +47,14 @@
       </p>
 
       <p
-        class="mx-auto mt-12 mb-12 max-w-2xl text-xl text-center text-yellow-800  sm:text-xl"
+        class="
+          mx-auto
+          mt-12
+          mb-12
+          max-w-2xl
+          text-xl text-center text-yellow-800
+          sm:text-xl
+        "
       >
         <strong>Our goal is 500 supporters.</strong> That's how we know you want
         this before we put in the next 4,000 hours of work needed to bring you
@@ -50,7 +64,16 @@
       <confetti v-if="isCelebrating" />
 
       <div
-        class="px-6 py-12 mx-auto mt-16 max-w-2xl bg-yellow-300 rounded-xl  md:p-12"
+        class="
+          px-6
+          py-12
+          mx-auto
+          mt-16
+          max-w-2xl
+          bg-yellow-300
+          rounded-xl
+          md:p-12
+        "
       >
         <h3 class="mb-6 text-2xl font-bold text-olive-700">
           Help us get to 500 supporters 👇🏿
@@ -65,13 +88,33 @@
               <a href="#" @click.prevent="currStep = step.stepNo">
                 <div
                   v-if="stepIdx !== steps.length - 1"
-                  class="absolute top-4 left-4 mt-0.5 -ml-px w-0.5 h-full bg-indigo-600"
+                  class="
+                    absolute
+                    top-4
+                    left-4
+                    mt-0.5
+                    -ml-px
+                    w-0.5
+                    h-full
+                    bg-indigo-600
+                  "
                   aria-hidden="true"
                 />
                 <span class="flex relative items-center group">
                   <span class="flex items-center h-5">
                     <span
-                      class="flex relative z-10 justify-center items-center w-8 h-8 bg-indigo-600 rounded-full  group-hover:bg-indigo-800"
+                      class="
+                        flex
+                        relative
+                        z-10
+                        justify-center
+                        items-center
+                        w-8
+                        h-8
+                        bg-indigo-600
+                        rounded-full
+                        group-hover:bg-indigo-800
+                      "
                     >
                       <CheckIcon
                         class="w-5 h-5 text-white"
@@ -96,20 +139,46 @@
             >
               <div
                 v-if="stepIdx !== steps.length - 1"
-                class="absolute top-4 left-4 mt-0.5 -ml-px w-0.5 h-full  bg-olive-100"
+                class="
+                  absolute
+                  top-4
+                  left-4
+                  mt-0.5
+                  -ml-px
+                  w-0.5
+                  h-full
+                  bg-olive-100
+                "
                 aria-hidden="true"
               />
               <span class="flex relative items-start group" aria-current="step">
                 <span class="flex items-center h-8" aria-hidden="true">
                   <span
-                    class="flex relative z-10 justify-center items-center w-8 h-8 bg-white rounded-full border-2 border-indigo-600"
+                    class="
+                      flex
+                      relative
+                      z-10
+                      justify-center
+                      items-center
+                      w-8
+                      h-8
+                      bg-white
+                      rounded-full
+                      border-2 border-indigo-600
+                    "
                   >
                     <span class="w-2.5 h-2.5 bg-indigo-600 rounded-full" />
                   </span>
                 </span>
                 <span class="flex flex-col ml-4 min-w-0">
                   <span
-                    class="text-sm font-semibold tracking-wide text-indigo-600 uppercase"
+                    class="
+                      text-sm
+                      font-semibold
+                      tracking-wide
+                      text-indigo-600
+                      uppercase
+                    "
                     >{{ step.stepNo }}. {{ step.name }}</span
                   >
                   <span class="mt-2 text-base text-olive-600">{{
@@ -126,22 +195,55 @@
             <template v-else>
               <div
                 v-if="stepIdx !== steps.length - 1"
-                class="absolute top-4 left-4 mt-0.5 -ml-px w-0.5 h-full  bg-olive-100"
+                class="
+                  absolute
+                  top-4
+                  left-4
+                  mt-0.5
+                  -ml-px
+                  w-0.5
+                  h-full
+                  bg-olive-100
+                "
                 aria-hidden="true"
               />
               <span class="flex relative items-center group">
                 <span class="flex items-center h-5" aria-hidden="true">
                   <span
-                    class="flex relative z-10 justify-center items-center w-8 h-8 bg-white rounded-full border-2  border-olive-100 group-hover:border-olive-300"
+                    class="
+                      flex
+                      relative
+                      z-10
+                      justify-center
+                      items-center
+                      w-8
+                      h-8
+                      bg-white
+                      rounded-full
+                      border-2 border-olive-100
+                      group-hover:border-olive-300
+                    "
                   >
                     <span
-                      class="w-2.5 h-2.5 bg-transparent rounded-full  group-hover:bg-olive-100"
+                      class="
+                        w-2.5
+                        h-2.5
+                        bg-transparent
+                        rounded-full
+                        group-hover:bg-olive-100
+                      "
                     />
                   </span>
                 </span>
                 <span class="flex flex-col ml-4 min-w-0">
                   <span
-                    class="text-sm font-semibold tracking-wide uppercase  text-olive-400"
+                    class="
+                      text-sm
+                      font-semibold
+                      tracking-wide
+                      uppercase
+                      text-olive-400
+                    "
                     >{{ step.stepNo }}. {{ step.name }}</span
                   >
                   <!-- <span class="text-base text-olive-400">{{
@@ -158,7 +260,14 @@
         <cta-thank-you
           v-if="currStep > 3"
           @celebrate="celebrate()"
-          class="flex flex-col justify-center items-center pt-12 mx-auto text-center"
+          class="
+            flex flex-col
+            justify-center
+            items-center
+            pt-12
+            mx-auto
+            text-center
+          "
         />
       </div>
 
@@ -214,7 +323,7 @@ export default {
     return {
       currStep: 1,
       isCelebrating: false,
-      supporterCount: 12,
+      supporterCount: 13,
     };
   },
   methods: {

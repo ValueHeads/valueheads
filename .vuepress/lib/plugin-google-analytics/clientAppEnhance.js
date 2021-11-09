@@ -31,5 +31,5 @@ export default defineClientAppEnhance(({ app, router, siteData }) => {
 
     gtag("js", new Date());
     gtag("config", id);
-  }, 4000); // added 4s delay
+  }, 2000); // added 2s delay
 });

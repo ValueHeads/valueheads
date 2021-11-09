@@ -76,20 +76,19 @@
               v-if="$route.path.startsWith('/va')"
               class="block mt-0 leading-[1.1]"
             >
-              Step-by-step course on
-              <span class="text-yellow-500">
-                how to become a successful entrepreneur
-              </span>
+              10 actionable steps to
+              <span class="text-yellow-500"> to become an entrepreneur </span>
+              in 2021!
             </span>
 
             <!-- Variation B -->
             <span
-              v-if="$route.path.startsWith('/vb')"
+              v-else-if="$route.path.startsWith('/vb')"
               class="block mt-0 leading-[1.1]"
             >
               How to
-              <span class="text-yellow-500"> start an online business, </span>
-              FREE step-by-step course!
+              <span class="text-yellow-500"> start an online business </span> in
+              10 actionable steps! (in 2021)
             </span>
 
             <!-- Default -->
@@ -111,10 +110,11 @@
           >
             You've never seen
             <strong class="text-white">an entrepreneurship course</strong>
-            like this! It's your manual to finding a great business idea that
+            like this! It's your actionable manual to finding a great business
+            idea that
             <strong class="text-white whitespace-nowrap"
               >WILL make you money</strong
-            >. We do it by following the value.
+            >. We do it by "Following the Value".
           </p>
 
           <div

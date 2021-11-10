@@ -15,7 +15,7 @@
       "
     >
       <div
-        class="mx-auto max-w-xl  sm:mx-0 lg:col-span-8 sm:max-w-3xl sm:text-center lg:text-left lg:flex lg:items-center"
+        class="mx-auto max-w-xl  lg:mx-0 lg:col-span-8 sm:max-w-3xl sm:text-center lg:text-left lg:flex lg:items-center"
       >
         <div class="lg:py-10">
           <div class="block h-9 sm:h-14">

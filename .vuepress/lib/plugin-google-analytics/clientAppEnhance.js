@@ -31,7 +31,7 @@ export default defineClientAppEnhance(({ app, router, siteData }) => {
 
     gtag("js", new Date());
     gtag("config", id);
-    // TODO make config array []
-    gtag("config", "UA-211005523-1");
+    // // TODO make config array []
+    // gtag("config", "UA-211005523-1");
   }, 2000); // added 2s delay
 });

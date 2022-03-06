@@ -1,10 +1,13 @@
 // See https://irian.to/blogs/setting-up-vuepress-with-tailwindcss/
 
+// BRAND COLORS: https://coolors.co/ffffff-6c6c60-fbcd22-3f2680
+
 module.exports = {
   mode: "jit", // for some reason did not work!
 
   corePlugins: { preflight: false },
-  important: true, // Components in Markdown require this
+  // See https://sebastiandedeyne.com/why-we-use-important-with-tailwind/
+  important: "body", // Components in Markdown require this
 
   // Use more specific paths in your purge config.
   // See https://tailwindcss.com/docs/just-in-time-mode#watch-mode-and-one-off-builds
@@ -20,6 +23,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      screens: {
+        // Docs https://tailwindcss.com/docs/breakpoints#styling-for-print
+        print: { raw: "print" },
+      },
       colors: {
         indigo: {
           DEFAULT: "#3F2680",
@@ -77,5 +84,8 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [require("@tailwindcss/forms")],
+  plugins: [
+    require("@tailwindcss/forms"),
+    require("@tailwindcss/aspect-ratio"),
+  ],
 };

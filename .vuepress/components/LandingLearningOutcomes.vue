@@ -22,15 +22,15 @@
         </p>
       </div>
 
-      <img
+      <!-- <img
         class="p-4 mx-auto mt-12 w-full max-w-md h-auto bg-yellow-50 rounded-sm border shadow-lg transform rotate-1 lazyload border-olive-400"
         data-src="/images/illustration-low-risk-equation.png"
         alt="Entrepreneurship Course in Following the Value. This is the equation summary."
         width="786" height="355"
-      />
+      /> -->
 
       <div class="mx-auto max-w-3xl divide-y-2 divide-gray-200">
-        <dl class="mt-10 space-y-6 divide-y divide-gray-200">
+        <dl class="mt-16 space-y-6 divide-y divide-gray-200">
           <Disclosure
             as="div"
             v-for="faq in weeks"

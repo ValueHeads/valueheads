@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-indigo-500 pt-20">
-    <div class="px-4 py-6 mx-auto max-w-7xl sm:px-6 lg:px-8">
+  <div class="bg-white">
+    <div class="px-4 pb-6 mx-auto max-w-7xl sm:px-6 lg:px-8">
       <NicheExplorerBreadcrumbs
         :selected-l1="selectedL1"
         :selected-l2="selectedL2"
@@ -91,77 +91,11 @@
       <!-- Cluster level with summary -->
       <div v-else class="bg-white">
         <ul class="category-grid">
-          <li
+          <niche-card
             v-for="cluster in filteredTopicsSorted"
             :key="cluster.topic"
-            class="card"
-          >
-            <!-- Card header -->
-            <div class="card-header">
-              <h3>{{ cluster.keywords[0]["kw"] }}</h3>
-
-              <div class="flex justify-between">
-                <p class="font-bold">
-                  {{ cluster.search_volume_sum }} searches/m
-                </p>
-                <p>cpc {{ cluster.cpc_wavg }}</p>
-                <p>kd {{ cluster.kd_wavg }}</p>
-                <p>s {{ cluster.score }}</p>
-                <p>
-                  slope %
-                  {{
-                    Math.round(
-                      (cluster.monthly_searches_slope /
-                        cluster.monthly_searches_mean) *
-                        100,
-                      2
-                    )
-                  }}
-                </p>
-              </div>
-            </div>
-
-            <!-- Card body -->
-            <div class="card-body">
-              <ul class="mb-2">
-                <li
-                  v-for="cat in cluster.categories_scored.filter(
-                    (c) => c.score > 0.15
-                  )"
-                  :key="cat.label"
-                  class="inline-block mb-0 text-[0.65rem]"
-                >
-                  <button
-                    type="button"
-                    class="
-                      inline-block
-                      px-1.5
-                      py-0.5
-                      rounded-md
-                      font-medium
-                      bg-yellow-100
-                      text-yellow-700
-                    "
-                    @click="setCatsByL2(cat.label)"
-                  >
-                    {{ cat.label.split("/")[1] }}
-                  </button>
-                  &nbsp;
-                </li>
-              </ul>
-
-              <ul>
-                <li
-                  v-for="kObj in cluster.keywords"
-                  :key="kObj.kw"
-                  class="text-sm"
-                >
-                  {{ kObj.kw }}.
-                  <!-- (vol {{ kObj.vol }}) -->
-                </li>
-              </ul>
-            </div>
-          </li>
+            :niche-cluster="cluster"
+          />
         </ul>
       </div>
     </div>
@@ -172,8 +106,8 @@
 import Fuse from "fuse.js";
 import { SearchIcon } from "@heroicons/vue/solid";
 
-import categoriesMeta from "../data/meta_categories.json";
-import clusterData from "../data/niche_clusters.json";
+import categoriesMeta from "@/data/meta_categories.json";
+import clusterData from "@/data/niche_clusters.json";
 // var debounce = require("debounce");
 
 import VueChartkick from "vue-chartkick";
@@ -183,9 +117,9 @@ const fuseOptions = {
   // includeScore: true,
   keys: ["categories_scored.label", "keywords.kw"],
   threshold: 0.05,
-  // distance: 50,
+  distance: 100,
   findAllMatches: true,
-  ignoreLocation: true,
+  // ignoreLocation: true,
   includeScore: true,
 };
 
@@ -193,16 +127,17 @@ export default {
   components: { SearchIcon, VueChartkick },
   data() {
     return {
-      fuseFilterStr: "nurs",
+      fuseFilterStr: null,
+      // fuseFilterStr: "nurs",
 
-      selectedL1: null,
-      selectedL2: null,
+      // selectedL1: null,
+      // selectedL2: null,
 
       // selectedL1: "Occasions & Gifts",
       // selectedL2: "Gifts",
 
-      // selectedL1: "Business & Industrial",
-      // selectedL2: "Business Management",
+      selectedL1: "Jobs & Education",
+      selectedL2: "Jobs & Careers",
 
       fuse: null,
       results: [],
@@ -248,11 +183,9 @@ export default {
 
         // start with fuse's score (0-4 scale)
         const relevance_score = Math.floor(r.score * 5);
-        // 0 if >= 80, 1 if >= 50, 2 if >= 50, and 5 if less than 30
-        // var kd = kd_wavg >= 80 ? 0 : kd_wavg >= 60 ? 1 : kd_wavg >= 30 ? 2 : 3;
 
         // kd (0-4 scale)
-        var kd = Math.floor((kd_wavg / 100) * 5);
+        var kd = ((100 - kd_wavg) / 100) * 4;
         // 0 if between -3 and 3%, -1 if negative or 1 if positive
         var trend = 0;
         if (slopePerc < -7) trend = 0;
@@ -264,17 +197,21 @@ export default {
         var searchVol = 0;
         if (search_volume_sum < 500) searchVol = 0;
         if (search_volume_sum > 500) searchVol = 1;
-        if (search_volume_sum > 1000) searchVol = 2;
-        if (search_volume_sum > 2500) searchVol = 3;
-        if (search_volume_sum > 5000) searchVol = 4;
+        if (search_volume_sum > 5000) searchVol = 2;
 
-        item["score"] = kd + trend + Math.ceil(searchVol / 2) + relevance_score;
+        item["score"] = Math.round(kd + trend + searchVol); //+ relevance_score;
+
+        item["is_best"] = false;
+        if (kd_wavg < 60 && slopePerc > 3 && search_volume_sum > 500)
+          item["is_best"] = true;
+
         return item;
       });
 
+      // resScored = resScored.filter((v) => v.is_best === true);
+
       // sort desc by score
       resScored = resScored.sort((a, b) => b.score - a.score);
-
       console.log(resScored);
 
       return resScored;
@@ -354,26 +291,6 @@ ul.category-grid {
   button.btn-cat {
     @apply py-6 px-4 block h-full w-full rounded-lg bg-gray-100 overflow-hidden;
     @apply focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-indigo-500;
-  }
-
-  li.card {
-    @apply flex flex-col content-start;
-    @apply bg-white rounded-lg shadow-lg border border-gray-100;
-
-    .card-header {
-      @apply bg-indigo-50 px-4 py-5 border-b border-gray-200 sm:px-6;
-
-      h3 {
-        @apply text-lg leading-6 font-medium text-gray-900;
-      }
-      p {
-        @apply mt-1 text-xs text-gray-500;
-      }
-    }
-
-    .card-body {
-      @apply px-4 py-5 sm:px-6 max-h-52 overflow-y-auto;
-    }
   }
 }
 </style>

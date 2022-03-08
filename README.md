@@ -2,7 +2,7 @@
 # footer: false
 # sidebar: false
 home: true
-pageClass: full-width-page
+pageClass: full-width-page nav-transparent
 
 ogType: website # default is 'article'
 ogTitle: ValueHeads – We are open-sourcing entrepreneurship for ALL. Join us!

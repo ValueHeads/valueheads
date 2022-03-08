@@ -81,6 +81,8 @@ input {
 
 // Full Width Page Class
 .full-width-page {
+  @apply bg-indigo-500;
+
   a {
     @apply hover:no-underline #{!important};
   }
@@ -91,12 +93,22 @@ input {
     padding-right: 0;
   }
 
+  &.nav-transparent {
+    .navbar {
+      @apply bg-transparent;
+
+      // make navbar scroll away
+      position: absolute;
+    }
+  }
+
   .navbar {
+    @apply bg-indigo-500;
     border-bottom: var(--c-bg-navbar);
-    @apply max-w-7xl mx-auto md:px-6 lg:px-8 bg-transparent;
+    @apply max-w-7xl mx-auto md:px-6 lg:px-8;
 
     // make navbar scroll away
-    position: absolute;
+    position: relative;
 
     @apply flex justify-center sm:block;
     // & > span > a {

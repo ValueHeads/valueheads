@@ -89,14 +89,15 @@
       </ul>
 
       <!-- Cluster level with summary -->
-      <div v-else class="bg-white">
-        <ul class="category-grid">
-          <niche-card
-            v-for="cluster in filteredTopicsSorted"
-            :key="cluster.topic"
-            :niche-cluster="cluster"
-          />
-        </ul>
+      <div v-else>
+        <h2 class="mt-6 font-semibold text-lg mb-2">Niches</h2>
+        <niche-cards :niches="filteredTopicsSorted.slice(0, limit)" />
+
+        <intersect @enter="loadMoreResults">
+          <div>
+            <button type="button">Load more</button>
+          </div>
+        </intersect>
       </div>
     </div>
   </div>
@@ -110,8 +111,12 @@ import categoriesMeta from "@/data/meta_categories.json";
 import clusterData from "@/data/niche_clusters.json";
 // var debounce = require("debounce");
 
-import VueChartkick from "vue-chartkick";
-import "chartkick/chart.js";
+// import VueChartkick from "vue-chartkick";
+// import "chartkick/chart.js";
+
+import Intersect from "vue-intersect";
+
+const PER_PAGE = 10;
 
 const fuseOptions = {
   // includeScore: true,
@@ -124,7 +129,7 @@ const fuseOptions = {
 };
 
 export default {
-  components: { SearchIcon, VueChartkick },
+  components: { SearchIcon, Intersect },
   data() {
     return {
       fuseFilterStr: null,
@@ -141,6 +146,7 @@ export default {
 
       fuse: null,
       results: [],
+      limit: PER_PAGE,
       categoriesMeta,
     };
   },
@@ -185,7 +191,7 @@ export default {
         const relevance_score = Math.floor(r.score * 5);
 
         // kd (0-4 scale)
-        var kd = ((100 - kd_wavg) / 100) * 4;
+        var kd = Math.floor(((100 - kd_wavg) / 100) * 5);
         // 0 if between -3 and 3%, -1 if negative or 1 if positive
         var trend = 0;
         if (slopePerc < -7) trend = 0;
@@ -199,7 +205,8 @@ export default {
         if (search_volume_sum > 500) searchVol = 1;
         if (search_volume_sum > 5000) searchVol = 2;
 
-        item["score"] = Math.round(kd + trend + searchVol); //+ relevance_score;
+        item["slope_perc"] = slopePerc;
+        item["score"] = Math.round((kd + trend + searchVol) * 10) / 10; //+ relevance_score;
 
         item["is_best"] = false;
         if (kd_wavg < 60 && slopePerc > 3 && search_volume_sum > 500)
@@ -249,9 +256,17 @@ export default {
   },
 
   methods: {
+    loadMoreResults() {
+      console.log("visible");
+      this.limit += PER_PAGE;
+    },
+    resetLimit() {
+      this.limit = PER_PAGE;
+    },
     clearCat(level) {
       if (level == "all") this.selectedL1 = null;
       if (level == 1 || level == "all") this.selectedL2 = null;
+
       this.fuseFilterStr = null;
     },
     getL1Count(l1Cat) {
@@ -276,8 +291,15 @@ export default {
   },
 
   watch: {
+    selectedL1() {
+      this.resetLimit();
+    },
     selectedL2() {
       this.fuseFilterStr = null;
+      this.resetLimit();
+    },
+    fuseFilterStr() {
+      this.resetLimit();
     },
   },
 };
@@ -285,12 +307,6 @@ export default {
 
 <style lang="scss" scoped>
 ul.category-grid {
-  @apply bg-white p-6;
-  @apply grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-6 lg:grid-cols-3;
-
-  button.btn-cat {
-    @apply py-6 px-4 block h-full w-full rounded-lg bg-gray-100 overflow-hidden;
-    @apply focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-indigo-500;
-  }
+  @apply bg-white p-6 grid grid-cols-2 gap-4 sm:grid-cols-3 sm:gap-6 lg:grid-cols-3;
 }
 </style>

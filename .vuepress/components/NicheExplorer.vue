@@ -93,11 +93,12 @@
         <h2 class="mt-6 font-semibold text-lg mb-2">Niches</h2>
         <niche-cards :niches="filteredTopicsSorted.slice(0, limit)" />
 
-        <intersect @enter="loadMoreResults">
-          <div>
-            <button type="button">Load more</button>
-          </div>
-        </intersect>
+        <BaseLoadMoreBtn
+          v-if="hasMoreResults"
+          :is-loading="isLoading"
+          :func-to-run="loadMoreResults"
+          class="text-center mt-6"
+        />
       </div>
     </div>
   </div>
@@ -107,14 +108,14 @@
 import Fuse from "fuse.js";
 import { SearchIcon } from "@heroicons/vue/solid";
 
-import categoriesMeta from "@/data/meta_categories.json";
-import clusterData from "@/data/niche_clusters.json";
+import categoriesMeta from "~/data/meta_categories.json";
+import clusterData from "~/data/niche_clusters.json";
 // var debounce = require("debounce");
 
 // import VueChartkick from "vue-chartkick";
 // import "chartkick/chart.js";
 
-import Intersect from "vue-intersect";
+// import Intersect from "vue-intersect";
 
 const PER_PAGE = 10;
 
@@ -129,7 +130,7 @@ const fuseOptions = {
 };
 
 export default {
-  components: { SearchIcon, Intersect },
+  components: { SearchIcon },
   data() {
     return {
       fuseFilterStr: null,
@@ -148,6 +149,7 @@ export default {
       results: [],
       limit: PER_PAGE,
       categoriesMeta,
+      isLoading: null,
     };
   },
 
@@ -253,12 +255,29 @@ export default {
       // console.log(filter, result);
       return result;
     },
+
+    hasMoreResults() {
+      // console.log(
+      //   "this.filteredTopics.length",
+      //   this.filteredTopics.length,
+      //   this.limit
+      // );
+      return this.limit <= this.filteredTopics.length;
+    },
   },
 
   methods: {
     loadMoreResults() {
-      console.log("visible");
-      this.limit += PER_PAGE;
+      if (!this.hasMoreResults) return;
+
+      this.isLoading = true;
+
+      // TODO remove fake delay
+      setTimeout(() => {
+        this.limit += PER_PAGE;
+        console.log("loading more. new limit is", this.limit);
+        this.isLoading = false;
+      }, 400);
     },
     resetLimit() {
       this.limit = PER_PAGE;

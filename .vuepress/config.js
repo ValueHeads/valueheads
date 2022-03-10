@@ -172,6 +172,7 @@ module.exports = {
 
   alias: {
     "@": path.resolve(__dirname, "."),
+    "~": path.resolve(__dirname, "."),
   },
 
   extraWatchFiles: ["../tailwind.config.js"],

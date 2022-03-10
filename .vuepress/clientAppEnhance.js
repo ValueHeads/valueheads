@@ -1,7 +1,9 @@
 // Docs https://v2.vuepress.vuejs.org/advanced/cookbook/usage-of-client-app-enhance.html
 import { defineClientAppEnhance } from "@vuepress/client";
 import lazySizes from "lazysizes";
-var VueScrollTo = require("vue-scrollto");
+import VueScrollTo from "vue-scrollto";
+
+// var VueScrollTo = require("vue-scrollto");
 
 // Font Awesome Library
 // See https://github.com/vuejs/vuepress/issues/2072

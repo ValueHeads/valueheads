@@ -91,7 +91,7 @@
       <!-- Cluster level with summary -->
       <div v-else>
         <h2 class="mt-6 font-semibold text-lg mb-2">Niches</h2>
-        <niche-cards :niches="filteredTopicsSorted.slice(0, limit)" />
+        <niche-results :niches="filteredTopicsSorted.slice(0, limit)" />
 
         <BaseLoadMoreBtn
           v-if="hasMoreResults"

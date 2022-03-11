@@ -23,6 +23,10 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      // See https://stackoverflow.com/a/66555667
+      transitionProperty: {
+        "max-height": "max-height",
+      },
       screens: {
         // Docs https://tailwindcss.com/docs/breakpoints#styling-for-print
         print: { raw: "print" },

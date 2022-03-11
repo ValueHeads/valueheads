@@ -52,7 +52,7 @@ li {
       @apply max-h-0;
     }
     &.show-details {
-      @apply rounded-b-md border border-gray-300 max-h-96;
+      @apply rounded-b-md border border-gray-300 max-h-[2000px];
     }
   }
 }

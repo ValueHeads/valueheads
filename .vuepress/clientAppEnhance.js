@@ -3,7 +3,8 @@ import { defineClientAppEnhance } from "@vuepress/client";
 import lazySizes from "lazysizes";
 import VueScrollTo from "vue-scrollto";
 
-// var VueScrollTo = require("vue-scrollto");
+import VueChartkick from "vue-chartkick";
+import "chartkick/chart.js";
 
 // Font Awesome Library
 // See https://github.com/vuejs/vuepress/issues/2072
@@ -47,6 +48,8 @@ export default defineClientAppEnhance(({ app, router, siteData }) => {
 
   // Docs: https://github.com/rigor789/vue-scrollto
   app.use(VueScrollTo);
+  // Docs: https://github.com/ankane/vue-chartkick
+  app.use(VueChartkick);
 
   router.afterEach((to) => {
     // lazysizes docs: https://github.com/aFarkas/lazysizes

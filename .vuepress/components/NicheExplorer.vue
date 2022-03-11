@@ -112,11 +112,6 @@ import categoriesMeta from "~/data/meta_categories.json";
 import clusterData from "~/data/niche_clusters.json";
 // var debounce = require("debounce");
 
-// import VueChartkick from "vue-chartkick";
-// import "chartkick/chart.js";
-
-// import Intersect from "vue-intersect";
-
 const PER_PAGE = 10;
 
 const fuseOptions = {

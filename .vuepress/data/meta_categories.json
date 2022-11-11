@@ -1,73 +1,82 @@
 {
   "Apparel": {
     "Misc": {
-      "count": 28,
+      "count": 36,
       "categories_full": [
         "Apparel/Apparel Accessories",
         "Apparel/Dry Cleaning & Alterations",
-        "Apparel/Footwear",
-        "Apparel/Jewelry"
+        "Apparel/Footwear"
       ]
     },
     "Clothing": {
-      "count": 30,
+      "count": 61,
       "categories_full": [
         "Apparel/Clothing"
+      ]
+    },
+    "Jewelry": {
+      "count": 31,
+      "categories_full": [
+        "Apparel/Jewelry"
       ]
     }
   },
   "Arts & Entertainment": {
-    "Misc": {
-      "count": 86,
+    "Cartoons": {
+      "count": 29,
       "categories_full": [
-        "Arts & Entertainment/Arts & Entertainment Awards",
+        "Arts & Entertainment/Cartoons"
+      ]
+    },
+    "Misc": {
+      "count": 74,
+      "categories_full": [
         "Arts & Entertainment/Comics & Graphic Novels",
         "Arts & Entertainment/Entertainment Media Retailers",
         "Arts & Entertainment/Event Entertainment",
         "Arts & Entertainment/Events, Shows & Cultural Attractions",
         "Arts & Entertainment/Fun & Trivia",
-        "Arts & Entertainment/Humor & Jokes",
         "Arts & Entertainment/Offbeat"
       ]
     },
-    "Cartoons": {
-      "count": 21,
-      "categories_full": [
-        "Arts & Entertainment/Cartoons"
-      ]
-    },
     "Entertainment Industry": {
-      "count": 78,
+      "count": 101,
       "categories_full": [
         "Arts & Entertainment/Entertainment Industry"
       ]
     },
+    "Humor & Jokes": {
+      "count": 31,
+      "categories_full": [
+        "Arts & Entertainment/Humor & Jokes"
+      ]
+    },
     "Movies & Films": {
-      "count": 42,
+      "count": 73,
       "categories_full": [
         "Arts & Entertainment/Movies & Films"
       ]
     },
     "Music & Audio": {
-      "count": 245,
+      "count": 248,
       "categories_full": [
         "Arts & Entertainment/Music & Audio"
       ]
     },
     "Sports Entertainment": {
-      "count": 23,
+      "count": 39,
       "categories_full": [
         "Arts & Entertainment/Sports Entertainment"
       ]
     },
     "TV & Video": {
-      "count": 169,
+      "count": 208,
       "categories_full": [
         "Arts & Entertainment/TV & Video"
       ]
     },
     "Visual Art & Design": {
-      "count": 262,
+      "count": 242,
       "categories_full": [
         "Arts & Entertainment/Visual Art & Design"
       ]
@@ -75,102 +84,112 @@
   },
   "Beauty & Personal Care": {
     "Misc": {
-      "count": 48,
+      "count": 71,
       "categories_full": [
         "Beauty & Personal Care/Anti-Aging",
         "Beauty & Personal Care/Body Art",
-        "Beauty & Personal Care/Fashion & Style",
         "Beauty & Personal Care/Hair Care",
-        "Beauty & Personal Care/Hygiene & Toiletries",
+        "Beauty & Personal Care/Insect Repellent",
+        "Beauty & Personal Care/Make-Up & Cosmetics",
         "Beauty & Personal Care/Nail Care",
         "Beauty & Personal Care/Oral Care",
+        "Beauty & Personal Care/Shaving & Grooming",
         "Beauty & Personal Care/Skin Care",
-        "Beauty & Personal Care/Spa & Medical Spa",
-        "Beauty & Personal Care/Tanning & Sun Care"
+        "Beauty & Personal Care/Spa & Medical Spa"
       ]
     },
-    "Make-Up & Cosmetics": {
-      "count": 20,
+    "Fashion & Style": {
+      "count": 24,
       "categories_full": [
-        "Beauty & Personal Care/Make-Up & Cosmetics"
+        "Beauty & Personal Care/Fashion & Style"
       ]
     }
   },
   "Business & Industrial": {
     "Agriculture": {
-      "count": 23,
+      "count": 39,
       "categories_full": [
         "Business & Industrial/Agriculture"
       ]
     },
     "Building Construction & Maintenance": {
-      "count": 77,
+      "count": 120,
       "categories_full": [
         "Business & Industrial/Building Construction & Maintenance"
       ]
     },
     "Business Management": {
-      "count": 615,
+      "count": 723,
       "categories_full": [
         "Business & Industrial/Business Management"
       ]
     },
     "Misc": {
-      "count": 45,
+      "count": 39,
       "categories_full": [
         "Business & Industrial/Chemical Industry",
-        "Business & Industrial/Energy Industry",
         "Business & Industrial/Fishing Industry",
+        "Business & Industrial/Food Production",
         "Business & Industrial/Food Service Industry",
-        "Business & Industrial/Import & Export",
-        "Business & Industrial/Janitorial Products & Services",
         "Business & Industrial/Scientific Equipment & Services"
       ]
     },
     "Commercial & Industrial Printing": {
-      "count": 45,
+      "count": 38,
       "categories_full": [
         "Business & Industrial/Commercial & Industrial Printing"
       ]
     },
     "Design & Engineering": {
-      "count": 197,
+      "count": 269,
       "categories_full": [
         "Business & Industrial/Design & Engineering"
       ]
     },
+    "Energy Industry": {
+      "count": 33,
+      "categories_full": [
+        "Business & Industrial/Energy Industry"
+      ]
+    },
     "Industrial Goods & Manufacturing": {
-      "count": 92,
+      "count": 120,
       "categories_full": [
         "Business & Industrial/Industrial Goods & Manufacturing"
       ]
     },
+    "Janitorial Products & Services": {
+      "count": 20,
+      "categories_full": [
+        "Business & Industrial/Janitorial Products & Services"
+      ]
+    },
     "Manufacturing": {
-      "count": 46,
+      "count": 48,
       "categories_full": [
         "Business & Industrial/Manufacturing"
       ]
     },
     "Office": {
-      "count": 133,
+      "count": 150,
       "categories_full": [
         "Business & Industrial/Office"
       ]
     },
     "Retail Trade": {
-      "count": 42,
+      "count": 64,
       "categories_full": [
         "Business & Industrial/Retail Trade"
       ]
     },
     "Security Equipment & Services": {
-      "count": 38,
+      "count": 63,
       "categories_full": [
         "Business & Industrial/Security Equipment & Services"
       ]
     },
     "Shipping & Packing": {
-      "count": 44,
+      "count": 73,
       "categories_full": [
         "Business & Industrial/Shipping & Packing"
       ]
@@ -178,27 +197,28 @@
   },
   "Computers & Consumer Electronics": {
     "Computers": {
-      "count": 1086,
+      "count": 1068,
       "categories_full": [
         "Computers & Consumer Electronics/Computers"
       ]
     },
     "Consumer Electronics": {
-      "count": 1123,
+      "count": 1171,
       "categories_full": [
         "Computers & Consumer Electronics/Consumer Electronics"
       ]
     }
   },
   "Dining & Nightlife": {
-    "Dining & Nightlife Reviews, Guides & Listings": {
-      "count": 24,
+    "Misc": {
+      "count": 6,
       "categories_full": [
-        "Dining & Nightlife/Dining & Nightlife Reviews, Guides & Listings"
+        "Dining & Nightlife/Dining & Nightlife Reviews, Guides & Listings",
+        "Dining & Nightlife/Nightclubs, Bars & Music Clubs"
       ]
     },
     "Restaurants": {
-      "count": 53,
+      "count": 49,
       "categories_full": [
         "Dining & Nightlife/Restaurants"
       ]
@@ -206,31 +226,31 @@
   },
   "Family & Community": {
     "Baby, Parenting & Family": {
-      "count": 104,
+      "count": 87,
       "categories_full": [
         "Family & Community/Baby, Parenting & Family"
       ]
     },
     "Community Service & Social Organizations": {
-      "count": 153,
+      "count": 195,
       "categories_full": [
         "Family & Community/Community Service & Social Organizations"
       ]
     },
     "Domestic & Personal Resources": {
-      "count": 50,
+      "count": 64,
       "categories_full": [
         "Family & Community/Domestic & Personal Resources"
       ]
     },
     "Faith & Belief": {
-      "count": 53,
+      "count": 76,
       "categories_full": [
         "Family & Community/Faith & Belief"
       ]
     },
     "Romance & Relationships": {
-      "count": 96,
+      "count": 190,
       "categories_full": [
         "Family & Community/Romance & Relationships"
       ]
@@ -238,65 +258,70 @@
   },
   "Finance": {
     "Misc": {
-      "count": 29,
+      "count": 16,
       "categories_full": [
         "Finance/ATM Sales & Processing",
-        "Finance/Insurance",
-        "Finance/Money Transfer & Wire Services"
+        "Finance/Business News & Media"
       ]
     },
     "Accounting & Auditing": {
-      "count": 78,
+      "count": 93,
       "categories_full": [
         "Finance/Accounting & Auditing"
       ]
     },
     "Banking": {
-      "count": 48,
+      "count": 55,
       "categories_full": [
         "Finance/Banking"
       ]
     },
     "Business Finance": {
-      "count": 44,
+      "count": 64,
       "categories_full": [
         "Finance/Business Finance"
       ]
     },
-    "Business News & Media": {
-      "count": 32,
-      "categories_full": [
-        "Finance/Business News & Media"
-      ]
-    },
     "Credit & Lending": {
-      "count": 68,
+      "count": 116,
       "categories_full": [
         "Finance/Credit & Lending"
       ]
     },
     "Financial Planning & Management": {
-      "count": 36,
+      "count": 62,
       "categories_full": [
         "Finance/Financial Planning & Management"
       ]
     },
     "Grants, Scholarships & Financial Aid": {
-      "count": 22,
+      "count": 56,
       "categories_full": [
         "Finance/Grants, Scholarships & Financial Aid"
       ]
     },
+    "Insurance": {
+      "count": 28,
+      "categories_full": [
+        "Finance/Insurance"
+      ]
+    },
     "Investing": {
-      "count": 103,
+      "count": 119,
       "categories_full": [
         "Finance/Investing"
+      ]
+    },
+    "Money Transfer & Wire Services": {
+      "count": 28,
+      "categories_full": [
+        "Finance/Money Transfer & Wire Services"
       ]
     }
   },
   "Food & Groceries": {
     "Misc": {
-      "count": 24,
+      "count": 41,
       "categories_full": [
         "Food & Groceries/Beverages",
         "Food & Groceries/Household Supplies",
@@ -304,7 +329,7 @@
       ]
     },
     "Food": {
-      "count": 36,
+      "count": 73,
       "categories_full": [
         "Food & Groceries/Food"
       ]
@@ -312,43 +337,43 @@
   },
   "Health": {
     "Misc": {
-      "count": 4,
+      "count": 5,
       "categories_full": [
         "Health/Biotech & Pharmaceutical"
       ]
     },
     "Health Care Services": {
-      "count": 44,
+      "count": 60,
       "categories_full": [
         "Health/Health Care Services"
       ]
     },
     "Health Conditions & Concerns": {
-      "count": 173,
+      "count": 240,
       "categories_full": [
         "Health/Health Conditions & Concerns"
       ]
     },
     "Medical Devices, Equipment & Supplies": {
-      "count": 22,
+      "count": 41,
       "categories_full": [
         "Health/Medical Devices, Equipment & Supplies"
       ]
     },
     "Nutrition & Dieting": {
-      "count": 42,
+      "count": 64,
       "categories_full": [
         "Health/Nutrition & Dieting"
       ]
     },
     "Pharmacy": {
-      "count": 20,
+      "count": 25,
       "categories_full": [
         "Health/Pharmacy"
       ]
     },
     "Professional Medical Resources": {
-      "count": 35,
+      "count": 36,
       "categories_full": [
         "Health/Professional Medical Resources"
       ]
@@ -356,56 +381,66 @@
   },
   "Hobbies & Leisure": {
     "Misc": {
-      "count": 57,
+      "count": 37,
       "categories_full": [
         "Hobbies & Leisure/Ancestry & Genealogy",
-        "Hobbies & Leisure/Antiques & Collectibles",
         "Hobbies & Leisure/Astronomy",
         "Hobbies & Leisure/Birding",
-        "Hobbies & Leisure/Gardening",
         "Hobbies & Leisure/Prizes & Competitions",
         "Hobbies & Leisure/Scale Models & Model Building",
         "Hobbies & Leisure/Wine & Beer Collecting & Brewing"
       ]
     },
+    "Antiques & Collectibles": {
+      "count": 26,
+      "categories_full": [
+        "Hobbies & Leisure/Antiques & Collectibles"
+      ]
+    },
     "Arts & Crafts": {
-      "count": 22,
+      "count": 28,
       "categories_full": [
         "Hobbies & Leisure/Arts & Crafts"
       ]
     },
     "Camping & Outdoor Recreation": {
-      "count": 27,
+      "count": 21,
       "categories_full": [
         "Hobbies & Leisure/Camping & Outdoor Recreation"
       ]
     },
     "Cooking": {
-      "count": 36,
+      "count": 70,
       "categories_full": [
         "Hobbies & Leisure/Cooking"
       ]
     },
+    "Gardening": {
+      "count": 21,
+      "categories_full": [
+        "Hobbies & Leisure/Gardening"
+      ]
+    },
     "Pets & Animals": {
-      "count": 28,
+      "count": 47,
       "categories_full": [
         "Hobbies & Leisure/Pets & Animals"
       ]
     },
     "Photo & Video": {
-      "count": 94,
+      "count": 98,
       "categories_full": [
         "Hobbies & Leisure/Photo & Video"
       ]
     },
     "Recreational Activity Education": {
-      "count": 54,
+      "count": 29,
       "categories_full": [
         "Hobbies & Leisure/Recreational Activity Education"
       ]
     },
     "Toys & Games": {
-      "count": 477,
+      "count": 403,
       "categories_full": [
         "Hobbies & Leisure/Toys & Games"
       ]
@@ -413,77 +448,84 @@
   },
   "Home & Garden": {
     "Misc": {
-      "count": 78,
+      "count": 101,
       "categories_full": [
         "Home & Garden/Bathroom",
         "Home & Garden/Bedding & Linens",
+        "Home & Garden/Doorbells & Door Knockers",
         "Home & Garden/Home & Garden Media & Publications",
         "Home & Garden/Home Appliances",
         "Home & Garden/Home Furniture",
         "Home & Garden/Home Heating & Cooling",
         "Home & Garden/Home Laundry",
+        "Home & Garden/Home Safety & Security",
         "Home & Garden/Home Storage & Organization",
         "Home & Garden/Kitchen & Bathroom Cabinets",
-        "Home & Garden/Kitchen & Dining",
         "Home & Garden/Lights & Lighting",
         "Home & Garden/Water Filters"
       ]
     },
     "Home Decor & Interior Decorating": {
-      "count": 39,
+      "count": 58,
       "categories_full": [
         "Home & Garden/Home Decor & Interior Decorating"
       ]
     },
     "Home Improvement & Maintenance": {
-      "count": 34,
+      "count": 64,
       "categories_full": [
         "Home & Garden/Home Improvement & Maintenance"
       ]
     },
-    "Home Safety & Security": {
-      "count": 24,
+    "Kitchen & Dining": {
+      "count": 20,
       "categories_full": [
-        "Home & Garden/Home Safety & Security"
+        "Home & Garden/Kitchen & Dining"
       ]
     },
     "Residential Cleaning": {
-      "count": 25,
+      "count": 28,
       "categories_full": [
         "Home & Garden/Residential Cleaning"
       ]
     },
     "Yard, Garden & Patio": {
-      "count": 31,
+      "count": 65,
       "categories_full": [
         "Home & Garden/Yard, Garden & Patio"
       ]
     }
   },
   "Internet & Telecom": {
-    "Misc": {
-      "count": 37,
+    "Cable Services": {
+      "count": 24,
       "categories_full": [
-        "Internet & Telecom/Cable Services",
+        "Internet & Telecom/Cable Services"
+      ]
+    },
+    "Misc": {
+      "count": 30,
+      "categories_full": [
         "Internet & Telecom/Calling Cards",
         "Internet & Telecom/Satellite Services",
-        "Internet & Telecom/Teleconferencing"
+        "Internet & Telecom/Teleconferencing",
+        "Internet & Telecom/Telegrams"
       ]
     },
     "Internet": {
-      "count": 823,
+      "count": 851,
       "categories_full": [
         "Internet & Telecom/Internet"
       ]
     },
     "VOIP": {
-      "count": 37,
+      "count": 32,
       "categories_full": [
         "Internet & Telecom/VOIP"
       ]
     },
     "Telephony": {
-      "count": 961,
+      "count": 842,
       "categories_full": [
         "Internet & Telecom/Telephony"
       ]
@@ -491,13 +533,13 @@
   },
   "Jobs & Education": {
     "Education & Training": {
-      "count": 285,
+      "count": 300,
       "categories_full": [
         "Jobs & Education/Education & Training"
       ]
     },
     "Jobs & Careers": {
-      "count": 181,
+      "count": 232,
       "categories_full": [
         "Jobs & Education/Jobs & Careers"
       ]
@@ -505,11 +547,12 @@
   },
   "Law & Government": {
     "Misc": {
-      "count": 42,
+      "count": 53,
       "categories_full": [
         "Law & Government/Census Services",
         "Law & Government/Emergency Services",
         "Law & Government/Government",
+        "Law & Government/Government Consulting & Contracting",
         "Law & Government/Law Enforcement & Protective Services",
         "Law & Government/Military",
         "Law & Government/Politics",
@@ -517,47 +560,52 @@
       ]
     },
     "Legal": {
-      "count": 50,
+      "count": 39,
       "categories_full": [
         "Law & Government/Legal"
       ]
     }
   },
   "News, Media & Publications": {
-    "Books & Literature": {
-      "count": 58,
-      "categories_full": [
-        "News, Media & Publications/Books & Literature"
-      ]
-    },
     "Misc": {
       "count": 49,
       "categories_full": [
+        "News, Media & Publications/Apparel Media & Publications",
         "News, Media & Publications/Celebrities & Entertainment News",
-        "News, Media & Publications/Health Media & Publications",
         "News, Media & Publications/Local News, Media & Publications",
         "News, Media & Publications/Magazines & Magazine Subscriptions",
         "News, Media & Publications/Men's Interests Media & Publications",
         "News, Media & Publications/Newspapers",
-        "News, Media & Publications/Publishing",
-        "News, Media & Publications/Women's Interests Media & Publications",
-        "News, Media & Publications/World News & Media"
+        "News, Media & Publications/Political News & Media",
+        "News, Media & Publications/Vehicle Media & Publications"
+      ]
+    },
+    "Books & Literature": {
+      "count": 65,
+      "categories_full": [
+        "News, Media & Publications/Books & Literature"
       ]
     },
     "Online Media": {
-      "count": 350,
+      "count": 267,
       "categories_full": [
         "News, Media & Publications/Online Media"
       ]
     },
+    "Publishing": {
+      "count": 24,
+      "categories_full": [
+        "News, Media & Publications/Publishing"
+      ]
+    },
     "Reference Materials & Resources": {
-      "count": 106,
+      "count": 68,
       "categories_full": [
         "News, Media & Publications/Reference Materials & Resources"
       ]
     },
     "Weather": {
-      "count": 27,
+      "count": 28,
       "categories_full": [
         "News, Media & Publications/Weather"
       ]
@@ -565,49 +613,60 @@
   },
   "Occasions & Gifts": {
     "Misc": {
-      "count": 34,
+      "count": 15,
       "categories_full": [
         "Occasions & Gifts/Cards & Greetings",
         "Occasions & Gifts/Flower Arrangements",
-        "Occasions & Gifts/Parties & Party Supplies",
-        "Occasions & Gifts/Special Occasions"
+        "Occasions & Gifts/Parties & Party Supplies"
       ]
     },
     "Gifts": {
-      "count": 40,
+      "count": 37,
       "categories_full": [
         "Occasions & Gifts/Gifts"
       ]
     },
     "Holidays & Seasonal Events": {
-      "count": 24,
+      "count": 46,
       "categories_full": [
         "Occasions & Gifts/Holidays & Seasonal Events"
+      ]
+    },
+    "Special Occasions": {
+      "count": 24,
+      "categories_full": [
+        "Occasions & Gifts/Special Occasions"
       ]
     }
   },
   "Real Estate": {
     "Misc": {
-      "count": 44,
+      "count": 42,
       "categories_full": [
         "Real Estate/Commercial & Investment Real Estate",
         "Real Estate/Escrow & Real Estate Titling",
         "Real Estate/House Plans & Floor Plans",
+        "Real Estate/Housing Market & Real Estate Prices",
         "Real Estate/Property Development",
         "Real Estate/Property Inspections & Appraisals",
-        "Real Estate/Property Management",
         "Real Estate/Relocation & Household Moving",
         "Real Estate/Vacation Properties & Second Homes"
       ]
     },
+    "Property Management": {
+      "count": 20,
+      "categories_full": [
+        "Real Estate/Property Management"
+      ]
+    },
     "Real Estate Agents & Brokerages": {
-      "count": 23,
+      "count": 26,
       "categories_full": [
         "Real Estate/Real Estate Agents & Brokerages"
       ]
     },
     "Real Estate Listings": {
-      "count": 32,
+      "count": 48,
       "categories_full": [
         "Real Estate/Real Estate Listings"
       ]
@@ -615,50 +674,55 @@
   },
   "Retailers & General Merchandise": {
     "Misc": {
-      "count": 42,
+      "count": 40,
       "categories_full": [
         "Retailers & General Merchandise/Coupons & Rebates",
         "Retailers & General Merchandise/Informal Selling & Exchanging",
         "Retailers & General Merchandise/Rental Services",
-        "Retailers & General Merchandise/Shopping Portals & Search Engines",
         "Retailers & General Merchandise/Wholesalers & Liquidators"
+      ]
+    },
+    "Shopping Portals & Search Engines": {
+      "count": 25,
+      "categories_full": [
+        "Retailers & General Merchandise/Shopping Portals & Search Engines"
       ]
     }
   },
   "Sports & Fitness": {
     "Misc": {
-      "count": 21,
+      "count": 22,
       "categories_full": [
         "Sports & Fitness/Boating & Water Recreation",
         "Sports & Fitness/Sports & Fitness Apparel"
       ]
     },
     "Fitness": {
-      "count": 93,
+      "count": 119,
       "categories_full": [
         "Sports & Fitness/Fitness"
       ]
     },
     "Sporting Goods": {
-      "count": 49,
+      "count": 57,
       "categories_full": [
         "Sports & Fitness/Sporting Goods"
       ]
     },
     "Sports": {
-      "count": 146,
+      "count": 138,
       "categories_full": [
         "Sports & Fitness/Sports"
       ]
     },
     "Sports Instruction & Coaching": {
-      "count": 31,
+      "count": 38,
       "categories_full": [
         "Sports & Fitness/Sports Instruction & Coaching"
       ]
     },
     "Sports News & Media": {
-      "count": 27,
+      "count": 38,
       "categories_full": [
         "Sports & Fitness/Sports News & Media"
       ]
@@ -666,82 +730,88 @@
   },
   "Travel & Tourism": {
     "Accommodations": {
-      "count": 58,
+      "count": 42,
       "categories_full": [
         "Travel & Tourism/Accommodations"
       ]
     },
     "Air Travel": {
-      "count": 28,
+      "count": 34,
       "categories_full": [
         "Travel & Tourism/Air Travel"
       ]
     },
     "Misc": {
-      "count": 82,
+      "count": 61,
       "categories_full": [
         "Travel & Tourism/Cruises & Cruise Services",
         "Travel & Tourism/Last Minute Travel",
         "Travel & Tourism/Luggage & Travel Accessories",
         "Travel & Tourism/Luggage Services",
         "Travel & Tourism/Specialty Travel",
-        "Travel & Tourism/Tour Operators",
         "Travel & Tourism/Travel Documents",
-        "Travel & Tourism/Vacation Packages"
+        "Travel & Tourism/Travel Media & Publications"
+      ]
+    },
+    "Tour Operators": {
+      "count": 27,
+      "categories_full": [
+        "Travel & Tourism/Tour Operators"
       ]
     },
     "Tourist Attractions & Destinations": {
-      "count": 40,
+      "count": 27,
       "categories_full": [
         "Travel & Tourism/Tourist Attractions & Destinations"
       ]
     },
     "Transportation & Excursions": {
-      "count": 75,
+      "count": 138,
       "categories_full": [
         "Travel & Tourism/Transportation & Excursions"
       ]
     },
     "Travel Booking Services": {
-      "count": 62,
+      "count": 75,
       "categories_full": [
         "Travel & Tourism/Travel Booking Services"
       ]
     },
-    "Travel Media & Publications": {
-      "count": 28,
+    "Vacation Packages": {
+      "count": 22,
       "categories_full": [
-        "Travel & Tourism/Travel Media & Publications"
+        "Travel & Tourism/Vacation Packages"
       ]
     }
   },
   "Vehicles": {
     "Misc": {
-      "count": 39,
+      "count": 38,
       "categories_full": [
         "Vehicles/Boats & Watercraft",
         "Vehicles/Driving Instruction & Driver Education",
         "Vehicles/Personal Airplanes & Aircraft",
         "Vehicles/Vehicle Dealers",
+        "Vehicles/Vehicle Donation & Removal",
         "Vehicles/Vehicle Specs, Reviews & Comparisons",
         "Vehicles/Vehicle Towing",
         "Vehicles/Vehicle Window Tinting"
       ]
     },
     "Motor Vehicles": {
-      "count": 74,
+      "count": 104,
       "categories_full": [
         "Vehicles/Motor Vehicles"
       ]
     },
     "Vehicle Parts & Accessories": {
-      "count": 41,
+      "count": 61,
       "categories_full": [
         "Vehicles/Vehicle Parts & Accessories"
       ]
     },
     "Vehicle Repair & Maintenance": {
-      "count": 32,
+      "count": 38,
       "categories_full": [
         "Vehicles/Vehicle Repair & Maintenance"
       ]

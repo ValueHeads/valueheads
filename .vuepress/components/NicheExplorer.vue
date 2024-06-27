@@ -1,107 +1,111 @@
 <template>
-  <div class="bg-white">
-    <div class="px-4 pb-6 mx-auto max-w-7xl sm:px-6 lg:px-8">
-      <NicheExplorerBreadcrumbs
-        :selected-l1="selectedL1"
-        :selected-l2="selectedL2"
-        @clear:cat="clearCat($event.level)"
-      />
+  <ClientOnly>
+    <div class="bg-white">
+      <div class="px-4 pb-6 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <NicheExplorerBreadcrumbs
+          :selected-l1="selectedL1"
+          :selected-l2="selectedL2"
+          @clear:cat="clearCat($event.level)"
+        />
 
-      <div
-        class="
-          px-6
-          pt-4
-          flex
-          items-center
-          justify-center
-          lg:justify-end
-          bg-white
-          w-full
-        "
-      >
-        <div class="max-w-lg w-full lg:max-w-xs">
-          <label for="search" class="sr-only">Filter results</label>
-          <div class="relative">
-            <div
-              class="
-                absolute
-                inset-y-0
-                left-0
-                pl-3
-                flex
-                items-center
-                pointer-events-none
-              "
-            >
-              <SearchIcon class="h-5 w-5 text-gray-400" aria-hidden="true" />
+        <div
+          class="
+            px-6
+            pt-4
+            flex
+            items-center
+            justify-center
+            lg:justify-end
+            bg-white
+            w-full
+          "
+        >
+          <div class="max-w-lg w-full lg:max-w-xs">
+            <label for="search" class="sr-only">Filter results</label>
+            <div class="relative">
+              <div
+                class="
+                  absolute
+                  inset-y-0
+                  left-0
+                  pl-3
+                  flex
+                  items-center
+                  pointer-events-none
+                "
+              >
+                <SearchIcon class="h-5 w-5 text-gray-400" aria-hidden="true" />
+              </div>
+              <input
+                id="search"
+                name="search"
+                class="
+                  block
+                  w-full
+                  pl-10
+                  pr-3
+                  py-2
+                  border border-gray-300
+                  rounded-md
+                  leading-5
+                  bg-white
+                  placeholder-gray-500
+                  focus:outline-none
+                  focus:placeholder-gray-400
+                  focus:ring-1
+                  focus:ring-indigo-500
+                  focus:border-indigo-500
+                  sm:text-sm
+                "
+                placeholder="Filter results below"
+                type="search"
+                v-model="fuseFilterStr"
+              />
             </div>
-            <input
-              id="search"
-              name="search"
-              class="
-                block
-                w-full
-                pl-10
-                pr-3
-                py-2
-                border border-gray-300
-                rounded-md
-                leading-5
-                bg-white
-                placeholder-gray-500
-                focus:outline-none
-                focus:placeholder-gray-400
-                focus:ring-1
-                focus:ring-indigo-500
-                focus:border-indigo-500
-                sm:text-sm
-              "
-              placeholder="Filter results below"
-              type="search"
-              v-model="fuseFilterStr"
-            />
           </div>
         </div>
-      </div>
 
-      <!-- Level 1 Categories -->
-      <ul v-if="!hasResults && !selectedL1" role="list" class="category-grid">
-        <li v-for="catL1 in catsL1Filtered" :key="catL1">
-          <button type="button" @click="selectedL1 = catL1" class="btn-cat">
-            <span>{{ catL1 }}</span>
-            <small>&nbsp;({{ getL1Count(catL1) }})</small>
-          </button>
-        </li>
-      </ul>
+        <!-- Level 1 Categories -->
+        <ul v-if="!hasResults && !selectedL1" role="list" class="category-grid">
+          <li v-for="catL1 in catsL1Filtered" :key="catL1">
+            <button type="button" @click="selectedL1 = catL1" class="btn-cat">
+              <span>{{ catL1 }}</span>
+              <small>&nbsp;({{ getL1Count(catL1) }})</small>
+            </button>
+          </li>
+        </ul>
 
-      <!-- Level 2 Categories -->
-      <ul
-        v-else-if="!hasResults && !selectedL2"
-        role="list"
-        class="category-grid"
-      >
-        <li v-for="catL2 in catsL2Filtered" :key="catL2">
-          <button type="button" @click="selectedL2 = catL2" class="btn-cat">
-            <span>{{ catL2 }}</span>
-            <small>&nbsp;({{ categoriesMeta[selectedL1][catL2].count }})</small>
-          </button>
-        </li>
-      </ul>
+        <!-- Level 2 Categories -->
+        <ul
+          v-else-if="!hasResults && !selectedL2"
+          role="list"
+          class="category-grid"
+        >
+          <li v-for="catL2 in catsL2Filtered" :key="catL2">
+            <button type="button" @click="selectedL2 = catL2" class="btn-cat">
+              <span>{{ catL2 }}</span>
+              <small
+                >&nbsp;({{ categoriesMeta[selectedL1][catL2].count }})</small
+              >
+            </button>
+          </li>
+        </ul>
 
-      <!-- Cluster level with summary -->
-      <div v-else>
-        <h2 class="mt-6 font-semibold text-lg mb-2">Niches</h2>
-        <niche-results :niches="filteredTopicsSorted.slice(0, limit)" />
+        <!-- Cluster level with summary -->
+        <div v-else>
+          <h2 class="mt-6 font-semibold text-lg mb-2">Niches</h2>
+          <niche-results :niches="filteredTopicsSorted.slice(0, limit)" />
 
-        <BaseLoadMoreBtn
-          v-if="hasMoreResults"
-          :is-loading="isLoading"
-          :func-to-run="loadMoreResults"
-          class="text-center mt-6"
-        />
+          <BaseLoadMoreBtn
+            v-if="hasMoreResults"
+            :is-loading="isLoading"
+            :func-to-run="loadMoreResults"
+            class="text-center mt-6"
+          />
+        </div>
       </div>
     </div>
-  </div>
+  </ClientOnly>
 </template>
 
 <script>

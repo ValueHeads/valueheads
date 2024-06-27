@@ -1,0 +1,3548 @@
+{
+  "name": "TrafficSources",
+  "children": [
+    {
+      "name": "PaidTraffic",
+      "children": [
+        {
+          "name": "GoogleAds",
+          "children": [
+            {
+              "name": "SearchResultAds",
+              "children": [
+                {
+                  "name": "AdSpy tools for ad optimization, like AdSpy and BigAdSpy."
+                },
+                {
+                  "name": "Keyword research tools like Keyword Planner (free), Ahrefs, Moz, SEMRush, etc."
+                },
+                {
+                  "name": "Ad copy testing tools like Unbounce and WordStream."
+                },
+                {
+                  "name": "Competitor analysis tools like SpyFu and iSpionage."
+                },
+                {
+                  "name": "Click-through rate (CTR) optimization tools like Optmyzr and AdEspresso."
+                }
+              ]
+            },
+            {
+              "name": "DisplayAds",
+              "children": [
+                {
+                  "name": "Banner ad creation tools like Canva and BannerFlow."
+                },
+                {
+                  "name": "A/B testing tools like Google Optimize and VWO."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll and Perfect Audience."
+                },
+                {
+                  "name": "Audience segmentation tools like Audience Studio."
+                },
+                {
+                  "name": "Ad placement optimization tools like AdSense Auto Ads."
+                }
+              ]
+            },
+            {
+              "name": "YouTubeAds",
+              "children": [
+                {
+                  "name": "Video ad creation tools like Biteable and Promo."
+                },
+                {
+                  "name": "Audience targeting tools like TubeSift and Vidooly."
+                },
+                {
+                  "name": "Engagement tracking tools like Tubular Insights."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll and Criteo."
+                },
+                {
+                  "name": "Video SEO tools like TubeBuddy and vidIQ."
+                }
+              ]
+            },
+            {
+              "name": "ShoppingAds",
+              "children": [
+                {
+                  "name": "Product feed management tools like DataFeedWatch and GoDataFeed."
+                },
+                {
+                  "name": "Competitor pricing tools like Price2Spy and Prisync."
+                },
+                {
+                  "name": "Shopping ad optimization tools like Smart Shopping."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics."
+                },
+                {
+                  "name": "Review management tools like Trustpilot and Yotpo."
+                }
+              ]
+            },
+            {
+              "name": "GmailAds",
+              "children": [
+                {
+                  "name": "Email ad design tools like Mailchimp and BEE Free."
+                },
+                {
+                  "name": "Audience targeting tools like Similar Audiences."
+                },
+                {
+                  "name": "A/B testing tools like Campaign Monitor."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics."
+                },
+                {
+                  "name": "Ad creation tools like Stencil."
+                }
+              ]
+            },
+            {
+              "name": "AppCampaigns",
+              "children": [
+                {
+                  "name": "App store optimization tools like TheTool and AppTweak."
+                },
+                {
+                  "name": "User engagement tracking tools like Mixpanel and Appsflyer."
+                },
+                {
+                  "name": "Retargeting tools like Adjust and Remerge."
+                },
+                {
+                  "name": "App analytics tools like Firebase and Flurry."
+                },
+                {
+                  "name": "In-app advertising tools like MoPub and IronSource."
+                }
+              ]
+            },
+            {
+              "name": "DiscoveryAds",
+              "children": [
+                {
+                  "name": "Audience targeting tools like Google Audience Insights."
+                },
+                {
+                  "name": "Ad creation tools like Crello."
+                },
+                {
+                  "name": "A/B testing tools like VWO."
+                },
+                {
+                  "name": "Engagement tracking tools like SimilarWeb."
+                },
+                {
+                  "name": "Content performance tools like BuzzSumo."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "MetaAds",
+          "children": [
+            {
+              "name": "FacebookAds",
+              "children": [
+                {
+                  "name": "Ad creative tools like Canva and Crello."
+                },
+                {
+                  "name": "Audience targeting tools like Facebook Audience Insights."
+                },
+                {
+                  "name": "A/B testing tools like AdEspresso."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Facebook Analytics."
+                }
+              ]
+            },
+            {
+              "name": "InstagramAds",
+              "children": [
+                {
+                  "name": "Ad creative tools like Over and Mojo."
+                },
+                {
+                  "name": "Influencer collaboration tools like AspireIQ."
+                },
+                {
+                  "name": "Hashtag research tools like Hashtagify."
+                },
+                {
+                  "name": "Engagement tracking tools like Iconosquare."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll and ReTargeter."
+                }
+              ]
+            },
+            {
+              "name": "MessengerAds",
+              "children": [
+                {
+                  "name": "Chatbot creation tools like ManyChat and Chatfuel."
+                },
+                {
+                  "name": "Ad creative tools like Fotor."
+                },
+                {
+                  "name": "Performance tracking tools like Facebook Analytics."
+                },
+                {
+                  "name": "Audience targeting tools like Facebook Custom Audiences."
+                }
+              ]
+            },
+            {
+              "name": "AudienceNetworkAds",
+              "children": [
+                {
+                  "name": "Ad placement tools like Audience Network SDK."
+                },
+                {
+                  "name": "Monetization tools like AdMob."
+                },
+                {
+                  "name": "Performance tracking tools like Facebook Analytics."
+                },
+                {
+                  "name": "Ad creation tools like Adobe Spark."
+                },
+                {
+                  "name": "Retargeting tools like Criteo."
+                }
+              ]
+            },
+            {
+              "name": "FacebookStoriesAds",
+              "children": [
+                {
+                  "name": "Ad creative tools like Unfold."
+                },
+                {
+                  "name": "Engagement tracking tools like Hootsuite."
+                },
+                {
+                  "name": "Audience targeting tools like Custom Audiences."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                },
+                {
+                  "name": "Retargeting tools like Perfect Audience."
+                }
+              ]
+            },
+            {
+              "name": "InstagramStoriesAds",
+              "children": [
+                {
+                  "name": "Ad creative tools like StoryArt."
+                },
+                {
+                  "name": "Hashtag research tools like TagsFinder."
+                },
+                {
+                  "name": "Engagement tracking tools like Sprout Social."
+                },
+                {
+                  "name": "Audience targeting tools like Lookalike Audiences."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TikTokAds",
+          "children": [
+            {
+              "name": "InFeedAds",
+              "children": [
+                {
+                  "name": "Ad creative tools like Canva and TikTok Ads Studio."
+                },
+                {
+                  "name": "Engagement tracking tools like TikTok Analytics."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                },
+                {
+                  "name": "Audience targeting tools like TikTok Pixel."
+                },
+                {
+                  "name": "Influencer collaboration tools like InflueNex."
+                }
+              ]
+            },
+            {
+              "name": "TikTokShop",
+              "children": [
+                {
+                  "name": "TikTok shop analytics tools like KaloData."
+                },
+                {
+                  "name": "Product feed management tools like ChannelAdvisor."
+                },
+                {
+                  "name": "Engagement tracking tools like TikTok Analytics."
+                },
+                {
+                  "name": "Influencer collaboration tools like AspireIQ."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll."
+                }
+              ]
+            },
+            {
+              "name": "BrandedHashtagChallenges",
+              "children": [
+                {
+                  "name": "Hashtag research tools like RiteTag."
+                },
+                {
+                  "name": "Engagement tracking tools like Analisa.io."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                },
+                {
+                  "name": "Influencer collaboration tools like Heepsy."
+                },
+                {
+                  "name": "Performance tracking tools like TikTok Analytics."
+                }
+              ]
+            },
+            {
+              "name": "BrandedEffects",
+              "children": [
+                {
+                  "name": "AR effect creation tools like Spark AR Studio."
+                },
+                {
+                  "name": "Engagement tracking tools like Hootsuite."
+                },
+                {
+                  "name": "Audience targeting tools like TikTok Pixel."
+                },
+                {
+                  "name": "Influencer collaboration tools like Upfluence."
+                },
+                {
+                  "name": "Performance tracking tools like TikTok Analytics."
+                }
+              ]
+            },
+            {
+              "name": "BrandTakeovers",
+              "children": [
+                {
+                  "name": "Ad creative tools like Animoto."
+                },
+                {
+                  "name": "Engagement tracking tools like Brandwatch."
+                },
+                {
+                  "name": "Audience targeting tools like TikTok Pixel."
+                },
+                {
+                  "name": "Performance tracking tools like TikTok Analytics."
+                }
+              ]
+            },
+            {
+              "name": "TopViewAds",
+              "children": [
+                {
+                  "name": "Video ad creation tools like Biteable."
+                },
+                {
+                  "name": "Engagement tracking tools like Sprinklr."
+                },
+                {
+                  "name": "Audience targeting tools like Lookalike Audiences."
+                },
+                {
+                  "name": "Retargeting tools like Criteo."
+                },
+                {
+                  "name": "Performance tracking tools like TikTok Analytics."
+                }
+              ]
+            },
+            {
+              "name": "CollectionAds",
+              "children": [
+                {
+                  "name": "Product feed management tools like Lengow."
+                },
+                {
+                  "name": "Engagement tracking tools like Socialbakers."
+                },
+                {
+                  "name": "Audience targeting tools like TikTok Pixel."
+                },
+                {
+                  "name": "Retargeting tools like Perfect Audience."
+                },
+                {
+                  "name": "Performance tracking tools like TikTok Analytics."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LinkedInAds",
+          "children": [
+            {
+              "name": "SponsoredContent",
+              "children": [
+                {
+                  "name": "Ad creative tools like Canva."
+                },
+                {
+                  "name": "Audience targeting tools like LinkedIn Matched Audiences."
+                },
+                {
+                  "name": "A/B testing tools like VWO."
+                },
+                {
+                  "name": "Engagement tracking tools like LinkedIn Analytics."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll."
+                }
+              ]
+            },
+            {
+              "name": "SponsoredInMail",
+              "children": [
+                {
+                  "name": "Email ad design tools like Mailchimp."
+                },
+                {
+                  "name": "Audience targeting tools like LinkedIn Audience Network."
+                },
+                {
+                  "name": "Performance tracking tools like LinkedIn Analytics."
+                },
+                {
+                  "name": "A/B testing tools like Campaign Monitor."
+                },
+                {
+                  "name": "Retargeting tools like Perfect Audience."
+                }
+              ]
+            },
+            {
+              "name": "TextAds",
+              "children": [
+                {
+                  "name": "Ad copy optimization tools like Copy.ai."
+                },
+                {
+                  "name": "Audience targeting tools like LinkedIn Targeting."
+                },
+                {
+                  "name": "A/B testing tools like Google Optimize."
+                },
+                {
+                  "name": "Performance tracking tools like LinkedIn Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like AdEspresso."
+                }
+              ]
+            },
+            {
+              "name": "DynamicAds",
+              "children": [
+                {
+                  "name": "Ad creative tools like Adobe Spark."
+                },
+                {
+                  "name": "Audience targeting tools like LinkedIn Matched Audiences."
+                },
+                {
+                  "name": "Engagement tracking tools like LinkedIn Analytics."
+                },
+                {
+                  "name": "Retargeting tools like Criteo."
+                }
+              ]
+            },
+            {
+              "name": "VideoAds",
+              "children": [
+                {
+                  "name": "Video ad creation tools like Animaker."
+                },
+                {
+                  "name": "Audience targeting tools like LinkedIn Targeting."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                },
+                {
+                  "name": "Performance tracking tools like LinkedIn Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PinterestAds",
+          "children": [
+            {
+              "name": "PromotedPins",
+              "children": [
+                {
+                  "name": "Pin design tools like Canva."
+                },
+                {
+                  "name": "Audience targeting tools like Pinterest Audience Insights."
+                },
+                {
+                  "name": "A/B testing tools like AdEspresso."
+                },
+                {
+                  "name": "Engagement tracking tools like Tailwind."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll."
+                }
+              ]
+            },
+            {
+              "name": "PromotedVideoPins",
+              "children": [
+                {
+                  "name": "Video creation tools like InVideo."
+                },
+                {
+                  "name": "Audience targeting tools like Pinterest Pixel."
+                },
+                {
+                  "name": "Performance tracking tools like Pinterest Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like Piqora."
+                }
+              ]
+            },
+            {
+              "name": "PromotedCarousels",
+              "children": [
+                {
+                  "name": "Carousel design tools like Crello."
+                },
+                {
+                  "name": "Audience targeting tools like Pinterest Targeting."
+                },
+                {
+                  "name": "A/B testing tools like VWO."
+                },
+                {
+                  "name": "Engagement tracking tools like Buffer."
+                },
+                {
+                  "name": "Retargeting tools like Criteo."
+                }
+              ]
+            },
+            {
+              "name": "PromotedAppPins",
+              "children": [
+                {
+                  "name": "App ad design tools like Sketch."
+                },
+                {
+                  "name": "Audience targeting tools like Pinterest Pixel."
+                },
+                {
+                  "name": "Performance tracking tools like Pinterest Analytics."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                },
+                {
+                  "name": "Retargeting tools like Perfect Audience."
+                }
+              ]
+            },
+            {
+              "name": "ShoppingAds",
+              "children": [
+                {
+                  "name": "Product feed management tools like GoDataFeed."
+                },
+                {
+                  "name": "Audience targeting tools like Pinterest Audience Insights."
+                },
+                {
+                  "name": "Performance tracking tools like Pinterest Analytics."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Twitter(X)Ads",
+          "children": [
+            {
+              "name": "PromotedTweets",
+              "children": [
+                {
+                  "name": "Ad creative tools like Canva."
+                },
+                {
+                  "name": "Audience targeting tools like Twitter Tailored Audiences."
+                },
+                {
+                  "name": "A/B testing tools like AdEspresso."
+                },
+                {
+                  "name": "Performance tracking tools like Twitter Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like Followerwonk."
+                }
+              ]
+            },
+            {
+              "name": "PromotedAccounts",
+              "children": [
+                {
+                  "name": "Audience targeting tools like Twitter Audience Insights."
+                },
+                {
+                  "name": "Engagement tracking tools like Hootsuite."
+                },
+                {
+                  "name": "Performance tracking tools like Twitter Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like Tweepi."
+                }
+              ]
+            },
+            {
+              "name": "PromotedTrends",
+              "children": [
+                {
+                  "name": "Hashtag research tools like Hashtagify."
+                },
+                {
+                  "name": "Audience targeting tools like Twitter Targeting."
+                },
+                {
+                  "name": "Performance tracking tools like Twitter Analytics."
+                },
+                {
+                  "name": "Engagement tracking tools like Sprinklr."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                }
+              ]
+            },
+            {
+              "name": "TwitterAmplify",
+              "children": [
+                {
+                  "name": "Video ad creation tools like Lumen5."
+                },
+                {
+                  "name": "Audience targeting tools like Twitter Pixel."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                },
+                {
+                  "name": "Performance tracking tools like Twitter Analytics."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SnapchatAds",
+          "children": [
+            {
+              "name": "SnapAds",
+              "children": [
+                {
+                  "name": "Ad creative tools like AdParlor."
+                },
+                {
+                  "name": "Audience targeting tools like Snapchat Ad Manager."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                },
+                {
+                  "name": "Performance tracking tools like Snapchat Analytics."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll."
+                }
+              ]
+            },
+            {
+              "name": "CollectionAds",
+              "children": [
+                {
+                  "name": "Product feed management tools like Lengow."
+                },
+                {
+                  "name": "Ad creative tools like Canva."
+                },
+                {
+                  "name": "Audience targeting tools like Snapchat Pixel."
+                },
+                {
+                  "name": "Engagement tracking tools like Hootsuite."
+                },
+                {
+                  "name": "Performance tracking tools like Snapchat Analytics."
+                }
+              ]
+            },
+            {
+              "name": "StoryAds",
+              "children": [
+                {
+                  "name": "Ad creative tools like InVideo."
+                },
+                {
+                  "name": "Audience targeting tools like Snapchat Targeting."
+                },
+                {
+                  "name": "A/B testing tools like VWO."
+                },
+                {
+                  "name": "Performance tracking tools like Snapchat Analytics."
+                },
+                {
+                  "name": "Retargeting tools like Perfect Audience."
+                }
+              ]
+            },
+            {
+              "name": "ARLenses",
+              "children": [
+                {
+                  "name": "Lens creation tools like Lens Studio."
+                },
+                {
+                  "name": "Engagement tracking tools like Brandwatch."
+                },
+                {
+                  "name": "Audience targeting tools like Snapchat Pixel."
+                },
+                {
+                  "name": "Retargeting tools like Criteo."
+                }
+              ]
+            },
+            {
+              "name": "Filters",
+              "children": [
+                {
+                  "name": "Filter creation tools like Over."
+                },
+                {
+                  "name": "Audience targeting tools like Snapchat Targeting."
+                },
+                {
+                  "name": "Performance tracking tools like Snapchat Analytics."
+                },
+                {
+                  "name": "Engagement tracking tools like Hootsuite."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll."
+                }
+              ]
+            },
+            {
+              "name": "DynamicAds",
+              "children": [
+                {
+                  "name": "Ad creative tools like BannerFlow."
+                },
+                {
+                  "name": "Audience targeting tools like Snapchat Pixel."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                },
+                {
+                  "name": "Performance tracking tools like Snapchat Analytics."
+                },
+                {
+                  "name": "Retargeting tools like Perfect Audience."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RedditAds",
+          "children": [
+            {
+              "name": "PromotedPosts",
+              "children": [
+                {
+                  "name": "Ad creative tools like Canva."
+                },
+                {
+                  "name": "Audience targeting tools like Reddit Targeting."
+                },
+                {
+                  "name": "A/B testing tools like VWO."
+                },
+                {
+                  "name": "Performance tracking tools like Reddit Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                }
+              ]
+            },
+            {
+              "name": "DisplayAds",
+              "children": [
+                {
+                  "name": "Banner ad creation tools like BannerFlow."
+                },
+                {
+                  "name": "Audience targeting tools like Reddit Pixel."
+                },
+                {
+                  "name": "Performance tracking tools like Reddit Analytics."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll."
+                }
+              ]
+            },
+            {
+              "name": "VideoAds",
+              "children": [
+                {
+                  "name": "Video creation tools like Animoto."
+                },
+                {
+                  "name": "Audience targeting tools like Reddit Targeting."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                },
+                {
+                  "name": "Performance tracking tools like Reddit Analytics."
+                },
+                {
+                  "name": "Retargeting tools like Criteo."
+                }
+              ]
+            },
+            {
+              "name": "SponsoredAMAs",
+              "children": [
+                {
+                  "name": "AMA management tools like Reddit Enhancement Suite."
+                },
+                {
+                  "name": "Audience targeting tools like Reddit Targeting."
+                },
+                {
+                  "name": "Performance tracking tools like Reddit Analytics."
+                },
+                {
+                  "name": "Engagement tracking tools like Hootsuite."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AmazonAds",
+          "children": [
+            {
+              "name": "SponsoredProducts",
+              "children": [
+                {
+                  "name": "Product feed management tools like Feedonomics."
+                },
+                {
+                  "name": "Audience targeting tools like Amazon Audience Insights."
+                },
+                {
+                  "name": "A/B testing tools like Splitly."
+                },
+                {
+                  "name": "Performance tracking tools like Amazon Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like Sellics."
+                }
+              ]
+            },
+            {
+              "name": "SponsoredBrands",
+              "children": [
+                {
+                  "name": "Ad creative tools like Canva."
+                },
+                {
+                  "name": "Audience targeting tools like Amazon DSP."
+                },
+                {
+                  "name": "Performance tracking tools like Amazon Analytics."
+                },
+                {
+                  "name": "Retargeting tools like Criteo."
+                }
+              ]
+            },
+            {
+              "name": "SponsoredDisplay",
+              "children": [
+                {
+                  "name": "Banner ad creation tools like BannerFlow."
+                },
+                {
+                  "name": "Audience targeting tools like Amazon Audience Insights."
+                },
+                {
+                  "name": "Performance tracking tools like Amazon Analytics."
+                },
+                {
+                  "name": "A/B testing tools like VWO."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll."
+                }
+              ]
+            },
+            {
+              "name": "VideoAds",
+              "children": [
+                {
+                  "name": "Video ad creation tools like Animaker."
+                },
+                {
+                  "name": "Audience targeting tools like Amazon DSP."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                },
+                {
+                  "name": "Performance tracking tools like Amazon Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like Jungle Scout."
+                }
+              ]
+            },
+            {
+              "name": "AmazonDSP",
+              "children": [
+                {
+                  "name": "Ad creative tools like Adobe Spark."
+                },
+                {
+                  "name": "Audience targeting tools like Amazon Audience Insights."
+                },
+                {
+                  "name": "Performance tracking tools like Amazon Analytics."
+                },
+                {
+                  "name": "Retargeting tools like Perfect Audience."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "SpotifyAds",
+          "children": [
+            {
+              "name": "AudioAds",
+              "children": [
+                {
+                  "name": "Audio ad creation tools like Audacity."
+                },
+                {
+                  "name": "Audience targeting tools like Spotify Audience Network."
+                },
+                {
+                  "name": "Performance tracking tools like Spotify Analytics."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll."
+                }
+              ]
+            },
+            {
+              "name": "VideoAds",
+              "children": [
+                {
+                  "name": "Video ad creation tools like Lumen5."
+                },
+                {
+                  "name": "Audience targeting tools like Spotify Pixel."
+                },
+                {
+                  "name": "Performance tracking tools like Spotify Analytics."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                },
+                {
+                  "name": "Retargeting tools like Criteo."
+                }
+              ]
+            },
+            {
+              "name": "PodcastAds",
+              "children": [
+                {
+                  "name": "Ad insertion tools like Megaphone."
+                },
+                {
+                  "name": "Audience targeting tools like Spotify Audience Network."
+                },
+                {
+                  "name": "Performance tracking tools like Spotify Analytics."
+                },
+                {
+                  "name": "Retargeting tools like Perfect Audience."
+                }
+              ]
+            },
+            {
+              "name": "SponsoredPlaylists",
+              "children": [
+                {
+                  "name": "Playlist curation tools like Soundcharts."
+                },
+                {
+                  "name": "Audience targeting tools like Spotify Audience Network."
+                },
+                {
+                  "name": "Performance tracking tools like Spotify Analytics."
+                },
+                {
+                  "name": "Engagement tracking tools like Hootsuite."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BingAds",
+          "children": [
+            {
+              "name": "SearchAds",
+              "children": [
+                {
+                  "name": "Keyword research tools like Keyword Planner."
+                },
+                {
+                  "name": "Ad copy testing tools like WordStream."
+                },
+                {
+                  "name": "Audience targeting tools like Bing Ads Intelligence."
+                },
+                {
+                  "name": "Performance tracking tools like Bing Ads Analytics."
+                }
+              ]
+            },
+            {
+              "name": "DisplayAds",
+              "children": [
+                {
+                  "name": "Banner ad creation tools like Canva."
+                },
+                {
+                  "name": "Audience targeting tools like Bing Ads Audience Targeting."
+                },
+                {
+                  "name": "Performance tracking tools like Bing Ads Analytics."
+                },
+                {
+                  "name": "A/B testing tools like VWO."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll."
+                }
+              ]
+            },
+            {
+              "name": "ShoppingAds",
+              "children": [
+                {
+                  "name": "Product feed management tools like GoDataFeed."
+                },
+                {
+                  "name": "Audience targeting tools like Bing Ads Audience Targeting."
+                },
+                {
+                  "name": "Performance tracking tools like Bing Ads Analytics."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                },
+                {
+                  "name": "Retargeting tools like Perfect Audience."
+                }
+              ]
+            },
+            {
+              "name": "NativeAds",
+              "children": [
+                {
+                  "name": "Ad creative tools like Adobe Spark."
+                },
+                {
+                  "name": "Audience targeting tools like Bing Ads Native Targeting."
+                },
+                {
+                  "name": "Performance tracking tools like Bing Ads Analytics."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "YouTubeAds",
+          "children": [
+            {
+              "name": "TrueViewAds",
+              "children": [
+                {
+                  "name": "Video ad creation tools like Animoto."
+                },
+                {
+                  "name": "Audience targeting tools like YouTube Targeting."
+                },
+                {
+                  "name": "Performance tracking tools like YouTube Analytics."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll."
+                }
+              ]
+            },
+            {
+              "name": "PreRollAds",
+              "children": [
+                {
+                  "name": "Video ad creation tools like Biteable."
+                },
+                {
+                  "name": "Audience targeting tools like YouTube Pixel."
+                },
+                {
+                  "name": "Performance tracking tools like YouTube Analytics."
+                },
+                {
+                  "name": "Retargeting tools like Criteo."
+                }
+              ]
+            },
+            {
+              "name": "BumperAds",
+              "children": [
+                {
+                  "name": "Video ad creation tools like Promo."
+                },
+                {
+                  "name": "Audience targeting tools like YouTube Targeting."
+                },
+                {
+                  "name": "Performance tracking tools like YouTube Analytics."
+                },
+                {
+                  "name": "A/B testing tools like VWO."
+                },
+                {
+                  "name": "Retargeting tools like Perfect Audience."
+                }
+              ]
+            },
+            {
+              "name": "MastheadAds",
+              "children": [
+                {
+                  "name": "Video ad creation tools like InVideo."
+                },
+                {
+                  "name": "Audience targeting tools like YouTube Targeting."
+                },
+                {
+                  "name": "Performance tracking tools like YouTube Analytics."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll."
+                }
+              ]
+            },
+            {
+              "name": "NonSkippableAds",
+              "children": [
+                {
+                  "name": "Video ad creation tools like Lumen5."
+                },
+                {
+                  "name": "Audience targeting tools like YouTube Pixel."
+                },
+                {
+                  "name": "Performance tracking tools like YouTube Analytics."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                },
+                {
+                  "name": "Retargeting tools like Criteo."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ProgrammaticAds",
+          "children": [
+            {
+              "name": "RealTimeBidding(RTB)",
+              "children": [
+                {
+                  "name": "RTB platforms like SmartyAds."
+                },
+                {
+                  "name": "Audience targeting tools like Audience Studio."
+                },
+                {
+                  "name": "Performance tracking tools like DV360."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll."
+                }
+              ]
+            },
+            {
+              "name": "PrivateMarketplaces(PMP)",
+              "children": [
+                {
+                  "name": "PMP platforms like Rubicon Project."
+                },
+                {
+                  "name": "Audience targeting tools like Lotame."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics."
+                },
+                {
+                  "name": "A/B testing tools like VWO."
+                },
+                {
+                  "name": "Retargeting tools like Perfect Audience."
+                }
+              ]
+            },
+            {
+              "name": "PreferredDeals",
+              "children": [
+                {
+                  "name": "Preferred deal platforms like The Trade Desk."
+                },
+                {
+                  "name": "Audience targeting tools like Nielsen."
+                },
+                {
+                  "name": "Performance tracking tools like Moat."
+                },
+                {
+                  "name": "Retargeting tools like Criteo."
+                }
+              ]
+            },
+            {
+              "name": "ProgrammaticGuaranteed",
+              "children": [
+                {
+                  "name": "Programmatic platforms like MediaMath."
+                },
+                {
+                  "name": "Audience targeting tools like BlueKai."
+                },
+                {
+                  "name": "Performance tracking tools like comScore."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "ConnectedTVAds",
+          "children": [
+            {
+              "name": "PreRollAds",
+              "children": [
+                {
+                  "name": "Video ad creation tools like Promo."
+                },
+                {
+                  "name": "Audience targeting tools like Roku OneView."
+                },
+                {
+                  "name": "Performance tracking tools like Nielsen."
+                },
+                {
+                  "name": "Retargeting tools like Criteo."
+                }
+              ]
+            },
+            {
+              "name": "MidRollAds",
+              "children": [
+                {
+                  "name": "Video ad creation tools like Lumen5."
+                },
+                {
+                  "name": "Audience targeting tools like Hulu Ad Manager."
+                },
+                {
+                  "name": "Performance tracking tools like Comscore."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                },
+                {
+                  "name": "Retargeting tools like Perfect Audience."
+                }
+              ]
+            },
+            {
+              "name": "PostRollAds",
+              "children": [
+                {
+                  "name": "Video ad creation tools like Biteable."
+                },
+                {
+                  "name": "Audience targeting tools like Roku OneView."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics."
+                },
+                {
+                  "name": "A/B testing tools like VWO."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll."
+                }
+              ]
+            },
+            {
+              "name": "SponsoredContent",
+              "children": [
+                {
+                  "name": "Content creation tools like Adobe Spark."
+                },
+                {
+                  "name": "Audience targeting tools like Xandr."
+                },
+                {
+                  "name": "Performance tracking tools like Nielsen."
+                },
+                {
+                  "name": "Retargeting tools like Criteo."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PodcastAds",
+          "children": [
+            {
+              "name": "HostReadAds",
+              "children": [
+                {
+                  "name": "Ad script writing tools like Copy.ai."
+                },
+                {
+                  "name": "Performance tracking tools like Chartable."
+                },
+                {
+                  "name": "Audience targeting tools like Megaphone."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll."
+                }
+              ]
+            },
+            {
+              "name": "ProgrammaticAds",
+              "children": [
+                {
+                  "name": "Programmatic platforms like AdsWizz."
+                },
+                {
+                  "name": "Audience targeting tools like Triton Digital."
+                },
+                {
+                  "name": "Performance tracking tools like Podtrac."
+                },
+                {
+                  "name": "A/B testing tools like VWO."
+                },
+                {
+                  "name": "Retargeting tools like Perfect Audience."
+                }
+              ]
+            },
+            {
+              "name": "SponsoredEpisodes",
+              "children": [
+                {
+                  "name": "Episode sponsorship platforms like Podcorn."
+                },
+                {
+                  "name": "Audience targeting tools like Art19."
+                },
+                {
+                  "name": "Performance tracking tools like Podtrac."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "InfluencerSponsoredContent",
+          "children": [
+            {
+              "name": "SocialMediaPosts",
+              "children": [
+                {
+                  "name": "Influencer marketing platforms like AspireIQ."
+                },
+                {
+                  "name": "Engagement tracking tools like HypeAuditor."
+                },
+                {
+                  "name": "Audience targeting tools like Influencity."
+                },
+                {
+                  "name": "Performance tracking tools like SocialBlade."
+                },
+                {
+                  "name": "A/B testing tools like VWO."
+                }
+              ]
+            },
+            {
+              "name": "BlogPosts",
+              "children": [
+                {
+                  "name": "Content management tools like WordPress."
+                },
+                {
+                  "name": "Audience targeting tools like Google Analytics."
+                },
+                {
+                  "name": "Engagement tracking tools like BuzzSumo."
+                },
+                {
+                  "name": "Performance tracking tools like SEMRush."
+                }
+              ]
+            },
+            {
+              "name": "VideoReviews",
+              "children": [
+                {
+                  "name": "Video creation tools like Animoto."
+                },
+                {
+                  "name": "Engagement tracking tools like SocialBlade."
+                },
+                {
+                  "name": "Audience targeting tools like YouTube Analytics."
+                },
+                {
+                  "name": "Performance tracking tools like Tubular Insights."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                }
+              ]
+            },
+            {
+              "name": "UnboxingVideos",
+              "children": [
+                {
+                  "name": "Video creation tools like InVideo."
+                },
+                {
+                  "name": "Audience targeting tools like YouTube Pixel."
+                },
+                {
+                  "name": "Performance tracking tools like SocialBlade."
+                },
+                {
+                  "name": "Engagement tracking tools like Hootsuite."
+                },
+                {
+                  "name": "A/B testing tools like VWO."
+                }
+              ]
+            },
+            {
+              "name": "GiveawayCampaigns",
+              "children": [
+                {
+                  "name": "Giveaway management tools like Gleam."
+                },
+                {
+                  "name": "Engagement tracking tools like Rafflecopter."
+                },
+                {
+                  "name": "Audience targeting tools like Facebook Custom Audiences."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Outbrain/Taboola(ContentDiscoveryAds)",
+          "children": [
+            {
+              "name": "NativeAds",
+              "children": [
+                {
+                  "name": "Ad creation tools like Adobe Spark."
+                },
+                {
+                  "name": "Audience targeting tools like Outbrain Amplify."
+                },
+                {
+                  "name": "Performance tracking tools like Outbrain Analytics."
+                },
+                {
+                  "name": "A/B testing tools like VWO."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll."
+                }
+              ]
+            },
+            {
+              "name": "SponsoredContent",
+              "children": [
+                {
+                  "name": "Content creation tools like BuzzSumo."
+                },
+                {
+                  "name": "Audience targeting tools like Taboola Insights."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics."
+                },
+                {
+                  "name": "Retargeting tools like Criteo."
+                }
+              ]
+            },
+            {
+              "name": "VideoAds",
+              "children": [
+                {
+                  "name": "Video creation tools like Promo."
+                },
+                {
+                  "name": "Audience targeting tools like Outbrain Amplify."
+                },
+                {
+                  "name": "Performance tracking tools like Tubular Insights."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "YahooGeminiAds",
+          "children": [
+            {
+              "name": "SearchAds",
+              "children": [
+                {
+                  "name": "Keyword research tools like Keyword Planner."
+                },
+                {
+                  "name": "Ad copy optimization tools like WordStream."
+                },
+                {
+                  "name": "Audience targeting tools like Yahoo Audience Network."
+                },
+                {
+                  "name": "Performance tracking tools like Yahoo Analytics."
+                }
+              ]
+            },
+            {
+              "name": "NativeAds",
+              "children": [
+                {
+                  "name": "Ad creative tools like Adobe Spark."
+                },
+                {
+                  "name": "Audience targeting tools like Yahoo Gemini Targeting."
+                },
+                {
+                  "name": "Performance tracking tools like Yahoo Analytics."
+                },
+                {
+                  "name": "A/B testing tools like VWO."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll."
+                }
+              ]
+            },
+            {
+              "name": "VideoAds",
+              "children": [
+                {
+                  "name": "Video ad creation tools like Biteable."
+                },
+                {
+                  "name": "Audience targeting tools like Yahoo Audience Network."
+                },
+                {
+                  "name": "Performance tracking tools like Tubular Insights."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                },
+                {
+                  "name": "Retargeting tools like Criteo."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "OrganicTraffic",
+      "children": [
+        {
+          "name": "GoogleSEO",
+          "children": [
+            {
+              "name": "OnPageSEO",
+              "children": [
+                {
+                  "name": "Content optimization tools like Yoast SEO."
+                },
+                {
+                  "name": "Keyword research tools like Ahrefs."
+                },
+                {
+                  "name": "Internal linking tools like Link Whisper."
+                },
+                {
+                  "name": "Meta tag optimization tools like SEOptimer."
+                },
+                {
+                  "name": "Image optimization tools like TinyPNG."
+                }
+              ]
+            },
+            {
+              "name": "OffPageSEO",
+              "children": [
+                {
+                  "name": "Backlink analysis tools like Moz."
+                },
+                {
+                  "name": "Outreach tools like BuzzStream."
+                },
+                {
+                  "name": "Social bookmarking tools like Diigo."
+                },
+                {
+                  "name": "Guest posting opportunities tools like MyBlogGuest."
+                },
+                {
+                  "name": "Competitor analysis tools like SEMRush."
+                }
+              ]
+            },
+            {
+              "name": "TechnicalSEO",
+              "children": [
+                {
+                  "name": "Site audit tools like Screaming Frog."
+                },
+                {
+                  "name": "Schema markup tools like Schema App."
+                },
+                {
+                  "name": "Page speed optimization tools like Google PageSpeed Insights."
+                },
+                {
+                  "name": "Mobile optimization tools like Mobile-Friendly Test."
+                },
+                {
+                  "name": "Crawlability tools like DeepCrawl."
+                }
+              ]
+            },
+            {
+              "name": "LocalSEO",
+              "children": [
+                {
+                  "name": "Business listing tools like Moz Local."
+                },
+                {
+                  "name": "Review management tools like Yext."
+                },
+                {
+                  "name": "Citation management tools like BrightLocal."
+                },
+                {
+                  "name": "Local keyword research tools like LocalViking."
+                },
+                {
+                  "name": "Geo-tagging tools like GeoImgr."
+                }
+              ]
+            },
+            {
+              "name": "MobileSEO",
+              "children": [
+                {
+                  "name": "Mobile optimization tools like AMP Project."
+                },
+                {
+                  "name": "Mobile usability tools like Google Mobile Usability."
+                },
+                {
+                  "name": "Responsive design tools like Bootstrap."
+                },
+                {
+                  "name": "Mobile analytics tools like Google Analytics for Mobile."
+                },
+                {
+                  "name": "Mobile speed testing tools like Test My Site."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "BingSEO",
+          "children": [
+            {
+              "name": "OnPageSEO",
+              "children": [
+                {
+                  "name": "Content optimization tools like Yoast SEO."
+                },
+                {
+                  "name": "Keyword research tools like Ahrefs."
+                },
+                {
+                  "name": "Meta tag optimization tools like SEOptimer."
+                },
+                {
+                  "name": "Internal linking tools like Link Whisper."
+                },
+                {
+                  "name": "Image optimization tools like TinyPNG."
+                }
+              ]
+            },
+            {
+              "name": "OffPageSEO",
+              "children": [
+                {
+                  "name": "Backlink analysis tools like Moz."
+                },
+                {
+                  "name": "Outreach tools like BuzzStream."
+                },
+                {
+                  "name": "Social bookmarking tools like Diigo."
+                },
+                {
+                  "name": "Guest posting opportunities tools like MyBlogGuest."
+                },
+                {
+                  "name": "Competitor analysis tools like SEMRush."
+                }
+              ]
+            },
+            {
+              "name": "TechnicalSEO",
+              "children": [
+                {
+                  "name": "Site audit tools like Screaming Frog."
+                },
+                {
+                  "name": "Schema markup tools like Schema App."
+                },
+                {
+                  "name": "Page speed optimization tools like Google PageSpeed Insights."
+                },
+                {
+                  "name": "Mobile optimization tools like Mobile-Friendly Test."
+                },
+                {
+                  "name": "Crawlability tools like DeepCrawl."
+                }
+              ]
+            },
+            {
+              "name": "LocalSEO",
+              "children": [
+                {
+                  "name": "Business listing tools like Moz Local."
+                },
+                {
+                  "name": "Review management tools like Yext."
+                },
+                {
+                  "name": "Citation management tools like BrightLocal."
+                },
+                {
+                  "name": "Local keyword research tools like LocalViking."
+                },
+                {
+                  "name": "Geo-tagging tools like GeoImgr."
+                }
+              ]
+            },
+            {
+              "name": "MobileSEO",
+              "children": [
+                {
+                  "name": "Mobile optimization tools like AMP Project."
+                },
+                {
+                  "name": "Mobile usability tools like Google Mobile Usability."
+                },
+                {
+                  "name": "Responsive design tools like Bootstrap."
+                },
+                {
+                  "name": "Mobile analytics tools like Google Analytics for Mobile."
+                },
+                {
+                  "name": "Mobile speed testing tools like Test My Site."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "YouTube",
+          "children": [
+            {
+              "name": "VideoSEO",
+              "children": [
+                {
+                  "name": "Keyword research tools like TubeBuddy."
+                },
+                {
+                  "name": "Tag optimization tools like vidIQ."
+                },
+                {
+                  "name": "Thumbnail creation tools like Canva."
+                },
+                {
+                  "name": "Video description optimization tools like CoSchedule."
+                },
+                {
+                  "name": "Transcription tools like Rev."
+                }
+              ]
+            },
+            {
+              "name": "ChannelOptimization",
+              "children": [
+                {
+                  "name": "Channel art creation tools like Snappa."
+                },
+                {
+                  "name": "Playlist creation tools like Tubics."
+                },
+                {
+                  "name": "Channel SEO tools like Vidooly."
+                },
+                {
+                  "name": "Engagement tracking tools like SocialBlade."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                }
+              ]
+            },
+            {
+              "name": "ThumbnailOptimization",
+              "children": [
+                {
+                  "name": "Thumbnail creation tools like Canva."
+                },
+                {
+                  "name": "A/B testing tools like TubeBuddy."
+                },
+                {
+                  "name": "Image optimization tools like TinyPNG."
+                },
+                {
+                  "name": "Engagement tracking tools like Hootsuite."
+                },
+                {
+                  "name": "Performance tracking tools like YouTube Analytics."
+                }
+              ]
+            },
+            {
+              "name": "PlaylistCreation",
+              "children": [
+                {
+                  "name": "Playlist management tools like TubeBuddy."
+                },
+                {
+                  "name": "Engagement tracking tools like SocialBlade."
+                },
+                {
+                  "name": "Keyword research tools like Keyword Tool."
+                },
+                {
+                  "name": "Performance tracking tools like YouTube Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like Vidooly."
+                }
+              ]
+            },
+            {
+              "name": "EndScreenOptimization",
+              "children": [
+                {
+                  "name": "End screen design tools like Snappa."
+                },
+                {
+                  "name": "Engagement tracking tools like Hootsuite."
+                },
+                {
+                  "name": "Performance tracking tools like YouTube Analytics."
+                },
+                {
+                  "name": "Retargeting tools like AdRoll."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "AppStores",
+          "children": [
+            {
+              "name": "AppStoreOptimization(ASO)",
+              "children": [
+                {
+                  "name": "Keyword research tools like TheTool."
+                },
+                {
+                  "name": "App description optimization tools like AppTweak."
+                },
+                {
+                  "name": "Review management tools like Appbot."
+                },
+                {
+                  "name": "App icon creation tools like Canva."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                }
+              ]
+            },
+            {
+              "name": "InAppSEO",
+              "children": [
+                {
+                  "name": "In-app search optimization tools like Firebase."
+                },
+                {
+                  "name": "Keyword tracking tools like Sensor Tower."
+                },
+                {
+                  "name": "Engagement tracking tools like Mixpanel."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics for Firebase."
+                },
+                {
+                  "name": "User feedback tools like Apptentive."
+                }
+              ]
+            },
+            {
+              "name": "AppReviewOptimization",
+              "children": [
+                {
+                  "name": "Review management tools like Yotpo."
+                },
+                {
+                  "name": "User feedback tools like UserVoice."
+                },
+                {
+                  "name": "Engagement tracking tools like Hootsuite."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics for Firebase."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Reddit",
+          "children": [
+            {
+              "name": "CommunityEngagement",
+              "children": [
+                {
+                  "name": "Post scheduling tools like Later for Reddit."
+                },
+                {
+                  "name": "Engagement tracking tools like Reddit Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like RedditMetrics."
+                },
+                {
+                  "name": "Comment management tools like Hootsuite."
+                },
+                {
+                  "name": "Subreddit analysis tools like Subreddit Stats."
+                }
+              ]
+            },
+            {
+              "name": "PostOptimization",
+              "children": [
+                {
+                  "name": "Post formatting tools like Markdown Editor."
+                },
+                {
+                  "name": "Keyword research tools like Keyworddit."
+                },
+                {
+                  "name": "Engagement tracking tools like Reddit Analytics."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics."
+                }
+              ]
+            },
+            {
+              "name": "SubredditSelection",
+              "children": [
+                {
+                  "name": "Subreddit discovery tools like RedditList."
+                },
+                {
+                  "name": "Engagement tracking tools like Reddit Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Audience targeting tools like Reddit Targeting."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics."
+                }
+              ]
+            },
+            {
+              "name": "AMAParticipation",
+              "children": [
+                {
+                  "name": "AMA scheduling tools like Later for Reddit."
+                },
+                {
+                  "name": "Engagement tracking tools like Reddit Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like RedditMetrics."
+                },
+                {
+                  "name": "Comment management tools like Hootsuite."
+                },
+                {
+                  "name": "Audience targeting tools like Reddit Targeting."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Forums",
+          "children": [
+            {
+              "name": "NicheForumParticipation",
+              "children": [
+                {
+                  "name": "Forum discovery tools like FindAForum."
+                },
+                {
+                  "name": "Engagement tracking tools like Forum Runner."
+                },
+                {
+                  "name": "Competitor analysis tools like SEMRush."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics."
+                },
+                {
+                  "name": "Comment management tools like Hootsuite."
+                }
+              ]
+            },
+            {
+              "name": "SignatureLinks",
+              "children": [
+                {
+                  "name": "Link management tools like Bitly."
+                },
+                {
+                  "name": "Engagement tracking tools like ClickMeter."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like Moz."
+                }
+              ]
+            },
+            {
+              "name": "ForumSEO",
+              "children": [
+                {
+                  "name": "Keyword research tools like Ahrefs."
+                },
+                {
+                  "name": "Engagement tracking tools like SEMRush."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics."
+                },
+                {
+                  "name": "Link management tools like Link Whisper."
+                },
+                {
+                  "name": "Content optimization tools like Yoast SEO."
+                }
+              ]
+            },
+            {
+              "name": "DiscussionThreads",
+              "children": [
+                {
+                  "name": "Thread management tools like Vanilla Forums."
+                },
+                {
+                  "name": "Engagement tracking tools like Forum Runner."
+                },
+                {
+                  "name": "Competitor analysis tools like SEMRush."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics."
+                },
+                {
+                  "name": "Comment management tools like Hootsuite."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "TikTok",
+          "children": [
+            {
+              "name": "VideoSEO",
+              "children": [
+                {
+                  "name": "Keyword research tools like Keyword Tool."
+                },
+                {
+                  "name": "Tag optimization tools like Hashtagify."
+                },
+                {
+                  "name": "Video description optimization tools like CoSchedule."
+                },
+                {
+                  "name": "Engagement tracking tools like Analisa.io."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                }
+              ]
+            },
+            {
+              "name": "HashtagStrategy",
+              "children": [
+                {
+                  "name": "Hashtag research tools like RiteTag."
+                },
+                {
+                  "name": "Engagement tracking tools like TikTok Analytics."
+                },
+                {
+                  "name": "Performance tracking tools like Analisa.io."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                }
+              ]
+            },
+            {
+              "name": "TrendParticipation",
+              "children": [
+                {
+                  "name": "Trend discovery tools like TrendTok."
+                },
+                {
+                  "name": "Engagement tracking tools like TikTok Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Analisa.io."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                }
+              ]
+            },
+            {
+              "name": "DuetAndStitchFeatures",
+              "children": [
+                {
+                  "name": "Video creation tools like InVideo."
+                },
+                {
+                  "name": "Engagement tracking tools like TikTok Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Analisa.io."
+                }
+              ]
+            },
+            {
+              "name": "TikTokChallenges",
+              "children": [
+                {
+                  "name": "Challenge creation tools like Canva."
+                },
+                {
+                  "name": "Engagement tracking tools like TikTok Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Analisa.io."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Twitter(X)",
+          "children": [
+            {
+              "name": "HashtagStrategy",
+              "children": [
+                {
+                  "name": "Hashtag research tools like Hashtagify."
+                },
+                {
+                  "name": "Engagement tracking tools like Twitter Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like Followerwonk."
+                },
+                {
+                  "name": "Performance tracking tools like Sprinklr."
+                }
+              ]
+            },
+            {
+              "name": "TweetOptimization",
+              "children": [
+                {
+                  "name": "Tweet scheduling tools like Hootsuite."
+                },
+                {
+                  "name": "Engagement tracking tools like Twitter Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprout Social."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                }
+              ]
+            },
+            {
+              "name": "FollowerEngagement",
+              "children": [
+                {
+                  "name": "Follower management tools like Tweepi."
+                },
+                {
+                  "name": "Engagement tracking tools like Twitter Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like Followerwonk."
+                },
+                {
+                  "name": "Performance tracking tools like Sprinklr."
+                }
+              ]
+            },
+            {
+              "name": "TwitterChats",
+              "children": [
+                {
+                  "name": "Chat management tools like TweetChat."
+                },
+                {
+                  "name": "Engagement tracking tools like Twitter Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprout Social."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Facebook",
+          "children": [
+            {
+              "name": "PageOptimization",
+              "children": [
+                {
+                  "name": "Page audit tools like Likealyzer."
+                },
+                {
+                  "name": "Engagement tracking tools like Facebook Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprinklr."
+                }
+              ]
+            },
+            {
+              "name": "PostOptimization",
+              "children": [
+                {
+                  "name": "Post scheduling tools like Hootsuite."
+                },
+                {
+                  "name": "Engagement tracking tools like Facebook Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprout Social."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                }
+              ]
+            },
+            {
+              "name": "GroupParticipation",
+              "children": [
+                {
+                  "name": "Group discovery tools like FindAForum."
+                },
+                {
+                  "name": "Engagement tracking tools like Facebook Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprinklr."
+                }
+              ]
+            },
+            {
+              "name": "FacebookLives",
+              "children": [
+                {
+                  "name": "Live streaming tools like StreamYard."
+                },
+                {
+                  "name": "Engagement tracking tools like Facebook Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprout Social."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Instagram",
+          "children": [
+            {
+              "name": "HashtagStrategy",
+              "children": [
+                {
+                  "name": "Hashtag research tools like TagsFinder."
+                },
+                {
+                  "name": "Engagement tracking tools like Iconosquare."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprout Social."
+                }
+              ]
+            },
+            {
+              "name": "PostOptimization",
+              "children": [
+                {
+                  "name": "Post scheduling tools like Later."
+                },
+                {
+                  "name": "Engagement tracking tools like Iconosquare."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprout Social."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                }
+              ]
+            },
+            {
+              "name": "StoryOptimization",
+              "children": [
+                {
+                  "name": "Story design tools like Unfold."
+                },
+                {
+                  "name": "Engagement tracking tools like Iconosquare."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprout Social."
+                }
+              ]
+            },
+            {
+              "name": "IGTVOptimization",
+              "children": [
+                {
+                  "name": "Video creation tools like InVideo."
+                },
+                {
+                  "name": "Engagement tracking tools like Iconosquare."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprout Social."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                }
+              ]
+            },
+            {
+              "name": "ReelsOptimization",
+              "children": [
+                {
+                  "name": "Video creation tools like Biteable."
+                },
+                {
+                  "name": "Engagement tracking tools like Iconosquare."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprout Social."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "LinkedIn",
+          "children": [
+            {
+              "name": "ProfileOptimization",
+              "children": [
+                {
+                  "name": "Profile audit tools like Dux-Soup."
+                },
+                {
+                  "name": "Engagement tracking tools like LinkedIn Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprinklr."
+                }
+              ]
+            },
+            {
+              "name": "PostOptimization",
+              "children": [
+                {
+                  "name": "Post scheduling tools like Buffer."
+                },
+                {
+                  "name": "Engagement tracking tools like LinkedIn Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprout Social."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                }
+              ]
+            },
+            {
+              "name": "GroupParticipation",
+              "children": [
+                {
+                  "name": "Group discovery tools like FindAForum."
+                },
+                {
+                  "name": "Engagement tracking tools like LinkedIn Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprinklr."
+                }
+              ]
+            },
+            {
+              "name": "LinkedInArticles",
+              "children": [
+                {
+                  "name": "Content optimization tools like Yoast SEO."
+                },
+                {
+                  "name": "Engagement tracking tools like LinkedIn Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprout Social."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Pinterest",
+          "children": [
+            {
+              "name": "PinOptimization",
+              "children": [
+                {
+                  "name": "Pin design tools like Canva."
+                },
+                {
+                  "name": "Engagement tracking tools like Tailwind."
+                },
+                {
+                  "name": "Competitor analysis tools like Piqora."
+                },
+                {
+                  "name": "Performance tracking tools like Pinterest Analytics."
+                }
+              ]
+            },
+            {
+              "name": "BoardOptimization",
+              "children": [
+                {
+                  "name": "Board creation tools like Crello."
+                },
+                {
+                  "name": "Engagement tracking tools like Tailwind."
+                },
+                {
+                  "name": "Competitor analysis tools like Piqora."
+                },
+                {
+                  "name": "Performance tracking tools like Pinterest Analytics."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                }
+              ]
+            },
+            {
+              "name": "HashtagStrategy",
+              "children": [
+                {
+                  "name": "Hashtag research tools like Hashtagify."
+                },
+                {
+                  "name": "Engagement tracking tools like Pinterest Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like Piqora."
+                },
+                {
+                  "name": "Performance tracking tools like Sprout Social."
+                }
+              ]
+            },
+            {
+              "name": "RichPins",
+              "children": [
+                {
+                  "name": "Rich pin creation tools like Yoast SEO."
+                },
+                {
+                  "name": "Engagement tracking tools like Tailwind."
+                },
+                {
+                  "name": "Competitor analysis tools like Piqora."
+                },
+                {
+                  "name": "Performance tracking tools like Pinterest Analytics."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Quora",
+          "children": [
+            {
+              "name": "QuestionAnswering",
+              "children": [
+                {
+                  "name": "Question discovery tools like AnswerThePublic."
+                },
+                {
+                  "name": "Engagement tracking tools like Quora Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SEMRush."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics."
+                }
+              ]
+            },
+            {
+              "name": "TopicParticipation",
+              "children": [
+                {
+                  "name": "Topic discovery tools like Quora Topic Explorer."
+                },
+                {
+                  "name": "Engagement tracking tools like Quora Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprinklr."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                }
+              ]
+            },
+            {
+              "name": "ProfileOptimization",
+              "children": [
+                {
+                  "name": "Profile audit tools like BrandYourself."
+                },
+                {
+                  "name": "Engagement tracking tools like Quora Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprinklr."
+                }
+              ]
+            },
+            {
+              "name": "QuoraSpaces",
+              "children": [
+                {
+                  "name": "Space discovery tools like Quora Space Explorer."
+                },
+                {
+                  "name": "Engagement tracking tools like Quora Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprinklr."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Medium",
+          "children": [
+            {
+              "name": "StoryOptimization",
+              "children": [
+                {
+                  "name": "Content optimization tools like Yoast SEO."
+                },
+                {
+                  "name": "Engagement tracking tools like Medium Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SEMRush."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics."
+                }
+              ]
+            },
+            {
+              "name": "TagOptimization",
+              "children": [
+                {
+                  "name": "Tag research tools like Hashtagify."
+                },
+                {
+                  "name": "Engagement tracking tools like Medium Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprinklr."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                }
+              ]
+            },
+            {
+              "name": "PublicationParticipation",
+              "children": [
+                {
+                  "name": "Publication discovery tools like Smedian."
+                },
+                {
+                  "name": "Engagement tracking tools like Medium Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SEMRush."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics."
+                }
+              ]
+            },
+            {
+              "name": "SeriesStories",
+              "children": [
+                {
+                  "name": "Story creation tools like Canva."
+                },
+                {
+                  "name": "Engagement tracking tools like Medium Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprinklr."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "PodcastPlatforms",
+          "children": [
+            {
+              "name": "EpisodeSEO",
+              "children": [
+                {
+                  "name": "Keyword research tools like TheTool."
+                },
+                {
+                  "name": "Episode description optimization tools like CoSchedule."
+                },
+                {
+                  "name": "Engagement tracking tools like Chartable."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics."
+                }
+              ]
+            },
+            {
+              "name": "ShowNotesOptimization",
+              "children": [
+                {
+                  "name": "Content optimization tools like Yoast SEO."
+                },
+                {
+                  "name": "Engagement tracking tools like Chartable."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                }
+              ]
+            },
+            {
+              "name": "GuestAppearanceStrategy",
+              "children": [
+                {
+                  "name": "Guest discovery tools like Podchaser."
+                },
+                {
+                  "name": "Engagement tracking tools like Chartable."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics."
+                }
+              ]
+            },
+            {
+              "name": "CrossPromotion",
+              "children": [
+                {
+                  "name": "Cross-promotion platforms like Podcorn."
+                },
+                {
+                  "name": "Engagement tracking tools like Chartable."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Blogs",
+          "children": [
+            {
+              "name": "ContentSEO",
+              "children": [
+                {
+                  "name": "Content optimization tools like Yoast SEO."
+                },
+                {
+                  "name": "Keyword research tools like Ahrefs."
+                },
+                {
+                  "name": "Internal linking tools like Link Whisper."
+                },
+                {
+                  "name": "Meta tag optimization tools like SEOptimer."
+                },
+                {
+                  "name": "Image optimization tools like TinyPNG."
+                }
+              ]
+            },
+            {
+              "name": "InternalLinking",
+              "children": [
+                {
+                  "name": "Link management tools like Link Whisper."
+                },
+                {
+                  "name": "Engagement tracking tools like Google Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SEMRush."
+                },
+                {
+                  "name": "Performance tracking tools like Moz."
+                }
+              ]
+            },
+            {
+              "name": "ExternalLinking",
+              "children": [
+                {
+                  "name": "Backlink analysis tools like Moz."
+                },
+                {
+                  "name": "Outreach tools like BuzzStream."
+                },
+                {
+                  "name": "Social bookmarking tools like Diigo."
+                },
+                {
+                  "name": "Competitor analysis tools like SEMRush."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics."
+                }
+              ]
+            },
+            {
+              "name": "GuestBlogging",
+              "children": [
+                {
+                  "name": "Guest posting opportunities tools like MyBlogGuest."
+                },
+                {
+                  "name": "Engagement tracking tools like Google Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like Moz."
+                },
+                {
+                  "name": "Performance tracking tools like SEMRush."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tumblr",
+          "children": [
+            {
+              "name": "PostOptimization",
+              "children": [
+                {
+                  "name": "Content optimization tools like Yoast SEO."
+                },
+                {
+                  "name": "Engagement tracking tools like Tumblr Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprinklr."
+                }
+              ]
+            },
+            {
+              "name": "HashtagStrategy",
+              "children": [
+                {
+                  "name": "Hashtag research tools like Hashtagify."
+                },
+                {
+                  "name": "Engagement tracking tools like Tumblr Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprinklr."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                }
+              ]
+            },
+            {
+              "name": "ThemeCustomization",
+              "children": [
+                {
+                  "name": "Theme creation tools like Canva."
+                },
+                {
+                  "name": "Engagement tracking tools like Tumblr Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprinklr."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Snapchat",
+          "children": [
+            {
+              "name": "SnapOptimization",
+              "children": [
+                {
+                  "name": "Snap design tools like Over."
+                },
+                {
+                  "name": "Engagement tracking tools like Snapchat Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprinklr."
+                }
+              ]
+            },
+            {
+              "name": "StoryOptimization",
+              "children": [
+                {
+                  "name": "Story creation tools like Unfold."
+                },
+                {
+                  "name": "Engagement tracking tools like Snapchat Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprinklr."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                }
+              ]
+            },
+            {
+              "name": "LensUsage",
+              "children": [
+                {
+                  "name": "Lens creation tools like Lens Studio."
+                },
+                {
+                  "name": "Engagement tracking tools like Snapchat Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprinklr."
+                }
+              ]
+            },
+            {
+              "name": "Geofilters",
+              "children": [
+                {
+                  "name": "Geofilter creation tools like Canva."
+                },
+                {
+                  "name": "Engagement tracking tools like Snapchat Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                },
+                {
+                  "name": "Performance tracking tools like Sprinklr."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Vimeo",
+          "children": [
+            {
+              "name": "VideoSEO",
+              "children": [
+                {
+                  "name": "Keyword research tools like Keyword Tool."
+                },
+                {
+                  "name": "Tag optimization tools like vidIQ."
+                },
+                {
+                  "name": "Video description optimization tools like CoSchedule."
+                },
+                {
+                  "name": "Engagement tracking tools like Vimeo Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                }
+              ]
+            },
+            {
+              "name": "ChannelOptimization",
+              "children": [
+                {
+                  "name": "Channel art creation tools like Snappa."
+                },
+                {
+                  "name": "Playlist creation tools like Tubics."
+                },
+                {
+                  "name": "Channel SEO tools like Vidooly."
+                },
+                {
+                  "name": "Engagement tracking tools like SocialBlade."
+                },
+                {
+                  "name": "Competitor analysis tools like SocialPeta."
+                }
+              ]
+            },
+            {
+              "name": "CustomThumbnails",
+              "children": [
+                {
+                  "name": "Thumbnail creation tools like Canva."
+                },
+                {
+                  "name": "A/B testing tools like TubeBuddy."
+                },
+                {
+                  "name": "Image optimization tools like TinyPNG."
+                },
+                {
+                  "name": "Engagement tracking tools like Hootsuite."
+                },
+                {
+                  "name": "Performance tracking tools like Vimeo Analytics."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Twitch",
+          "children": [
+            {
+              "name": "StreamOptimization",
+              "children": [
+                {
+                  "name": "Stream setup tools like Streamlabs."
+                },
+                {
+                  "name": "Engagement tracking tools like Twitch Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SullyGnome."
+                },
+                {
+                  "name": "Performance tracking tools like StreamElements."
+                }
+              ]
+            },
+            {
+              "name": "ChannelSEO",
+              "children": [
+                {
+                  "name": "Keyword research tools like Ahrefs."
+                },
+                {
+                  "name": "Channel audit tools like TwitchTracker."
+                },
+                {
+                  "name": "Engagement tracking tools like Twitch Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SullyGnome."
+                },
+                {
+                  "name": "Performance tracking tools like StreamElements."
+                }
+              ]
+            },
+            {
+              "name": "HighlightVideos",
+              "children": [
+                {
+                  "name": "Video creation tools like Lumen5."
+                },
+                {
+                  "name": "Engagement tracking tools like Twitch Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SullyGnome."
+                },
+                {
+                  "name": "Performance tracking tools like StreamElements."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                }
+              ]
+            },
+            {
+              "name": "StreamScheduleOptimization",
+              "children": [
+                {
+                  "name": "Schedule management tools like Streamlabs."
+                },
+                {
+                  "name": "Engagement tracking tools like Twitch Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like SullyGnome."
+                },
+                {
+                  "name": "Performance tracking tools like StreamElements."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GitHub",
+          "children": [
+            {
+              "name": "RepositorySEO",
+              "children": [
+                {
+                  "name": "Keyword research tools like Ahrefs."
+                },
+                {
+                  "name": "Repository audit tools like Codacy."
+                },
+                {
+                  "name": "Engagement tracking tools like GitHub Insights."
+                },
+                {
+                  "name": "Competitor analysis tools like GitClear."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics."
+                }
+              ]
+            },
+            {
+              "name": "ProjectReadmeOptimization",
+              "children": [
+                {
+                  "name": "Content optimization tools like Grammarly."
+                },
+                {
+                  "name": "Engagement tracking tools like GitHub Insights."
+                },
+                {
+                  "name": "Competitor analysis tools like GitClear."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics."
+                }
+              ]
+            },
+            {
+              "name": "WikiUsage",
+              "children": [
+                {
+                  "name": "Wiki creation tools like DokuWiki."
+                },
+                {
+                  "name": "Engagement tracking tools like GitHub Insights."
+                },
+                {
+                  "name": "Competitor analysis tools like GitClear."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "EmailNewsletters",
+          "children": [
+            {
+              "name": "ContentOptimization",
+              "children": [
+                {
+                  "name": "Email content tools like Mailchimp."
+                },
+                {
+                  "name": "Engagement tracking tools like Campaign Monitor."
+                },
+                {
+                  "name": "Competitor analysis tools like Sendinblue."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics."
+                }
+              ]
+            },
+            {
+              "name": "LinkPlacement",
+              "children": [
+                {
+                  "name": "Link management tools like Bitly."
+                },
+                {
+                  "name": "Engagement tracking tools like ClickMeter."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like Moz."
+                }
+              ]
+            },
+            {
+              "name": "Personalization",
+              "children": [
+                {
+                  "name": "Personalization tools like HubSpot."
+                },
+                {
+                  "name": "Engagement tracking tools like Campaign Monitor."
+                },
+                {
+                  "name": "Competitor analysis tools like Sendinblue."
+                },
+                {
+                  "name": "Performance tracking tools like Google Analytics."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "GoogleMyBusiness",
+          "children": [
+            {
+              "name": "ProfileOptimization",
+              "children": [
+                {
+                  "name": "Profile audit tools like Moz Local."
+                },
+                {
+                  "name": "Engagement tracking tools like Google Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like BrightLocal."
+                },
+                {
+                  "name": "Performance tracking tools like Yext."
+                }
+              ]
+            },
+            {
+              "name": "PostOptimization",
+              "children": [
+                {
+                  "name": "Post scheduling tools like Buffer."
+                },
+                {
+                  "name": "Engagement tracking tools like Google Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like BrightLocal."
+                },
+                {
+                  "name": "Performance tracking tools like Yext."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                }
+              ]
+            },
+            {
+              "name": "ReviewManagement",
+              "children": [
+                {
+                  "name": "Review management tools like Trustpilot."
+                },
+                {
+                  "name": "Engagement tracking tools like Google Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like BrightLocal."
+                },
+                {
+                  "name": "Performance tracking tools like Yext."
+                }
+              ]
+            },
+            {
+              "name": "PhotoAndVideoUpdates",
+              "children": [
+                {
+                  "name": "Photo editing tools like Canva."
+                },
+                {
+                  "name": "Engagement tracking tools like Google Analytics."
+                },
+                {
+                  "name": "Competitor analysis tools like BrightLocal."
+                },
+                {
+                  "name": "Performance tracking tools like Yext."
+                },
+                {
+                  "name": "A/B testing tools like SplitMetrics."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

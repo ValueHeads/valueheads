@@ -1,25 +1,29 @@
 <template>
-  <Layout>
-    <template #page-bottom>
-      <!-- <div class="my-footer">This is my custom page footer</div> -->
-    </template>
+  <div>
+    <DiscontinuedNotice />
 
-    <template #page>
-      <Content v-if="frontmatter.home" />
-      <Transition v-else name="fade-slide-y" mode="out-in">
-        <Page :key="page.path">
-          <template #top>
-            <slot name="page-top" />
-          </template>
-          <template #bottom>
-            <slot name="page-bottom" />
-          </template>
-        </Page>
-      </Transition>
-    </template>
+    <Layout>
+      <template #page-bottom>
+        <!-- <div class="my-footer">This is my custom page footer</div> -->
+      </template>
 
-    <template #sidebar><div class="hidden"></div> </template>
-  </Layout>
+      <template #page>
+        <Content v-if="frontmatter.home" />
+        <Transition v-else name="fade-slide-y" mode="out-in">
+          <Page :key="page.path">
+            <template #top>
+              <slot name="page-top" />
+            </template>
+            <template #bottom>
+              <slot name="page-bottom" />
+            </template>
+          </Page>
+        </Transition>
+      </template>
+
+      <template #sidebar><div class="hidden"></div> </template>
+    </Layout>
+  </div>
 </template>
 
 <script>
@@ -44,5 +48,4 @@ export default {
 };
 </script>
 
-<style lang="css">
-</style>
+<style lang="css"></style>

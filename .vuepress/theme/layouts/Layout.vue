@@ -2,7 +2,7 @@
   <div>
     <DiscontinuedNotice />
 
-    <Layout>
+    <Layout class="relative">
       <template #page-bottom>
         <!-- <div class="my-footer">This is my custom page footer</div> -->
       </template>

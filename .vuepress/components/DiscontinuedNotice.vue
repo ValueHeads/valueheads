@@ -13,11 +13,14 @@
       >
         <h3 class="font-bold text-2xl mb-2">ValueHeads Course: Moving on</h3>
         <p class="mb-2">
-          ValueHeads started as a project to teach my friends and family about
-          the tools and mindset they need to succeed as entrepreneurs.
+          I started ValueHeads as a project to share with my friends and family
+          the tools and mindset required to succeed as entrepreneurs, inspired
+          by the lessons I learned from 14 years since creating and running
+          Tweepi from 2009 till 2023. It was a Twitter marketing app that had
+          1M+ users, btw.
         </p>
         <p class="mb-2">
-          Lessons learned can be summarized into three big ones:
+          I'd like to wrap things up with these three main lessons:
         </p>
         <ol class="list-decimal list-inside mb-4">
           <li>
@@ -44,24 +47,23 @@
         </ol>
 
         <p class="mb-2">
-          I am no longer developing ValueHeads because I realized that mentoring
-          entrepreneurs is more like therapy than a scalable course. For that, I
-          recommend
-          <a
-            class="text-blue-600 hover:text-blue-800 hover:underline font-bold"
-            href="https://www.gettacklebox.com/podcast"
-            >listening to Brian Scordato's "Idea to Startup" podcast</a
-          >. He's great at it and reinforces many of the same points I do.
-        </p>
-
-        <p>
           You can find links to the course material, including the
           <a
             class="text-blue-600 hover:text-blue-800 hover:underline font-bold"
             href="https://docs.google.com/document/d/1Cwm3rSTWDAslEwaTiuVqSvksXlrxzyuC-aa4JiLY0Tc/edit?usp=sharing"
-            >link to the worksheet (which everyone loved), course plan, and
-            reading material in this Google Doc</a
+            >the Ultimate 6-Step Checklist worksheet (which everyone loved),
+            course plan, and reading material in this Google Doc</a
           >.
+        </p>
+
+        <p>
+          Follow me on
+          <a
+            class="text-blue-600 hover:text-blue-800 hover:underline font-bold"
+            href="https://www.linkedin.com/in/amerkawar/"
+            >LinkedIn</a
+          >
+          to learn about my latest exciting project.
         </p>
       </div>
     </div>

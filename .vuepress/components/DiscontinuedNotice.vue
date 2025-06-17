@@ -17,7 +17,7 @@
           the tools and mindset required to succeed as entrepreneurs, inspired
           by the lessons I learned from 14 years since creating and running
           Tweepi from 2009 till 2023. It was a Twitter marketing app that had
-          1M+ users, btw.
+          2M+ users, btw.
         </p>
         <p class="mb-2">
           I'd like to wrap things up with these three main lessons:
